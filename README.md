@@ -119,4 +119,4 @@ Run the script after any edit to `data/tree.json` to catch regressions before de
 
 ## Coverage
 
-This is a fresh setup for *Allotinus* (Playboys), replicated from the [Arhopala_id](https://github.com/chancsc/Arhopala_id) project. `data/tree.json` currently contains only a placeholder example node — it needs to be built out from an *Allotinus* identification key. `data/species.json` is empty until `scripts/fetch_species.py` is run with iNaturalist API access (see Scripts above; it is configured for the *Allotinus* genus and Malaysia, `place_id` 6870).
+`data/tree.json` covers all 22 Malaysian *Allotinus* species. `data/species.json` is empty until `scripts/fetch_species.py` is run with iNaturalist API access (see Scripts above; it is configured for the *Allotinus* genus and Malaysia, `place_id` 6870).
