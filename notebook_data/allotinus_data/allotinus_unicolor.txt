@@ -1,0 +1,38 @@
+Species: allotinus unicolor
+Query: allotinus unicolor - share the underside ID keys, including wing length/size, tail info, upperside id keys
+Date: 2026-06-14
+============================================================
+
+Allotinus unicolor unicolor (The Lesser Darkwing) belongs to the subgenus Paragerydus. It is a common butterfly found in lowland jungle habitats.
+
+Upperside Identification Keys
+
+Male: The wings are dark brown. A key diagnostic feature is a narrow, short "visual brand" of paler scales located astride the swollen portion of vein 4 on the forewing.
+
+Female: The wings are reddish brown. Compared to the male, the forewing is less pointed and the hindwing is more dentately sinuate.
+
+Underside Identification Keys
+
+Ground Color: Typically greyish white, though it can vary to a darker grey.
+
+Marking Style: Dense sprinkles of dark brown dots and striae form an obscure pattern. In typical specimens, the principal markings are very well defined.
+
+Postdiscal Band: On the forewing, the postdiscal series of spots is arranged on a more or less regular curve.
+
+Hindwing Arrangement: The postdiscal spot in space 6 is positioned well inside the outer spot in space 7.
+
+Subbasal Features: Unlike some other subgenera, it lacks a precostal vein on the hindwing.
+
+Size and Structure
+
+Wing Length: This species varies greatly in size. In males, the visual brand on the forewing is narrow and covers only half the length of vein 4.
+
+Tail: It is a tailless species. However, the female's hindwing has a dentately sinuate (toothed) appearance.
+
+Secondary Sexual Characters: In the male, the basal portion of forewing vein 4 is swollen. Additionally, the hair tufts on the 8th abdominal segment are prominent and permanently extruded.
+
+---
+
+Visual Reference
+
+Plate 73, Figure 7: Allotinus unicolor unicolor{:target="_blank"}

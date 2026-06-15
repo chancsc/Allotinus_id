@@ -1,0 +1,40 @@
+Species: allotinus sarrastes
+Query: allotinus sarrastes - share the underside ID keys, including wing length/size, tail info, upperside id keys
+Date: 2026-06-14
+============================================================
+
+Allotinus sarrastes belongs to the subgenus Fabitaras. It is one of the more common species of this subgenus found at low or moderate elevations in the Malay Peninsula.
+
+Underside Identification Keys
+
+Ground Color: Whitish or pale buff, densely flecked with brown dots and striae.
+
+Forewing Markings: The postdiscal series of spots is dislocated at vein 4. Notably, this series is positioned closer to the wing margin (termen) at the dorsum than it is at the costa.
+
+Hindwing Arrangement: The postdiscal stria in space 6 is placed on a more or less even arc with the striae in spaces 2 through 5. Crucially, the outer postdiscal stria in space 7 is positioned well inside the stria in space 6.
+
+Submarginal Spots: It features a series of blackish submarginal spots that are prominently edged with white on their outer sides.
+
+Subgeneric Features: As a member of the Fabitaras group, it normally possesses a weak precostal vein on the hindwing.
+
+Upperside Identification Keys
+
+Male Secondary Characters: The basal portion of vein 4 on the forewing is strongly swollen for well over half its length.
+
+Antennae: As is characteristic of the subgenus, the antennae are relatively long—nearly two-thirds the length of the forewing—and consist of 60 or more segments.
+
+General Coloration: The upperside of both the forewings and hindwings is plain dark brown.
+
+Wing Length and Size
+
+Size: Specific millimetric measurements for the forewing length are not provided in the primary Malayan identification keys for this species. It is described generally within the context of its subgenus, which consists of small to moderate-sized butterflies.
+
+Tail Information
+
+Tail: It is a tailless species. The hindwing is described as rounded and regular.
+
+---
+
+Visual Reference
+
+Plate 73, Figure 10: Allotinus sarrastes{:target="_blank"}

@@ -1,0 +1,42 @@
+Species: allotinus leogoron
+Query: allotinus leogoron - share the underside ID keys, including wing length/size, tail info, upperside id keys
+Date: 2026-06-14
+============================================================
+
+Allotinus leogoron leogoron (The Crenulate Darkwing) is a rare species belonging to the subgenus Paragerydus. It is closely related to Allotinus horsfieldi and is found in similar lowland forest habitats.
+
+Upperside Identification Keys
+
+Coloration: The wings are brown.
+
+Male Secondary Characters: The male possesses a broad oval "visual brand" of paler scales on the forewing. This brand is diagnostic as it touches vein 3 almost throughout its entire length.
+
+Genitalia: In the male, the uncus tip is characteristically blunt, differentiating it from the rostriform (beak-shaped) tip of A. horsfieldi.
+
+Underside Identification Keys
+
+Ground Color: The ground color is a clean greyish white, which is noticeably whiter than the pale buff found in A. horsfieldi.
+
+Marking Style: The markings and striations are darker brown and generally better defined than those of its close relatives.
+
+Forewing Markings: The postdiscal series (fascia) is dislocated at veins 4 and 2.
+
+Hindwing Arrangement: The postdiscal spot in space 6 is positioned either directly below or just inside (basad) the outer spot in space 7.
+
+Subgeneric Features: As a member of the Paragerydus subgenus, it lacks a precostal vein on the hindwing. The male features prominent, permanently extruded hair tufts on the 8th abdominal segment.
+
+Wing Length and Size
+
+Size: This species is categorized as "larger" within the identification keys for the genus. While specific millimetric measurements are not explicitly listed in the main text for this species, it is noted to be similar in size to A. horsfieldi.
+
+Tail Information
+
+Tail: It is a tailless species.
+
+Hindwing Margin: The hindwing is dentate (toothed), but these dentations are narrower than those found in A. horsfieldi.
+
+---
+
+Visual Reference
+
+Plate 73, Figure 9: Allotinus leogoron leogoron{:target="_blank"}

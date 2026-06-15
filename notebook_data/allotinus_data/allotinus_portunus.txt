@@ -1,0 +1,40 @@
+Species: allotinus portunus
+Query: allotinus portunus - share the underside ID keys, including wing length/size, tail info, upperside id keys
+Date: 2026-06-14
+============================================================
+
+Allotinus portunus maitus belongs to the subgenus Fabitaras. It is one of the more frequently encountered species of this subgenus in the Malay Peninsula and is typically found at elevations of 600 meters and upwards.
+
+Upperside Identification Keys
+
+Male: The wings are brown. A primary diagnostic feature is the basal portion of forewing vein 4, which is strongly swollen for well over half its length. There is typically a "visual brand" of paler scales located on both sides of this swelling.
+
+Female: The upperside of the wings is plain brown.
+
+Antennae: As a member of the subgenus Fabitaras, the antennae are relatively long—nearly two-thirds the length of the forewing—and consist of 60 or more segments.
+
+Underside Identification Keys
+
+Pattern Style: The underside is whitish or pale buff and densely flecked with brown dots and striae common to the genus.
+
+Forewing Markings: The postdiscal series of spots is arranged parallel to the wing margin (termen).
+
+Hindwing Arrangement: The postdiscal stria in space 6 is positioned on a more or less even arc with the striae in spaces 2 through 5. Crucially, the outer postdiscal stria in space 7 is placed well inside the stria in space 6.
+
+Submarginal Spots: In the male, the black submarginal spots are not white-edged. In the female, these spots are weakly edged with white on their outer sides.
+
+Subgeneric Features: A weak precostal vein is normally present on the hindwing.
+
+Wing Length and Size
+
+Size: Specific millimetric measurements for the forewing length are not provided in the primary Malayan identification keys for this species. It is characterized generally within the genus, which consists of small to moderate-sized butterflies.
+
+Tail Information
+
+Tail: It is a tailless species. The hindwing margins are rounded and regular, unlike some related species that have toothed (dentate) or tailed (caudate) hindwings.
+
+---
+
+Visual Reference
+
+Plate 73, Figure 4: Allotinus portunus maitus{:target="_blank"}

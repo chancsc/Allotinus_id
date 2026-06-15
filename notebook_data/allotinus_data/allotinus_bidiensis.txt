@@ -1,0 +1,40 @@
+Species: allotinus bidiensis
+Query: allotinus bidiensis - share the underside ID keys, including wing length/size, tail info, upperside id keys
+Date: 2026-06-14
+============================================================
+
+Allotinus bidiensis belongs to the subgenus Fabitaras. It is a Bornean species recorded from the Gunung Kinabalu area, Keningau, and Sarawak.
+
+Underside Identification Keys
+
+Ground Color: The underside is white, densely sprinkled with dark brown scales and striae.
+
+Hindwing Arrangement: The postdiscal stria in space 6 is placed well outside (distad) the stria in space 7.
+
+Subgeneric Features: In this subgenus, a weak precostal vein is normally present on the hindwing.
+
+Male Secondary Characters: On the forewing, vein 4 is swollen for approximately one-third of its length. The associated "visual brand" of paler scales is inconspicuous and less than 1.0 mm wide.
+
+Upperside Identification Keys
+
+Wings: The upperside of both the forewings and hindwings is plain dark brown.
+
+Antennae: Members of the subgenus Fabitaras have antennae that are nearly two-thirds the length of the forewing, typically consisting of 60 or more segments.
+
+Wing Length and Size
+
+Male: The forewing length is typically between 15.0 mm and 16.0 mm.
+
+Female: The forewing length is approximately 14.0 mm.
+
+Tail Information
+
+Tail: It is a tailless species. The hindwing is described as being rounded rather than dentate or produced.
+
+---
+
+Visual Reference
+
+While Allotinus bidiensis is a Bornean endemic and not explicitly figured in the Malayan plates, general characteristics of the genus and related species can be seen here:
+
+Plate 73: Allotinus Species{:target="_blank"}

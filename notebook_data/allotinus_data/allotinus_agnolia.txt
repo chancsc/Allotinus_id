@@ -1,0 +1,38 @@
+Species: allotinus agnolia
+Query: allotinus agnolia - share the underside ID keys, including wing length/size, tail info, upperside id keys
+Date: 2026-06-14
+============================================================
+
+Allotinus agnolia belongs to the nominate subgenus Allotinus. It is primarily a Sumatran species noted in the identification keys for its specific venation.
+
+Upperside Identification Keys
+
+Male: A key diagnostic feature is that forewing veins 6 and 7 are stalked. In most other members of the subgenus Allotinus, these veins are separate.
+
+Vein Structure: In the male, vein 4 of the forewing is weakly swollen.
+
+Underside Identification Keys
+
+Pattern Style: As a member of the genus Allotinus, the underside is typically white or greyish and densely sprinkled with dark brown dots and striae. These markings form an obscure pattern of subbasal, cellular, postdiscal, and submarginal spots.
+
+Subgeneric Features: In the nominate subgenus, a weak precostal vein is normally present on the hindwing.
+
+Size and Structure
+
+Wing Length: The sources do not provide specific forewing length measurements for this particular species.
+
+Tail: It is a tailless species.
+
+Antennae: Members of this subgenus have antennae that are barely longer than half the forewing, consisting of fewer than 50 segments.
+
+Distribution
+
+Location: While mentioned in the keys for comparison, it is recorded from Sumatra.
+
+---
+
+Visual Reference
+
+Allotinus agnolia is not figured in the plates provided in the sources, as they focus on Malayan and Bornean species. For a general reference to the subgenus and related species, see:
+
+Plate 73: Allotinus Species{:target="_blank"}

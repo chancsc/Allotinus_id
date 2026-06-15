@@ -1,0 +1,40 @@
+Species: allotinus parapus
+Query: allotinus parapus - share the underside ID keys, including wing length/size, tail info, upperside id keys
+Date: 2026-06-14
+============================================================
+
+Allotinus (Paragerydus) parapus is a species recorded from the Gunung Kinabalu area in Borneo. It belongs to the subgenus Paragerydus.
+
+Upperside Identification Keys
+
+Forewing: The upperside is white all the way to the wing base, with a dark brown costa and distal margin.
+
+Hindwing: Uniformly brown or brownish-grey.
+
+Male Secondary Characters: The basal portion of vein 4 on the forewing is swollen and sparsely covered with small, specialized scales.
+
+Underside Identification Keys
+
+General Pattern: Like other members of the genus, the underside is typically whitish or pale buff and densely sprinkled with dark brown dots and striae that form an obscure pattern of spots.
+
+Subgeneric Features: A key diagnostic for the Paragerydus subgenus is the absence of a precostal vein on the hindwing.
+
+Male Abdomen: Males feature prominent hair tufts on the 8th abdominal segment that are permanently extruded.
+
+Wing Length and Size
+
+Male: The forewing length is between 14.0 mm and 15.0 mm.
+
+Female: The forewing length ranges from 12.0 mm to 15.0 mm.
+
+Tail Information
+
+Tail: It is a tailless species.
+
+---
+
+Visual Reference
+
+While Allotinus parapus is not figured in the Malayan plates, you can view the general patterns and characteristics of related species within the genus and the Paragerydus subgenus on the following plate:
+
+Plate 73: Allotinus Species{:target="_blank"}

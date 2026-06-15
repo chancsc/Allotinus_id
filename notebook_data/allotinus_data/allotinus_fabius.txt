@@ -1,0 +1,42 @@
+Species: allotinus fabius
+Query: allotinus fabius - share the underside ID keys, including wing length/size, tail info, upperside id keys
+Date: 2026-06-14
+============================================================
+
+Allotinus fabius arrius (The Angled Darkwing) belongs to the subgenus Fabitaras. It is primarily differentiated from its relatives by the specific blotchiness of its underside markings and its tailed hindwing.
+
+Underside Identification Keys
+
+Ground Color: The ground color is greyish white.
+
+Marking Style: It features dense striations across both wings.
+
+Distinctive Feature: The postdiscal spots are characteristically enlarged and blotchy above vein 4 on the forewing and above vein 6 on the hindwing.
+
+Submarginal Spots: It possesses a series of black submarginal spots that are prominently edged with white on their outer sides.
+
+Hindwing Arrangement: The postdiscal spot in space 6 is positioned either directly below or just inside (basad) the spot in space 7.
+
+Subgeneric Features: Like other members of its subgenus, a weak precostal vein is normally present on the hindwing.
+
+Upperside Identification Keys
+
+Male: The wings are plain dark brown. A secondary sexual character is the strongly swollen basal portion of vein 4 on the forewing.
+
+Female: In the Malay Peninsula and north Sumatra, the upperside is uniform brown. However, in populations from south Sumatra and Borneo, the female features a broad white tornal area on the hindwing.
+
+Antennae: The antennae are nearly two-thirds the length of the forewing, typically consisting of 60 or more segments.
+
+Wing Length and Size
+
+Size: This species is described as being "rather smaller" than its close relative, Allotinus borneensis (which has a forewing length of 16.0–19.0 mm).
+
+Tail Information
+
+Tail: The hindwing is characteristically caudate (tailed) at vein 4 in the male.
+
+---
+
+Visual Reference
+
+Plate 73, Figure 6: Allotinus fabius arrius{:target="_blank"}

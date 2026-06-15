@@ -1,0 +1,34 @@
+Species: allotinus apries
+Query: allotinus apries - share the underside ID keys, including wing length/size, tail info, upperside id keys
+Date: 2026-06-14
+============================================================
+
+Allotinus apries apries belongs to the subgenus Paragerydus. It is primarily distinguished from its relatives by its smooth hindwing margins and specific wing markings.
+
+Underside Identification Keys
+
+Forewing Markings: The postdiscal series of spots is parallel to the wing margin (termen) and is typically rather obscure.
+
+Hindwing Style: Unlike many other members of the genus, the hindwing is not dentate (the edges are smooth and not toothed). The overall markings on the underside are considered ill-defined compared to similar species.
+
+Subgeneric Features: As a member of Paragerydus, it lacks a precostal vein on the hindwing.
+
+Upperside Identification Keys
+
+Male: The wings are dark brown. The forewing features a broad, oval "visual brand" of paler scales that extends more than half the length of vein 4. The basal portion of forewing vein 4 is swollen.
+
+Female: The wings are dark brown. It is identified by a characteristic paler area on the forewing located beyond the end of the cell.
+
+Wing Length and Size
+
+Size: This species is categorized as "larger" in the identification keys, specifically larger than the related Allotinus corbeti, which has a forewing length of 10.0–12.0 mm.
+
+Tail Information
+
+Tail: It is a tailless species. Its hindwing is notably smooth and lacks the dentations (tooth-like projections) found in species such as Allotinus unicolor or Allotinus leogoron.
+
+---
+
+Visual Reference
+
+Plate 73, Figure 5: Allotinus apries apries{:target="_blank"}

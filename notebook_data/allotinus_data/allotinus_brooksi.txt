@@ -1,0 +1,36 @@
+Species: allotinus brooksi
+Query: allotinus brooksi - share the underside ID keys, including wing length/size, tail info, upperside id keys
+Date: 2026-06-14
+============================================================
+
+Allotinus brooksi (The White-tornal Darkwing) belongs to the subgenus Fabitaras. It is a Bornean endemic species primarily recorded from Bau, Sarawak.
+
+Underside Identification Keys
+
+Ground Color: The ground color of the underside is whitish.
+
+Central Marking: A key diagnostic feature of the underside is a distinct dark spot located in the middle of the wing.
+
+Subgeneric Features: As a member of the subgenus Fabitaras, it typically possesses a weak precostal vein on the hindwing.
+
+Upperside Identification Keys
+
+Hindwing: The most prominent identification feature on the upperside is the tornal area (or tornal quarter) of the hindwing, which is white.
+
+Antennae: In this subgenus, the antennae are nearly two-thirds the length of the forewing, typically consisting of 60 or more segments.
+
+Wing Length and Size
+
+Size: The forewing length for this species is approximately 15.0 mm.
+
+Tail Information
+
+Tail: It is a tailless species.
+
+---
+
+Visual Reference
+
+While Allotinus brooksi is not figured in the Malayan plates, general characteristics of the genus and related species in the Fabitaras subgenus can be viewed here:
+
+Plate 73: Allotinus Species{:target="_blank"}

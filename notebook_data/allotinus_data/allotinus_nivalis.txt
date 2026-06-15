@@ -1,0 +1,38 @@
+Species: allotinus nivalis
+Query: allotinus nivalis - share the underside ID keys, including wing length/size, tail info, upperside id keys
+Date: 2026-06-14
+============================================================
+
+Allotinus nivalis belongs to the subgenus Paragerydus. It is a species primarily associated with Borneo.
+
+Upperside Identification Keys
+
+Coloration: The upperside of the wings is brown.
+
+Diagnostic Feature: A characteristic white costal fleck is present at the end of vein 7 on the forewing.
+
+Male Features: Unlike many other members of the genus, the male of this species lacks a "visual brand" of paler scales on the forewing.
+
+Underside Identification Keys
+
+Hindwing Spotting: A key diagnostic feature to differentiate it from similar small species is that the central spot in space 7 on the hindwing is not blackened. 
+
+Subgeneric Features: As a member of the Paragerydus subgenus, it lacks a precostal vein on the hindwing. The male possesses prominent, permanently extruded hair tufts on the 8th abdominal segment.
+
+Wing Length and Size
+
+Size: It is categorized as a "larger" species within its subgroup.
+
+Forewing Length: The forewing length typically ranges from 12.5 mm to 15.5 mm.
+
+Tail Information
+
+Tail: It is a tailless species.
+
+---
+
+Visual Reference
+
+While Allotinus nivalis is not explicitly figured in the provided Malayan plates, you can view the general characteristics and patterns of the genus and its subgeneric relatives here:
+
+Plate 73: Allotinus Species{:target="_blank"}

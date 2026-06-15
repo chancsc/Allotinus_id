@@ -1,0 +1,42 @@
+Species: allotinus substrigosus
+Query: allotinus substrigosus - share the underside ID keys, including wing length/size, tail info, upperside id keys
+Date: 2026-06-14
+============================================================
+
+Allotinus substrigosus substrigosus belongs to the subgenus Paragerydus. It is a very small species typically found in lowland jungle habitats.
+
+Upperside Identification Keys
+
+Coloration: The wings are brown.
+
+Diagnostic Feature: A characteristic white costal fleck is present at the end of vein 7 on the forewing.
+
+Male Secondary Characters: Unlike many other members of the genus, the male of this species lacks a "visual brand" of paler scales on the forewing.
+
+Underside Identification Keys
+
+Ground Color: The ground color is characteristically whitish.
+
+Marking Style: Densely sprinkled with dark brown dots and striae that form an obscure pattern of spots.
+
+Distinctive Feature: It is most easily recognized by a prominent blackish spot located below the center of the hindwing costa.
+
+Differentiation: It can be distinguished from the closely related Allotinus davidis by the fact that the postdiscal spot in space 7 on the hindwing is not blackened.
+
+Subgeneric Features: As a member of the Paragerydus group, it lacks a precostal vein on the hindwing. The male possesses prominent, permanently extruded hair tufts on the 8th abdominal segment.
+
+Wing Length and Size
+
+Size: This species is categorized as very small.
+
+Forewing Length: The forewing length typically ranges from 9.0 mm to 14.0 mm.
+
+Tail Information
+
+Tail: It is a tailless species.
+
+---
+
+Visual Reference
+
+Plate 73, Figure 15: Allotinus substrigosus substrigosus{:target="_blank"}

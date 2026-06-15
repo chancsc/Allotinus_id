@@ -1,0 +1,32 @@
+Species: allotinus corbeti
+Query: allotinus corbeti - share the underside ID keys, including wing length/size, tail info, upperside id keys
+Date: 2026-06-14
+============================================================
+
+Allotinus corbeti (Corbet's Darkwing) is a very small species belonging to the subgenus Paragerydus.
+
+Upperside Identification Keys
+
+Coloration: Both the male and female are a uniform reddish brown.
+
+Male Features: The forewing apex is rounded. Vein 4 of the forewing is swollen for one-third of its length, but unlike many other species in the genus, it lacks a "visual brand" of paler scales.
+
+Underside Identification Keys
+
+Marking Style: The underside pattern resembles a miniature version of Allotinus leogoron.
+
+Subgeneric Features: As a member of the Paragerydus subgenus, it lacks a precostal vein on the hindwing. The male possesses prominent, permanently extruded hair tufts on the 8th abdominal segment.
+
+Wing Length and Size
+
+Forewing Length: This is a small butterfly with a forewing length typically between 10.0 mm and 12.0 mm.
+
+Tail Information
+
+Tail: It is a tailless species.
+
+---
+
+Visual Reference
+
+Plate 73, Figure 13: Allotinus corbeti (Holotype){:target="_blank"}

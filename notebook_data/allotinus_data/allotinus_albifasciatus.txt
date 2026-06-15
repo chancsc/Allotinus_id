@@ -1,0 +1,44 @@
+Species: allotinus albifasciatus
+Query: allotinus albifasciatus - share the underside ID keys, including wing length/size, tail info, upperside id keys
+Date: 2026-06-14
+============================================================
+
+Allotinus albifasciatus (The White-banded Darkwing) belongs to the nominate subgenus Allotinus. It is recognized as the rarest of all the Malaysian Allotinus species.
+
+Upperside Identification Keys
+
+Forewing: Features distinct white areas.
+
+Hindwing: Characteristically marked with a broad white band.
+
+Vein Structure: In the male, vein 4 of the forewing is not, or only very weakly, swollen. Additionally, veins 6 and 7 of the forewing are separate.
+
+Underside Identification Keys
+
+Ground Color: Typically greyish-white.
+
+Pattern Style: The underside is densely sprinkled with dark brown dots and striae, forming an obscure pattern.
+
+Differentiation: Compared to the related Allotinus fallax apus, the underside of A. albifasciatus is whiter and the markings are somewhat blotchier.
+
+Subgeneric Features: In this subgenus, a weak precostal vein is normally present on the hindwing.
+
+Size and Structure
+
+Wing Length: Specific forewing length measurements are not explicitly provided in the primary identification keys for this species. 
+
+Tail: It is a tailless species.
+
+Antennae: Barely longer than half the forewing, with fewer than 50 segments.
+
+Habitat and Distribution
+
+Elevation: It is recorded at elevations of 750 meters and upwards.
+
+Location: Found in the Malay Peninsula and north Sumatra.
+
+---
+
+Visual Reference
+
+Plate 73, Figure 1: Allotinus albifasciatus (Holotype){:target="_blank"}

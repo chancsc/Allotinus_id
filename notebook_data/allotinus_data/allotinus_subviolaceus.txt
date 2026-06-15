@@ -1,0 +1,38 @@
+Species: allotinus subviolaceus
+Query: allotinus subviolaceus - share the underside ID keys, including wing length/size, tail info, upperside id keys
+Date: 2026-06-14
+============================================================
+
+Allotinus subviolaceus subviolaceus (The Blue Darkwing) is the most frequently encountered species belonging to the nominate subgenus Allotinus.
+
+Upperside Identification Keys
+
+Male: The forewing is greyish blue with a broad dark brown border.
+
+Female: Females typically outnumber males and share the characteristic blue areas on the upperside, which distinguishes this species from others in the nominate subgenus like A. fallax (which is white) or A. nicholsi (which is brown).
+
+Vein Structure: In the male, vein 4 of the forewing is not, or only very weakly, swollen. Forewing veins 6 and 7 are separate.
+
+Underside Identification Keys
+
+Ground Color: Typically greyish-white.
+
+Pattern Style: The underside is densely flecked with brown streaks and spots. These markings form the obscure Lycaenid pattern of cellular, postdiscal, and submarginal spots common to the genus.
+
+Subgeneric Features: A weak precostal (humeral) vein is present on the hindwing.
+
+Size and Structure
+
+Wing Length: Specific forewing length measurements are not listed in the primary keys, but the species is figured at natural size in the plates.
+
+Antennae: Antennae are relatively short, measuring barely longer than half the forewing and consisting of fewer than 50 segments.
+
+Tail Information
+
+Tail: It is a tailless species. The hindwing margins are regular and lack the dentations or tails found in other subgenera such as Fabitaras or Paragerydus.
+
+---
+
+Visual Reference
+
+Plate 73, Figure 2: Allotinus subviolaceus subviolaceus{:target="_blank"}

@@ -1,0 +1,38 @@
+Species: allotinus fallax
+Query: allotinus fallax - share the underside ID keys, including wing length/size, tail info, upperside id keys
+Date: 2026-06-14
+============================================================
+
+Allotinus fallax apus (The Common Darkwing) belongs to the nominate subgenus Allotinus. It is an uncommon butterfly found in lowland forest areas.
+
+Upperside Identification Keys
+
+Coloration: The forewing is white with broad brown borders. The hindwing is plain brown.
+
+Male Features: Vein 4 of the forewing is not, or only very slightly, swollen. Additionally, forewing veins 6 and 7 are separate (not stalked).
+
+Subgeneric Traits: The antennae are short, barely longer than half the length of the forewing, and consist of fewer than 50 segments.
+
+Underside Identification Keys
+
+Ground Color: Typically white or greyish.
+
+Pattern Style: The underside is densely sprinkled with dark brown dots and striae. These markings form an obscure pattern of cellular, postdiscal, and submarginal spots common to the genus.
+
+Comparison: Compared to the related Allotinus albifasciatus, the underside of A. fallax apus is less white and the markings are less blotchy.
+
+Subgeneric Traits: A weak precostal vein is normally present on the hindwing.
+
+Wing Length and Size
+
+Size: Specific forewing length measurements are not provided in the primary Malayan identification keys for this species. It is noted as being part of a subgenus with relatively short antennae compared to the wing length.
+
+Tail Information
+
+Tail: It is a tailless species. The hindwing margins are generally smooth compared to the dentate (toothed) margins found in other subgenera like Paragerydus.
+
+---
+
+Visual Reference
+
+Plate 73, Figure 3: Allotinus fallax apus{:target="_blank"}

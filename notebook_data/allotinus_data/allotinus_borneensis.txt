@@ -1,0 +1,40 @@
+Species: allotinus borneensis
+Query: allotinus borneensis - share the underside ID keys, including wing length/size, tail info, upperside id keys
+Date: 2026-06-14
+============================================================
+
+Allotinus borneensis (The Bornean Darkwing) belongs to the subgenus Fabitaras. It is primarily a forest species found in both lowland and montane areas of the Malay Peninsula.
+
+Underside Identification Keys
+
+Ground Color: The underside ground color is characteristically buff.
+
+Marking Style: It features dense striations that are redder and more concentrated than those found in other species of the Fabitaras subgenus.
+
+Forewing Markings: The postdiscal series is rather inconspicuous, and the forewing apex is distinctly shaded with reddish brown.
+
+Hindwing Arrangement: The postdiscal spot in space 6 is positioned either directly below or just inside (basad) the spot in space 7.
+
+Subgeneric Features: In this subgenus, a weak precostal vein is normally present on the hindwing.
+
+Upperside Identification Keys
+
+Male Secondary Characters: Like other members of its subgenus, the male has the basal portion of forewing vein 4 strongly swollen. There is an associated "visual brand" of paler scales on both sides of this swelling.
+
+General Appearance: While the upperside is generally plain brown, the nominate subgenus of Allotinus often features blue or white areas, which helps separate the two groups.
+
+Antennae: Members of the subgenus Fabitaras possess antennae that are nearly two-thirds the length of the forewing, typically consisting of 60 or more segments.
+
+Wing Length and Size
+
+Size: This species is described as being "rather larger" than other members of the Fabitaras subgenus, such as Allotinus fabius. Specific millimetric measurements for the forewing length are not provided in the primary Malayan identification keys for this taxon.
+
+Tail Information
+
+Tail: The hindwing is characteristically caudate (tailed) at vein 4.
+
+---
+
+Visual Reference
+
+Plate 73, Figure 11: Allotinus borneensis{:target="_blank"}

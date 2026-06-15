@@ -1,0 +1,42 @@
+Species: allotinus melos
+Query: allotinus melos - share the underside ID keys, including wing length/size, tail info, upperside id keys
+Date: 2026-06-14
+============================================================
+
+The notebook sources provide very limited information specifically for Allotinus melos. This species is not included in the primary identification keys or species profiles of the Malayan or Bornean endemic butterflies. It is mentioned only in the systematic checklist for Kinabalu Park, Sabah, where it is identified as a member of the subgenus Paragerydus and noted to have been recorded at Poring Hot Springs (PO).
+
+Because specific diagnostic details for A. melos are not listed, the following characteristics for the subgenus Paragerydus provide the best available identification keys from the sources:
+
+Upperside Identification Keys (Subgenus Paragerydus)
+
+Male Secondary Characters: The basal portion of vein 4 on the forewing is characteristically swollen. 
+
+Visual Brand: Males in this subgenus typically feature a "visual brand" of paler scales located on both sides of the swollen portion of vein 4. 
+
+Underside Identification Keys (Subgenus Paragerydus)
+
+Pattern Style: The underside ground color is usually white or pale buff, densely sprinkled with dark brown dots and striae. These markings form an obscure pattern of cellular, postdiscal, and submarginal spots.
+
+Venation Key: A diagnostic feature for this subgenus is that the precostal vein is absent on the hindwing.
+
+Wing Length and Size
+
+Measurements: No specific forewing length is provided for Allotinus melos in the sources. Other members of the subgenus Paragerydus vary in size, from the very small Allotinus corbeti (fwl 10.0–12.0 mm) to the larger Allotinus horsfieldi and Allotinus leogoron.
+
+Tail Information
+
+Tail: Species in the subgenus Paragerydus are tailless. However, the hindwing margins may be dentate (toothed) or sinuate, particularly in females.
+
+Additional Structural Features
+
+Male Abdomen: The hair tufts on the 8th abdominal segment of the male are prominent and permanently extruded.
+
+Genitalia: In males, the valva features a costa that is abruptly truncate but ends in a ventral process that is more or less pointed.
+
+---
+
+Visual Reference (Subgeneric Relatives)
+
+Allotinus melos is not explicitly figured. You can view the underside patterns and general morphology of its close subgeneric relatives (Paragerydus group) on the following plate:
+
+Plate 73: Allotinus Species (Figures 5, 7, 8, 9, 13, 14, 15){:target="_blank"}

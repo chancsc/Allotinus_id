@@ -1,0 +1,36 @@
+Species: allotinus otsukai
+Query: allotinus otsukai - share the underside ID keys, including wing length/size, tail info, upperside id keys
+Date: 2026-06-14
+============================================================
+
+Allotinus otsukai (The Bornean White-wing) is a Bornean endemic belonging to the nominate subgenus Allotinus. It is primarily found in the Gunung Kinabalu area and Mamut.
+
+Upperside Identification Keys
+
+Forewing: The upperside features a sullied white area that extends all the way to the wing base. The costal and distal margins are dark brown.
+
+Hindwing: Plain dark brown without any white or blue markings.
+
+Underside Identification Keys
+
+Pattern Style: As a member of the subgenus Allotinus, the underside is greyish-white and densely sprinkled with dark brown dots and striae. These markings form the obscure patterns of cellular, postdiscal, and submarginal spots common to the genus.
+
+Subgeneric Features: In this nominate subgenus, a weak precostal vein is normally present on the hindwing.
+
+Wing Length and Size
+
+Male: The forewing length is 15.0 mm.
+
+Female: The forewing length typically ranges between 14.0 mm and 15.0 mm.
+
+Tail Information
+
+Tail: It is a tailless species. The hindwing margins are regular and do not feature the dentations seen in some other subgenera.
+
+---
+
+Visual Reference
+
+While Allotinus otsukai is not figured in the Malayan-focused plates, the general characteristics and patterns of the genus and its subgeneric relatives can be viewed here:
+
+Plate 73: Allotinus Species{:target="_blank"}

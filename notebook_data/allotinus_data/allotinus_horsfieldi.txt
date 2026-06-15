@@ -1,0 +1,42 @@
+Species: allotinus horsfieldi
+Query: allotinus horsfieldi - share the underside ID keys, including wing length/size, tail info, upperside id keys
+Date: 2026-06-14
+============================================================
+
+Allotinus horsfieldi permagnus (The Horsfield's Darkwing) belongs to the subgenus Paragerydus. It is a common species found in lowland jungle habitats, often occurring alongside Allotinus unicolor.
+
+Upperside Identification Keys
+
+Coloration: The upperside of the male is reddish brown.
+
+Male Secondary Characters: The male is larger than Allotinus unicolor and features a "visual brand" of paler scales on the forewing. This brand is more than half the length of vein 4 and is characteristically narrow, touching vein 3 only at its base.
+
+Wing Shape: The forewing of the male is more or less produced.
+
+Underside Identification Keys
+
+Ground Color: The ground color is characteristically pale buff.
+
+Marking Style: The underside is more densely striate than its close relatives.
+
+Forewing Markings: The postdiscal fascia (series of spots) is dislocated at veins 4 and 2.
+
+Hindwing Arrangement: The postdiscal spot in space 6 is positioned either directly below or just inside (basad) the outer spot in space 7.
+
+Genitalia: In the male, the uncus tip is rostriform (beak-shaped).
+
+Wing Length and Size
+
+Size: This species is described as being "larger" than Allotinus unicolor. While specific millimetric measurements are not explicitly provided in the primary text for this taxon, its name permagnus denotes its relatively large size within the genus.
+
+Tail Information
+
+Tail: It is a tailless species.
+
+Hindwing Margin: The hindwing is dentate (toothed). These dentations are weakly developed in the male but are more strongly pronounced in the female.
+
+---
+
+Visual Reference
+
+Plate 73, Figure 8: Allotinus horsfieldi permagnus{:target="_blank"}

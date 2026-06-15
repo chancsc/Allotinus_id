@@ -1,0 +1,38 @@
+Species: allotinus davidis
+Query: allotinus davidis - share the underside ID keys, including wing length/size, tail info, upperside id keys
+Date: 2026-06-14
+============================================================
+
+Allotinus davidis (The Black-spotted Darkwing) belongs to the subgenus Paragerydus. It is a very small species, primarily distinguished from similar-looking relatives by its ground color and specific spotting.
+
+Upperside Identification Keys
+
+Coloration: The upperside of the wings is brown.
+
+Costal Feature: A characteristic white costal fleck is present at the end of vein 7 on the forewing.
+
+Male Features: Unlike many other species in the genus, the male lacks a "visual brand" of paler scales on the forewing.
+
+Underside Identification Keys
+
+Ground Color: The underside is characteristically pale buff.
+
+Marking Style: As with other Allotinus, it is densely sprinkled with dark brown dots and striae, but the pattern is often more distinct in this species.
+
+Hindwing Spots: A key diagnostic feature is that the central spot in space 7 is blackened. Additionally, the postdiscal spot in space 7 is blackened on its inner edge.
+
+Subgeneric Features: As a member of the Paragerydus subgenus, it lacks a precostal vein on the hindwing. The male possesses prominent, permanently extruded hair tufts on the 8th abdominal segment.
+
+Wing Length and Size
+
+Forewing Length: This is a small butterfly, with a forewing length typically ranging from 9.0 mm to 14.0 mm.
+
+Tail Information
+
+Tail: It is a tailless species.
+
+---
+
+Visual Reference
+
+Plate 73, Figure 14: Allotinus davidis (Holotype){:target="_blank"}
