@@ -1,1 +1,146 @@
-{}
+{
+  "Allotinus otsukai": [
+    {
+      "question": "Does the hindwing have a short tail (a narrow finger-like projection) at the end of vein 4?",
+      "choice": "No — hindwing is tailless"
+    },
+    {
+      "question": "On the underside, is there a visual brand — a patch of specialised pale or dark scales — on the swollen base of hindwing vein 4?",
+      "choice": "No visible brand, vein 4 base not noticeably swollen"
+    },
+    {
+      "question": "On the underside, is there a white patch in the tornal area (the inner corner) of the hindwing?",
+      "choice": "No — tornal area is the same colour as the rest of the wing"
+    },
+    {
+      "question": "Is the underside ground colour pale buff (warm buffy-brown), or whitish to greyish-white (cooler tone)?",
+      "choice": "Whitish or greyish-white"
+    },
+    {
+      "question": "On the hindwing underside, is there a prominent blackish spot below the centre of the costa (leading edge), distinct from the rest of the spot pattern?",
+      "choice": "No such spot"
+    },
+    {
+      "question": "Does the hindwing show a broad white band or area (visible on either wing surface)?",
+      "choice": "No — hindwing is plain brown, no white band"
+    },
+    {
+      "question": "Does the forewing show an extensive white area, especially toward the wing base (visible on either wing surface)?",
+      "choice": "Yes — forewing has an extensive white area toward the base"
+    },
+    {
+      "question": "On the forewing upperside, does the white area extend all the way to the wing base (near the body), or is it separated from the base by a brown border?",
+      "choice": "Cannot determine — feature not visible"
+    }
+  ],
+  "Allotinus fallax apus": [
+    {
+      "question": "Does the hindwing have a short tail (a narrow finger-like projection) at the end of vein 4?",
+      "choice": "No — hindwing is tailless"
+    },
+    {
+      "question": "On the underside, is there a visual brand — a patch of specialised pale or dark scales — on the swollen base of hindwing vein 4?",
+      "choice": "No visible brand, vein 4 base not noticeably swollen"
+    },
+    {
+      "question": "On the underside, is there a white patch in the tornal area (the inner corner) of the hindwing?",
+      "choice": "No — tornal area is the same colour as the rest of the wing"
+    },
+    {
+      "question": "Is the underside ground colour pale buff (warm buffy-brown), or whitish to greyish-white (cooler tone)?",
+      "choice": "Whitish or greyish-white"
+    },
+    {
+      "question": "On the hindwing underside, is there a prominent blackish spot below the centre of the costa (leading edge), distinct from the rest of the spot pattern?",
+      "choice": "No such spot"
+    },
+    {
+      "question": "Does the hindwing show a broad white band or area (visible on either wing surface)?",
+      "choice": "No — hindwing is plain brown, no white band"
+    },
+    {
+      "question": "Does the forewing show an extensive white area, especially toward the wing base (visible on either wing surface)?",
+      "choice": "Yes — forewing has an extensive white area toward the base"
+    },
+    {
+      "question": "On the forewing upperside, does the white area extend all the way to the wing base (near the body), or is it separated from the base by a brown border?",
+      "choice": "Cannot determine — feature not visible"
+    }
+  ],
+  "Allotinus corbeti": [
+    {
+      "question": "Does the hindwing have a short tail (a narrow finger-like projection) at the end of vein 4?",
+      "choice": "No — hindwing is tailless"
+    },
+    {
+      "question": "On the underside, is there a visual brand — a patch of specialised pale or dark scales — on the swollen base of hindwing vein 4?",
+      "choice": "No visible brand, vein 4 base not noticeably swollen"
+    },
+    {
+      "question": "On the underside, is there a white patch in the tornal area (the inner corner) of the hindwing?",
+      "choice": "No — tornal area is the same colour as the rest of the wing"
+    },
+    {
+      "question": "Is the underside ground colour pale buff (warm buffy-brown), or whitish to greyish-white (cooler tone)?",
+      "choice": "Whitish or greyish-white"
+    },
+    {
+      "question": "On the hindwing underside, is there a prominent blackish spot below the centre of the costa (leading edge), distinct from the rest of the spot pattern?",
+      "choice": "No such spot"
+    },
+    {
+      "question": "Does the hindwing show a broad white band or area (visible on either wing surface)?",
+      "choice": "No — hindwing is plain brown, no white band"
+    },
+    {
+      "question": "Does the forewing show an extensive white area, especially toward the wing base (visible on either wing surface)?",
+      "choice": "No — forewing is plain or only narrowly marked"
+    },
+    {
+      "question": "On the forewing upperside, is there a bluish or violet sheen with a broad dark brown border?",
+      "choice": "No — no blue/violet sheen"
+    },
+    {
+      "question": "Is the upperside uniformly reddish-brown, or dark/blackish brown?",
+      "choice": "Cannot determine — feature not visible"
+    }
+  ],
+  "Allotinus agnolia": [
+    {
+      "question": "Does the hindwing have a short tail (a narrow finger-like projection) at the end of vein 4?",
+      "choice": "No — hindwing is tailless"
+    },
+    {
+      "question": "On the underside, is there a visual brand — a patch of specialised pale or dark scales — on the swollen base of hindwing vein 4?",
+      "choice": "No visible brand, vein 4 base not noticeably swollen"
+    },
+    {
+      "question": "On the underside, is there a white patch in the tornal area (the inner corner) of the hindwing?",
+      "choice": "No — tornal area is the same colour as the rest of the wing"
+    },
+    {
+      "question": "Is the underside ground colour pale buff (warm buffy-brown), or whitish to greyish-white (cooler tone)?",
+      "choice": "Whitish or greyish-white"
+    },
+    {
+      "question": "On the hindwing underside, is there a prominent blackish spot below the centre of the costa (leading edge), distinct from the rest of the spot pattern?",
+      "choice": "No such spot"
+    },
+    {
+      "question": "Does the hindwing show a broad white band or area (visible on either wing surface)?",
+      "choice": "No — hindwing is plain brown, no white band"
+    },
+    {
+      "question": "Does the forewing show an extensive white area, especially toward the wing base (visible on either wing surface)?",
+      "choice": "No — forewing is plain or only narrowly marked"
+    },
+    {
+      "question": "On the forewing upperside, is there a bluish or violet sheen with a broad dark brown border?",
+      "choice": "No — no blue/violet sheen"
+    },
+    {
+      "question": "Is the upperside uniformly reddish-brown, or dark/blackish brown?",
+      "choice": "Cannot determine — feature not visible"
+    }
+  ]
+}
