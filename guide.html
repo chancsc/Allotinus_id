@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Visual reference guide — wing anatomy, space numbering, and identification terms for Allotinus Playboy butterflies.">
+  <meta name="theme-color" content="#2d5a27">
+  <title>Allotinus ID — Visual Guide</title>
+  <link rel="stylesheet" href="css/style.css">
+  <style>
+    .guide-content {
+      max-width: 680px;
+      margin: 0 auto;
+      padding: 1rem 1rem 3rem;
+    }
+
+    .guide-intro {
+      font-size: 0.84rem;
+      color: var(--text-muted);
+      line-height: 1.6;
+      margin: 0.75rem 0 1.5rem;
+    }
+
+    /* Section */
+    .guide-section {
+      margin-bottom: 2rem;
+    }
+
+    .guide-section-title {
+      font-size: 0.95rem;
+      font-weight: 700;
+      color: var(--text);
+      margin: 0 0 0.5rem;
+      padding-bottom: 0.35rem;
+      border-bottom: 2px solid var(--primary);
+    }
+
+    .guide-section-desc {
+      font-size: 0.82rem;
+      color: var(--text-muted);
+      line-height: 1.6;
+      margin: 0 0 0.85rem;
+    }
+
+    .guide-section-list {
+      font-size: 0.82rem;
+      color: var(--text-muted);
+      line-height: 1.6;
+      margin: 0 0 0.85rem;
+      padding-left: 1.25rem;
+    }
+    .guide-section-list li { margin-bottom: 0.4rem; }
+
+    /* Image card */
+    .guide-img-card {
+      background: var(--card);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+      overflow: hidden;
+    }
+
+    .guide-img-wrap {
+      background: #f8f6f2;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 1.25rem;
+    }
+
+    .guide-img-wrap img {
+      max-width: 100%;
+      height: auto;
+      display: block;
+    }
+
+    .guide-img-caption {
+      padding: 0.7rem 1rem 0.85rem;
+      border-top: 1px solid var(--border);
+    }
+
+    .guide-img-caption strong {
+      display: block;
+      font-size: 0.84rem;
+      color: var(--text);
+      margin-bottom: 0.3rem;
+    }
+
+    .guide-img-caption p {
+      font-size: 0.78rem;
+      color: var(--text-muted);
+      line-height: 1.55;
+      margin: 0;
+    }
+
+    /* Term list */
+    .guide-terms {
+      margin: 0.85rem 0 0;
+      display: grid;
+      grid-template-columns: max-content 1fr;
+      gap: 0.3rem 0.75rem;
+      font-size: 0.8rem;
+    }
+
+    .guide-term-key {
+      font-weight: 600;
+      color: var(--primary);
+      white-space: nowrap;
+    }
+
+    .guide-term-val {
+      color: var(--text-muted);
+      line-height: 1.45;
+    }
+
+    @media (min-width: 480px) {
+      .guide-img-wrap { padding: 1.5rem 2rem; }
+    }
+
+    /* Stack term key/value pairs on narrow screens so long labels
+       don't force the grid wider than the viewport. */
+    @media (max-width: 479px) {
+      .guide-terms {
+        grid-template-columns: 1fr;
+        gap: 0.2rem 0;
+      }
+      .guide-term-key {
+        white-space: normal;
+        margin-top: 0.5rem;
+      }
+      .guide-term-key:first-of-type { margin-top: 0; }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="app-topbar">
+    <button class="menu-btn app-topbar-menu-btn" id="menu-btn" aria-label="Open menu">&#9776;</button>
+    <span class="app-topbar-title">Visual Guide</span>
+  </div>
+
+  <div class="guide-content">
+
+    <p class="guide-intro">
+      This page will hold wing diagrams and terminology used throughout the <em>Allotinus</em>
+      identification key and Feature Scoring questions. Add one
+      <code>&lt;section class="guide-section" id="..."&gt;</code> block per diagnostic character,
+      following the pattern below — then link to each section from the relevant question in
+      <code>data/tree.json</code> via <code>question_link</code> / <code>guide_link</code>, and add
+      a matching entry to the <code>GUIDE_LINKS</code> map in <code>js/checklist.js</code>.
+    </p>
+
+    <!-- Example section — copy this block for each diagnostic character.
+    <section class="guide-section" id="example-character">
+      <h2 class="guide-section-title">Example character name</h2>
+      <p class="guide-section-desc">
+        Short explanation of what this character is and why it matters for identification.
+      </p>
+      <div class="guide-img-card">
+        <div class="guide-img-wrap">
+          <img src="img/example.jpg" alt="Describe the diagram" loading="lazy">
+        </div>
+        <div class="guide-img-caption">
+          <strong>Caption / image credit</strong>
+          <p>Longer description of the diagram.</p>
+          <div class="guide-terms" role="table" aria-label="Terminology">
+            <span class="guide-term-key">Term</span>
+            <span class="guide-term-val">Definition</span>
+          </div>
+        </div>
+      </div>
+    </section>
+    -->
+
+  </div>
+
+  <!-- Hamburger menu overlay -->
+  <div id="menu-overlay" class="menu-overlay" role="dialog" aria-modal="true" aria-label="Menu">
+    <div class="menu-panel">
+      <div class="menu-header">
+        <h2 class="menu-title">Allotinus ID</h2>
+        <button id="menu-close" class="menu-close" aria-label="Close menu">✕</button>
+      </div>
+      <nav class="menu-nav" aria-label="Navigation">
+        <a href="index.html" class="menu-nav-item" id="nav-home" aria-label="Home — where to start">
+          <span class="menu-nav-item-label">Home</span>
+          <span class="menu-nav-item-desc">Where to start</span>
+        </a>
+        <a href="checklist.html" class="menu-nav-item" id="nav-scoring" aria-label="Feature Scoring — score multiple features at once">
+          <span class="menu-nav-item-label">Feature Scoring</span>
+          <span class="menu-nav-item-desc">Score multiple features at once</span>
+        </a>
+        <a href="species.html" class="menu-nav-item" id="nav-species" aria-label="Species Search — browse all covered taxa">
+          <span class="menu-nav-item-label">Species Search</span>
+          <span class="menu-nav-item-desc">Browse all covered taxa</span>
+        </a>
+        <button class="menu-nav-item active" id="nav-guide" aria-label="Visual Guide — wing diagrams and terminology">
+          <span class="menu-nav-item-label">Visual Guide</span>
+          <span class="menu-nav-item-desc">Wing diagrams &amp; terminology</span>
+        </button>
+        <a href="about.html" class="menu-nav-item" id="nav-about" aria-label="About — how to use this app">
+          <span class="menu-nav-item-label">About</span>
+          <span class="menu-nav-item-desc">How to use this app</span>
+        </a>
+      </nav>
+    </div>
+  </div>
+
+  <script>
+    (function () {
+      const overlay  = document.getElementById('menu-overlay');
+      const openBtn  = document.getElementById('menu-btn');
+      const closeBtn = document.getElementById('menu-close');
+      const guideBtn = document.getElementById('nav-guide');
+      function open()  { overlay.classList.add('open');    document.body.style.overflow = 'hidden'; }
+      function close() { overlay.classList.remove('open'); document.body.style.overflow = ''; }
+      openBtn.addEventListener('click', open);
+      closeBtn.addEventListener('click', close);
+      if (guideBtn) guideBtn.addEventListener('click', close);
+      overlay.addEventListener('click', e => { if (e.target === overlay) close(); });
+      document.addEventListener('keydown', e => { if (e.key === 'Escape' && overlay.classList.contains('open')) close(); });
+    })();
+  </script>
+
+</body>
+</html>

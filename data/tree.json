@@ -1,0 +1,30 @@
+{
+  "start": "q_example",
+  "nodes": {
+    "q_example": {
+      "type": "question",
+      "id": "q_example",
+      "question": "Replace this with the first question of your Allotinus identification key.",
+      "hint": "This is a placeholder tree — see README.md and REPLICATING.md for the data/tree.json node format (question / result / group), then transcribe your morphological key here.",
+      "choices": [
+        { "label": "Choice A", "next": "r_example_a" },
+        { "label": "Choice B", "next": "r_example_b" },
+        { "label": "Cannot determine — feature not visible", "next": "r_example_a" }
+      ]
+    },
+    "r_example_a": {
+      "type": "result",
+      "id": "r_example_a",
+      "name": "Allotinus example_a",
+      "common_name": "",
+      "note": "Placeholder result — replace with a real species once data/species.json has been generated (run scripts/fetch_species.py)."
+    },
+    "r_example_b": {
+      "type": "result",
+      "id": "r_example_b",
+      "name": "Allotinus example_b",
+      "common_name": "",
+      "note": "Placeholder result — replace with a real species once data/species.json has been generated (run scripts/fetch_species.py)."
+    }
+  }
+}
