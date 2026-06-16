@@ -89,7 +89,7 @@ function buildSpeciesIndex(treeData, speciesData) {
       taxon_photos: (spData && spData.taxon_photos) || [],
       inat_url: (spData && spData.inat_url)
         || node.inat_url
-        || `https://www.inaturalist.org/search?q=${encodeURIComponent(sp2)}`,
+        || `https://www.inaturalist.org/observations?verifiable=true&q=${encodeURIComponent(sp2)}&preferred_place_id=7155`,
       paths,
       resultFeatures: node.features || {}
     });
@@ -217,8 +217,8 @@ function renderResult(node) {
   const sciName = (species && species.name) || node.name || '';
   const inatUrl = (species && species.inat_url)
     || node.inat_url
-    || (node.taxon_id ? `https://www.inaturalist.org/taxa/${node.taxon_id}` : null)
-    || `https://www.inaturalist.org/search?q=${encodeURIComponent(sciName || 'Allotinus')}`;
+    || (node.taxon_id ? `https://www.inaturalist.org/observations?verifiable=true&taxon_id=${node.taxon_id}&preferred_place_id=7155` : null)
+    || `https://www.inaturalist.org/observations?verifiable=true&q=${encodeURIComponent(sciName || 'Allotinus')}&preferred_place_id=7155`;
 
   const noteHTML = node.note
     ? `<div class="id-note">${renderHint(node.note)}</div>`
