@@ -14,12 +14,12 @@
     "q_tailed_apex": {
       "type": "question",
       "id": "q_tailed_apex",
-      "question": "On the underside, is the forewing apex (wing tip) shaded reddish-brown, standing out from the rest of the wing?",
-      "hint": "Compare the colour of the pointed forewing tip to the rest of the underside. A. borneensis has a reddish-brown shaded apex and redder striations overall; A. fabius is more uniformly grey-white with enlarged, blotchy postdiscal spots.",
+      "question": "On the underside, which of the following features do you observe?",
+      "hint": "Both species have a tailed hindwing and a strongly swollen vein 4. Look for two mutually exclusive characters: A. borneensis has the forewing apex (wing tip) shaded reddish-brown with warmer, redder striations overall. A. fabius has enlarged and blotchy postdiscal spots above vein 4 on the forewing and above vein 6 on the hindwing, with white-edged submarginal spots.",
       "choices": [
-        { "label": "Yes — apex is reddish-brown shaded", "next": "r_borneensis" },
-        { "label": "No — apex matches the rest of the wing", "next": "r_fabius" },
-        { "label": "Cannot determine — feature not visible", "next": "g_tailed_pair" }
+        { "label": "Forewing apex shaded reddish-brown, standing out from the rest of the wing", "next": "r_borneensis" },
+        { "label": "Postdiscal spots enlarged and blotchy above FW vein 4 and HW vein 6", "next": "r_fabius" },
+        { "label": "Cannot determine — neither feature clearly visible", "next": "g_tailed_pair" }
       ]
     },
     "r_borneensis": {
