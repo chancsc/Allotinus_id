@@ -5,10 +5,16 @@
       "type": "question",
       "id": "q_tail",
       "question": "Does the hindwing have a short tail (a narrow finger-like projection) at the end of vein 4?",
-      "hint": "Look at the hindwing outer margin between the tornus (inner corner) and the apex. Vein 4 ends roughly in the middle of this margin. Only two Malaysian Allotinus — A. borneensis and A. fabius — have a projecting tail here; every other species has a smooth, rounded, or finely toothed margin with no tail.",
+      "hint": "Look at the hindwing outer margin between the tornus (inner corner) and the apex. Vein 4 ends roughly in the middle of this margin. Only two Malaysian Allotinus \u2014 A. borneensis and A. fabius \u2014 have a projecting tail here; every other species has a smooth, rounded, or finely toothed margin with no tail.",
       "choices": [
-        { "label": "Yes — hindwing is tailed", "next": "q_tailed_apex" },
-        { "label": "No — hindwing is tailless", "next": "q_brand_presence" }
+        {
+          "label": "Yes \u2014 hindwing is tailed",
+          "next": "q_tailed_apex"
+        },
+        {
+          "label": "No \u2014 hindwing is tailless",
+          "next": "q_brand_presence"
+        }
       ]
     },
     "q_tailed_apex": {
@@ -17,15 +23,24 @@
       "question": "On the underside, which of the following features do you observe?",
       "hint": "Both species have a tailed hindwing and a strongly swollen vein 4. Look for two mutually exclusive characters: A. borneensis has the forewing apex (wing tip) shaded reddish-brown with warmer, redder striations overall. A. fabius has enlarged and blotchy postdiscal spots above vein 4 on the forewing and above vein 6 on the hindwing, with white-edged submarginal spots.",
       "choices": [
-        { "label": "Forewing apex shaded reddish-brown, standing out from the rest of the wing", "next": "r_borneensis" },
-        { "label": "Postdiscal spots enlarged and blotchy above FW vein 4 and HW vein 6", "next": "r_fabius" },
-        { "label": "Cannot determine — neither feature clearly visible", "next": "g_tailed_pair" }
+        {
+          "label": "Forewing apex shaded reddish-brown, standing out from the rest of the wing",
+          "next": "r_borneensis"
+        },
+        {
+          "label": "Postdiscal spots enlarged and blotchy above FW vein 4 and HW vein 6",
+          "next": "r_fabius"
+        },
+        {
+          "label": "Cannot determine \u2014 neither feature clearly visible",
+          "next": "g_tailed_pair"
+        }
       ]
     },
     "r_borneensis": {
       "type": "result",
       "id": "r_borneensis",
-      "taxon_id": null,
+      "taxon_id": 1642844,
       "name": "Allotinus borneensis",
       "common_name": "Bornean Darkwing",
       "note": "Tailed hindwing (short tail projecting at vein 4), with vein 4 strongly swollen and bearing a visual brand on both wing surfaces. Underside buff-coloured with redder striations than A. fabius, and the forewing apex is shaded reddish-brown. Found in lowland and montane forest of the Malay Peninsula."
@@ -33,7 +48,7 @@
     "r_fabius": {
       "type": "result",
       "id": "r_fabius",
-      "taxon_id": null,
+      "taxon_id": 888207,
       "name": "Allotinus fabius arrius",
       "common_name": "Angled Darkwing",
       "note": "Tailed hindwing (short tail projecting at vein 4 in males), with vein 4 strongly swollen. Underside greyish-white with dense striations; the postdiscal spots above forewing space 4 and hindwing space 6 are enlarged and blotchy, and the black submarginal spots are edged with white on their outer side."
@@ -42,7 +57,10 @@
       "type": "group",
       "id": "g_tailed_pair",
       "group_name": "Allotinus borneensis / A. fabius (tailed pair)",
-      "member_results": ["r_borneensis", "r_fabius"],
+      "member_results": [
+        "r_borneensis",
+        "r_fabius"
+      ],
       "description": "Both species are the only Malaysian Allotinus with a tailed hindwing. If the forewing-apex shading can't be checked, compare underside ground colour and the size/blotchiness of the postdiscal spots.",
       "key_features": [
         "A. borneensis: redder striations overall, reddish-brown shaded forewing apex.",
@@ -53,11 +71,17 @@
     "q_brand_presence": {
       "type": "question",
       "id": "q_brand_presence",
-      "question": "On the underside, is there a visual brand — a patch of specialised pale or dark scales — on the swollen base of hindwing vein 4?",
+      "question": "On the underside, is there a visual brand \u2014 a patch of specialised pale or dark scales \u2014 on the swollen base of hindwing vein 4?",
       "hint": "Look for a noticeably swollen base of vein 4 on the hindwing, often with a patch of differently-coloured or differently-textured scales (the 'visual brand', a male secondary sexual character).",
       "choices": [
-        { "label": "Yes — vein 4 base is swollen with a visible brand", "next": "q_brand_hw_margin" },
-        { "label": "No visible brand, vein 4 base not noticeably swollen", "next": "q_tornal_patch" }
+        {
+          "label": "Yes \u2014 vein 4 base is swollen with a visible brand",
+          "next": "q_brand_hw_margin"
+        },
+        {
+          "label": "No visible brand, vein 4 base not noticeably swollen",
+          "next": "q_tornal_patch"
+        }
       ]
     },
     "q_brand_hw_margin": {
@@ -66,8 +90,14 @@
       "question": "Is the hindwing outer margin smooth/evenly rounded, or does it have small tooth-like points (dentate)?",
       "hint": "Examine the outer edge of the hindwing between the tornus and apex for small angular projections at the vein-ends. Dentation can be subtle and is often stronger in females.",
       "choices": [
-        { "label": "Smooth or evenly rounded margin", "next": "q_smooth_margin_6" },
-        { "label": "Margin has small tooth-like points (dentate)", "next": "q_dentate_group" }
+        {
+          "label": "Smooth or evenly rounded margin",
+          "next": "q_smooth_margin_6"
+        },
+        {
+          "label": "Margin has small tooth-like points (dentate)",
+          "next": "q_dentate_group"
+        }
       ]
     },
     "q_smooth_margin_6": {
@@ -76,8 +106,14 @@
       "question": "Does the forewing have an extensive white or whitish area, especially toward the wing base (visible on either wing surface)?",
       "hint": "A. parapus's forewing is white from close to the base, with only the costa and outer margin dark brown. The other smooth-margined, brand-bearing species (A. apries, A. bidiensis, A. portunus, A. sarrastes, A. strigatus) all have a plain or uniformly dark brown forewing with no white area.",
       "choices": [
-        { "label": "Yes — forewing has an extensive white/whitish area toward the base", "next": "r_parapus" },
-        { "label": "No — forewing is plain or only narrowly marked", "next": "q_smooth_margin_5" }
+        {
+          "label": "Yes \u2014 forewing has an extensive white/whitish area toward the base",
+          "next": "r_parapus"
+        },
+        {
+          "label": "No \u2014 forewing is plain or only narrowly marked",
+          "next": "q_smooth_margin_5"
+        }
       ]
     },
     "r_parapus": {
@@ -94,34 +130,46 @@
       "question": "On the underside, is the visual brand on hindwing vein 4 a broad oval patch, or a narrow patch running along the vein?",
       "hint": "Compare the shape of the pale/dark scale patch on the swollen base of vein 4.",
       "choices": [
-        { "label": "Broad oval patch", "next": "r_apries" },
-        { "label": "Narrow patch running along vein 4", "next": "q_fabitaras_quartet" }
+        {
+          "label": "Broad oval patch",
+          "next": "r_apries"
+        },
+        {
+          "label": "Narrow patch running along vein 4",
+          "next": "q_fabitaras_quartet"
+        }
       ]
     },
     "r_apries": {
       "type": "result",
       "id": "r_apries",
-      "taxon_id": null,
+      "taxon_id": 1427192,
       "name": "Allotinus apries apries",
       "common_name": "",
-      "note": "Tailless hindwing with smooth (non-dentate) margins, subgenus Paragerydus — unlike the dentate-margined A. unicolor and A. leogoron. Male upperside dark brown with a broad oval pale visual brand covering more than half of vein 4, the base of which is swollen; female dark brown with a pale area beyond the end of the cell. Underside pattern poorly documented; forewing postdiscal spots run roughly parallel to the outer margin. Larger than A. corbeti (which has no visual brand)."
+      "note": "Tailless hindwing with smooth (non-dentate) margins, subgenus Paragerydus \u2014 unlike the dentate-margined A. unicolor and A. leogoron. Male upperside dark brown with a broad oval pale visual brand covering more than half of vein 4, the base of which is swollen; female dark brown with a pale area beyond the end of the cell. Underside pattern poorly documented; forewing postdiscal spots run roughly parallel to the outer margin. Larger than A. corbeti (which has no visual brand)."
     },
     "q_fabitaras_quartet": {
       "type": "question",
       "id": "q_fabitaras_quartet",
-      "question": "On the hindwing underside postdiscal spot row, is the spot in space 6 displaced toward space 7 — sitting roughly midway between spots 5 and 7 and breaking the row's smooth curve?",
+      "question": "On the hindwing underside postdiscal spot row, is the spot in space 6 displaced toward space 7 \u2014 sitting roughly midway between spots 5 and 7 and breaking the row's smooth curve?",
       "hint": "The postdiscal row runs between the middle of the wing and the outer margin. In most species spots 2-6 follow a smooth curve; in A. strigatus, spot 6 is offset toward spot 7.",
       "choices": [
-        { "label": "Yes — spot 6 is offset toward spot 7, breaking the curve", "next": "r_strigatus" },
-        { "label": "No — spot 6 follows the same smooth curve as spots 2-5", "next": "q_postdiscal_dislocation" }
+        {
+          "label": "Yes \u2014 spot 6 is offset toward spot 7, breaking the curve",
+          "next": "r_strigatus"
+        },
+        {
+          "label": "No \u2014 spot 6 follows the same smooth curve as spots 2-5",
+          "next": "q_postdiscal_dislocation"
+        }
       ]
     },
     "r_strigatus": {
       "type": "result",
       "id": "r_strigatus",
-      "taxon_id": null,
+      "taxon_id": 802914,
       "name": "Allotinus strigatus malayanus",
-      "common_name": "",
+      "common_name": "Small Malayan Darkwing",
       "note": "Tailless hindwing with a rounded margin, subgenus Fabitaras. Plain dark brown upperside with vein 4 swollen along about half its length and a visual brand around 2mm wide. Underside pale buff; the hindwing postdiscal spot in space 6 sits roughly midway between spots 5 and 7, breaking the row's smooth curve (unique among its relatives), and the black submarginal spots are white-edged on both wings. A common forest species at low to moderate elevations."
     },
     "q_postdiscal_dislocation": {
@@ -130,16 +178,22 @@
       "question": "On the hindwing underside, does the postdiscal spot row appear interrupted or offset (dislocated) at vein 4, rather than running in one smooth curve?",
       "hint": "Follow the postdiscal spot row across vein 4 (between hindwing spaces 3/4) and check whether the spots on either side line up smoothly or are offset toward the margin/base relative to each other.",
       "choices": [
-        { "label": "Yes — row is dislocated/offset at vein 4", "next": "r_sarrastes" },
-        { "label": "No — row runs in one smooth curve, parallel to the margin", "next": "q_bidiensis_portunus" }
+        {
+          "label": "Yes \u2014 row is dislocated/offset at vein 4",
+          "next": "r_sarrastes"
+        },
+        {
+          "label": "No \u2014 row runs in one smooth curve, parallel to the margin",
+          "next": "q_bidiensis_portunus"
+        }
       ]
     },
     "r_sarrastes": {
       "type": "result",
       "id": "r_sarrastes",
-      "taxon_id": null,
+      "taxon_id": 803334,
       "name": "Allotinus sarrastes",
-      "common_name": "",
+      "common_name": "Peninsular Darkwing",
       "note": "Tailless hindwing with a rounded margin, subgenus Fabitaras. Plain dark brown upperside with vein 4 strongly swollen along more than half its length. Underside pale buff; the postdiscal spot row is dislocated at vein 4, running closer to the margin at the dorsum than at the costa, and the black submarginal spots are white-edged. One of the more common Fabitaras species, found at low to moderate elevations in the Malay Peninsula."
     },
     "q_bidiensis_portunus": {
@@ -148,15 +202,24 @@
       "question": "On the hindwing underside, is the visual brand on the swollen base of vein 4 large and obvious, covering more than about half the vein's length?",
       "hint": "A. portunus has a strongly developed brand on both wing surfaces. A. bidiensis has a much smaller, inconspicuous brand (under ~1mm).",
       "choices": [
-        { "label": "Yes — large, obvious brand covering most of vein 4", "next": "r_portunus" },
-        { "label": "No — brand small and inconspicuous (under ~1mm)", "next": "r_bidiensis" },
-        { "label": "Cannot determine — feature not visible", "next": "g_bidiensis_portunus" }
+        {
+          "label": "Yes \u2014 large, obvious brand covering most of vein 4",
+          "next": "r_portunus"
+        },
+        {
+          "label": "No \u2014 brand small and inconspicuous (under ~1mm)",
+          "next": "r_bidiensis"
+        },
+        {
+          "label": "Cannot determine \u2014 feature not visible",
+          "next": "g_bidiensis_portunus"
+        }
       ]
     },
     "r_portunus": {
       "type": "result",
       "id": "r_portunus",
-      "taxon_id": null,
+      "taxon_id": 1226339,
       "name": "Allotinus portunus maitus",
       "common_name": "",
       "note": "Tailless hindwing with a rounded/regular margin, subgenus Fabitaras. Male upperside brown with vein 4 strongly swollen for more than half its length and a visual brand on both wing surfaces; female plain brown. Underside whitish to pale buff; the postdiscal spot series runs parallel to the outer margin, with spot 6 in an even arc with spots 2-5 and the outer part of spot 7 well inside spot 6. One of the more frequently encountered Fabitaras species, typically at 600m and above in the Malay Peninsula."
@@ -164,7 +227,7 @@
     "r_bidiensis": {
       "type": "result",
       "id": "r_bidiensis",
-      "taxon_id": null,
+      "taxon_id": 1226341,
       "name": "Allotinus bidiensis",
       "common_name": "",
       "note": "Tailless hindwing with a rounded margin, subgenus Fabitaras. Plain dark brown upperside on both wings, with only a small and inconspicuous visual brand (under 1mm) on vein 4. Underside whitish with dense dark scales and striae; the hindwing postdiscal stria in space 6 sits well toward the margin relative to space 7. A Bornean species recorded from Gunung Kinabalu, Keningau, and Sarawak."
@@ -173,10 +236,13 @@
       "type": "group",
       "id": "g_bidiensis_portunus",
       "group_name": "Allotinus bidiensis / A. portunus",
-      "member_results": ["r_bidiensis", "r_portunus"],
+      "member_results": [
+        "r_bidiensis",
+        "r_portunus"
+      ],
       "description": "Both have a smoothly-curved hindwing postdiscal spot row and a pale underside. They differ mainly in how prominent the visual brand on vein 4 is.",
       "key_features": [
-        "A. portunus: large, obvious brand covering more than half of vein 4 (Malay Peninsula, ≥600m).",
+        "A. portunus: large, obvious brand covering more than half of vein 4 (Malay Peninsula, \u2265600m).",
         "A. bidiensis: small, inconspicuous brand under ~1mm (Borneo)."
       ],
       "no_next_note": "Locality is a useful cross-check: A. bidiensis is recorded only from Borneo, A. portunus from the Malay Peninsula."
@@ -185,10 +251,16 @@
       "type": "question",
       "id": "q_dentate_group",
       "question": "What is the underside ground colour?",
-      "hint": "Compare the overall background tone of the underside — warm buffy-brown versus cooler whitish/grey.",
+      "hint": "Compare the overall background tone of the underside \u2014 warm buffy-brown versus cooler whitish/grey.",
       "choices": [
-        { "label": "Pale buff / warm buffy-brown", "next": "q_horsfieldi_melos" },
-        { "label": "Whitish or greyish-white", "next": "q_leogoron_unicolor" }
+        {
+          "label": "Pale buff / warm buffy-brown",
+          "next": "q_horsfieldi_melos"
+        },
+        {
+          "label": "Whitish or greyish-white",
+          "next": "q_leogoron_unicolor"
+        }
       ]
     },
     "q_horsfieldi_melos": {
@@ -197,38 +269,50 @@
       "question": "On the hindwing underside, does the visual brand on vein 4 form a narrow patch that touches vein 3 only briefly near its base, or a broader patch covering both sides of the swollen vein-4 base?",
       "hint": "A. horsfieldi has a narrow brand reaching vein 3 only at its base; A. melos (very locally known, from Kinabalu Park) has a broader brand on both sides of vein 4's base.",
       "choices": [
-        { "label": "Narrow brand, touching vein 3 only near its base", "next": "r_horsfieldi" },
-        { "label": "Broader brand covering both sides of vein-4 base", "next": "r_melos" },
-        { "label": "Cannot determine — feature not visible", "next": "g_horsfieldi_melos" }
+        {
+          "label": "Narrow brand, touching vein 3 only near its base",
+          "next": "r_horsfieldi"
+        },
+        {
+          "label": "Broader brand covering both sides of vein-4 base",
+          "next": "r_melos"
+        },
+        {
+          "label": "Cannot determine \u2014 feature not visible",
+          "next": "g_horsfieldi_melos"
+        }
       ]
     },
     "r_horsfieldi": {
       "type": "result",
       "id": "r_horsfieldi",
-      "taxon_id": null,
+      "taxon_id": 470734,
       "name": "Allotinus horsfieldi permagnus",
-      "common_name": "Horsfield's Darkwing",
+      "common_name": "Common Darkwing",
       "note": "Tailless hindwing, weakly dentate in males and more strongly dentate in females, subgenus Paragerydus. Forewing somewhat produced; male upperside reddish-brown with a narrow visual brand extending more than half of vein 4 and touching vein 3 only near its base. Underside pale buff, more densely striate than its relatives, with the postdiscal fascia dislocated at veins 4 and 2. A common species of lowland jungle, often found alongside A. unicolor (which is smaller)."
     },
     "r_melos": {
       "type": "result",
       "id": "r_melos",
-      "taxon_id": null,
+      "taxon_id": 1338808,
       "name": "Allotinus melos",
       "common_name": "",
-      "note": "Tailless hindwing (subgenus Paragerydus traits: hindwing may be dentate/sinuate, especially in females). Vein 4 base is swollen with a visual brand on both sides. Underside white to pale buff. Very poorly documented — known only from a systematic checklist record at Poring Hot Springs, Kinabalu Park, Sabah; identification should be treated as provisional pending better reference photos."
+      "note": "Tailless hindwing (subgenus Paragerydus traits: hindwing may be dentate/sinuate, especially in females). Vein 4 base is swollen with a visual brand on both sides. Underside white to pale buff. Very poorly documented \u2014 known only from a systematic checklist record at Poring Hot Springs, Kinabalu Park, Sabah; identification should be treated as provisional pending better reference photos."
     },
     "g_horsfieldi_melos": {
       "type": "group",
       "id": "g_horsfieldi_melos",
       "group_name": "Allotinus horsfieldi / A. melos",
-      "member_results": ["r_horsfieldi", "r_melos"],
+      "member_results": [
+        "r_horsfieldi",
+        "r_melos"
+      ],
       "description": "Both are pale-buff-underside Paragerydus with a dentate hindwing and a visual brand on vein 4, but A. melos is known from a single very restricted Bornean locality.",
       "key_features": [
         "A. horsfieldi: narrow brand touching vein 3 only near its base; common, lowland jungle, often with A. unicolor.",
         "A. melos: broader brand on both sides of vein-4 base; known only from Poring Hot Springs, Kinabalu Park, Sabah."
       ],
-      "no_next_note": "A. melos is extremely locally restricted (Kinabalu Park, Sabah) — A. horsfieldi is by far the more likely identification elsewhere."
+      "no_next_note": "A. melos is extremely locally restricted (Kinabalu Park, Sabah) \u2014 A. horsfieldi is by far the more likely identification elsewhere."
     },
     "q_leogoron_unicolor": {
       "type": "question",
@@ -236,38 +320,50 @@
       "question": "On the hindwing underside, is the visual brand on vein 4 a broad oval patch extending well along vein 3 for most of its length?",
       "hint": "A. leogoron has a broad oval brand reaching well along vein 3. A. unicolor's brand is narrower, covering roughly half the length of vein 4 only.",
       "choices": [
-        { "label": "Yes — broad oval brand extending well along vein 3", "next": "r_leogoron" },
-        { "label": "No — brand narrower, covering roughly half of vein 4 only", "next": "r_unicolor" },
-        { "label": "Cannot determine — feature not visible", "next": "g_leogoron_unicolor" }
+        {
+          "label": "Yes \u2014 broad oval brand extending well along vein 3",
+          "next": "r_leogoron"
+        },
+        {
+          "label": "No \u2014 brand narrower, covering roughly half of vein 4 only",
+          "next": "r_unicolor"
+        },
+        {
+          "label": "Cannot determine \u2014 feature not visible",
+          "next": "g_leogoron_unicolor"
+        }
       ]
     },
     "r_leogoron": {
       "type": "result",
       "id": "r_leogoron",
-      "taxon_id": null,
+      "taxon_id": 196804,
       "name": "Allotinus leogoron leogoron",
-      "common_name": "Crenulate Darkwing",
+      "common_name": "Broad-banded Darkwing",
       "note": "Tailless hindwing with narrow dentations, subgenus Paragerydus. Brown upperside with a broad oval visual brand on vein 4 extending well along vein 3. Underside clean greyish-white (whiter than A. horsfieldi's buff), with darker and better-defined striations and the postdiscal fascia dislocated at veins 4 and 2. A rare species of lowland forest, closely related to and found in similar habitats to A. horsfieldi."
     },
     "r_unicolor": {
       "type": "result",
       "id": "r_unicolor",
-      "taxon_id": null,
+      "taxon_id": 470739,
       "name": "Allotinus unicolor unicolor",
-      "common_name": "Lesser Darkwing",
+      "common_name": "Unicolored Darkwing",
       "note": "Tailless hindwing (females dentately sinuate), subgenus Paragerydus. Male upperside dark brown with a narrow visual brand astride the swollen vein 4, covering only about half its length; female reddish-brown with a less-pointed forewing. Underside greyish-white (sometimes darker grey) with dense, well-defined dots and striae; hindwing postdiscal spot 6 sits well inside the outer part of spot 7. A common species of lowland jungle, smaller than A. horsfieldi."
     },
     "g_leogoron_unicolor": {
       "type": "group",
       "id": "g_leogoron_unicolor",
       "group_name": "Allotinus leogoron / A. unicolor",
-      "member_results": ["r_leogoron", "r_unicolor"],
-      "description": "Both are whitish/greyish-underside, dentate-hindwing Paragerydus with a visual brand on vein 4. They differ mainly in how far the brand extends along vein 3, and are most reliably separated by genitalia (uncus shape) — not visible in photographs.",
+      "member_results": [
+        "r_leogoron",
+        "r_unicolor"
+      ],
+      "description": "Both are whitish/greyish-underside, dentate-hindwing Paragerydus with a visual brand on vein 4. They differ mainly in how far the brand extends along vein 3, and are most reliably separated by genitalia (uncus shape) \u2014 not visible in photographs.",
       "key_features": [
         "A. leogoron: broad oval brand extending well along vein 3; rare; darker, better-defined underside striations.",
         "A. unicolor: narrower brand covering about half of vein 4; common; smaller overall."
       ],
-      "no_next_note": "A. unicolor is common and A. leogoron rare — in the absence of a clear brand view, A. unicolor is the more likely identification."
+      "no_next_note": "A. unicolor is common and A. leogoron rare \u2014 in the absence of a clear brand view, A. unicolor is the more likely identification."
     },
     "q_tornal_patch": {
       "type": "question",
@@ -275,17 +371,23 @@
       "question": "On the underside, is there a white patch in the tornal area (the inner corner) of the hindwing?",
       "hint": "The tornus is the rounded inner corner of the hindwing, closest to the body and abdomen. Only A. brooksi shows a distinct white patch here.",
       "choices": [
-        { "label": "Yes — white patch in the hindwing tornal area", "next": "r_brooksi" },
-        { "label": "No — tornal area is the same colour as the rest of the wing", "next": "q_no_brand_color" }
+        {
+          "label": "Yes \u2014 white patch in the hindwing tornal area",
+          "next": "r_brooksi"
+        },
+        {
+          "label": "No \u2014 tornal area is the same colour as the rest of the wing",
+          "next": "q_no_brand_color"
+        }
       ]
     },
     "r_brooksi": {
       "type": "result",
       "id": "r_brooksi",
-      "taxon_id": null,
+      "taxon_id": 1226342,
       "name": "Allotinus brooksi",
       "common_name": "White-tornal Darkwing",
-      "note": "Tailless hindwing, subgenus Fabitaras. Plain dark brown upperside on both wings. Underside whitish with a distinct dark central spot mid-wing and a white patch in the hindwing tornal (inner corner) area — its key diagnostic feature. A Bornean endemic recorded from Bau, Sarawak."
+      "note": "Tailless hindwing, subgenus Fabitaras. Plain dark brown upperside on both wings. Underside whitish with a distinct dark central spot mid-wing and a white patch in the hindwing tornal (inner corner) area \u2014 its key diagnostic feature. A Bornean endemic recorded from Bau, Sarawak."
     },
     "q_no_brand_color": {
       "type": "question",
@@ -293,8 +395,14 @@
       "question": "Is the underside ground colour pale buff (warm buffy-brown), or whitish to greyish-white (cooler tone)?",
       "hint": "Compare the overall background tone of the hindwing and forewing underside. A. davidis and A. nivalis have a warm pale-buff ground colour; the remaining species without a visual brand (A. albifasciatus, A. fallax, A. otsukai, A. subviolaceus, A. agnolia, A. corbeti, A. substrigosus) have a cooler whitish or greyish-white ground colour.",
       "choices": [
-        { "label": "Pale buff / warm buffy-brown", "next": "q_davidis_nivalis" },
-        { "label": "Whitish or greyish-white", "next": "q_costal_spot" }
+        {
+          "label": "Pale buff / warm buffy-brown",
+          "next": "q_davidis_nivalis"
+        },
+        {
+          "label": "Whitish or greyish-white",
+          "next": "q_costal_spot"
+        }
       ]
     },
     "q_davidis_nivalis": {
@@ -303,23 +411,32 @@
       "question": "On the hindwing underside, is the central spot in space 7 (near the costa, mid-wing) noticeably blackened compared to the surrounding spots?",
       "hint": "Space 7 lies along the hindwing costa. A. davidis shows a blackened central spot here (and a blackened postdiscal spot on its inner edge); A. nivalis does not.",
       "choices": [
-        { "label": "Yes — central spot in space 7 is blackened", "next": "r_davidis" },
-        { "label": "No — central spot in space 7 is not noticeably darker", "next": "r_nivalis" },
-        { "label": "Cannot determine — feature not visible", "next": "g_davidis_nivalis" }
+        {
+          "label": "Yes \u2014 central spot in space 7 is blackened",
+          "next": "r_davidis"
+        },
+        {
+          "label": "No \u2014 central spot in space 7 is not noticeably darker",
+          "next": "r_nivalis"
+        },
+        {
+          "label": "Cannot determine \u2014 feature not visible",
+          "next": "g_davidis_nivalis"
+        }
       ]
     },
     "r_davidis": {
       "type": "result",
       "id": "r_davidis",
-      "taxon_id": null,
+      "taxon_id": 951049,
       "name": "Allotinus davidis",
       "common_name": "Black-spotted Darkwing",
-      "note": "Tailless hindwing, subgenus Paragerydus. A small species (forewing length 9-14mm) with brown upperside, a small white costal fleck near the forewing apex, and no visual brand in the male. Underside pale buff with dense, well-defined dots and striae; the hindwing central spot in space 7 and the postdiscal spot on its inner edge are both blackened — the key feature distinguishing it from A. nivalis and A. substrigosus."
+      "note": "Tailless hindwing, subgenus Paragerydus. A small species (forewing length 9-14mm) with brown upperside, a small white costal fleck near the forewing apex, and no visual brand in the male. Underside pale buff with dense, well-defined dots and striae; the hindwing central spot in space 7 and the postdiscal spot on its inner edge are both blackened \u2014 the key feature distinguishing it from A. nivalis and A. substrigosus."
     },
     "r_nivalis": {
       "type": "result",
       "id": "r_nivalis",
-      "taxon_id": null,
+      "taxon_id": 1226335,
       "name": "Allotinus nivalis",
       "common_name": "",
       "note": "Tailless hindwing, subgenus Paragerydus. Brown upperside with a small white costal fleck near the forewing apex, and no visual brand in the male. Underside pale buff with dense dots and striae; unlike A. davidis, the hindwing central spot in space 7 is not blackened. A Bornean species, larger than its close relatives (forewing length 12.5-15.5mm)."
@@ -328,7 +445,10 @@
       "type": "group",
       "id": "g_davidis_nivalis",
       "group_name": "Allotinus davidis / A. nivalis",
-      "member_results": ["r_davidis", "r_nivalis"],
+      "member_results": [
+        "r_davidis",
+        "r_nivalis"
+      ],
       "description": "Both have a small white forewing costal fleck, no visual brand, and a pale buff underside with dense spotting. They differ mainly in whether the hindwing central spot in space 7 is blackened.",
       "key_features": [
         "A. davidis: hindwing central spot 7 and postdiscal spot 7 (inner edge) both blackened.",
@@ -342,16 +462,22 @@
       "question": "On the hindwing underside, is there a prominent blackish spot below the centre of the costa (leading edge), distinct from the rest of the spot pattern?",
       "hint": "This spot, if present, sits apart from the regular row of postdiscal/submarginal spots and is the easiest way to recognise A. substrigosus.",
       "choices": [
-        { "label": "Yes — prominent blackish spot below the costa centre", "next": "r_substrigosus" },
-        { "label": "No such spot", "next": "q_white_band" }
+        {
+          "label": "Yes \u2014 prominent blackish spot below the costa centre",
+          "next": "r_substrigosus"
+        },
+        {
+          "label": "No such spot",
+          "next": "q_white_band"
+        }
       ]
     },
     "r_substrigosus": {
       "type": "result",
       "id": "r_substrigosus",
-      "taxon_id": null,
+      "taxon_id": 773572,
       "name": "Allotinus substrigosus substrigosus",
-      "common_name": "",
+      "common_name": "Lesser Darkwing",
       "note": "Tailless hindwing, subgenus Paragerydus. A very small species (forewing length 9-14mm) with brown upperside, a small white costal fleck near the forewing apex, and no visual brand. Underside whitish with dense, obscure dark dots and striae; most easily recognised by a prominent blackish spot below the centre of the hindwing costa, and the hindwing postdiscal spot in space 7 is not blackened (cf. A. davidis). Found in lowland jungle."
     },
     "q_white_band": {
@@ -360,8 +486,14 @@
       "question": "Does the hindwing show a broad white band or area (visible on either wing surface)?",
       "hint": "A. albifasciatus is the only species in this group with a broad white band across the hindwing, in addition to white areas on the forewing. The others (A. fallax, A. otsukai, A. subviolaceus, A. agnolia, A. corbeti) have a plain brown hindwing, at most with isolated pale flecks.",
       "choices": [
-        { "label": "Yes — hindwing has a broad white band/area", "next": "r_albifasciatus" },
-        { "label": "No — hindwing is plain brown, no white band", "next": "q_fw_white" }
+        {
+          "label": "Yes \u2014 hindwing has a broad white band/area",
+          "next": "r_albifasciatus"
+        },
+        {
+          "label": "No \u2014 hindwing is plain brown, no white band",
+          "next": "q_fw_white"
+        }
       ]
     },
     "r_albifasciatus": {
@@ -370,16 +502,22 @@
       "taxon_id": null,
       "name": "Allotinus albifasciatus",
       "common_name": "White-banded Darkwing",
-      "note": "Tailless hindwing with regular margins. The rarest Malaysian Allotinus: forewing upperside has white areas and the hindwing has a broad white band. Vein 4 is not or only weakly swollen and veins 6/7 are separate. Underside greyish-white, densely marked with dark dots and striae — whiter and more blotchy than A. fallax. Recorded from the Malay Peninsula and northern Sumatra, mostly above 750 m."
+      "note": "Tailless hindwing with regular margins. The rarest Malaysian Allotinus: forewing upperside has white areas and the hindwing has a broad white band. Vein 4 is not or only weakly swollen and veins 6/7 are separate. Underside greyish-white, densely marked with dark dots and striae \u2014 whiter and more blotchy than A. fallax. Recorded from the Malay Peninsula and northern Sumatra, mostly above 750 m."
     },
     "q_fw_white": {
       "type": "question",
       "id": "q_fw_white",
       "question": "Does the forewing show an extensive white area, especially toward the wing base (visible on either wing surface)?",
-      "hint": "A. fallax and A. otsukai both have a forewing that is extensively white or sullied white from near the base, with only the costa, outer margin (and in A. fallax, a broad border) remaining dark brown. A. subviolaceus, A. agnolia, and A. corbeti lack this — their forewings are plain brown, reddish-brown, or show at most a bluish/violet sheen.",
+      "hint": "A. fallax and A. otsukai both have a forewing that is extensively white or sullied white from near the base, with only the costa, outer margin (and in A. fallax, a broad border) remaining dark brown. A. subviolaceus, A. agnolia, and A. corbeti lack this \u2014 their forewings are plain brown, reddish-brown, or show at most a bluish/violet sheen.",
       "choices": [
-        { "label": "Yes — forewing has an extensive white area toward the base", "next": "q_fallax_otsukai" },
-        { "label": "No — forewing is plain or only narrowly marked", "next": "q_blue_sheen" }
+        {
+          "label": "Yes \u2014 forewing has an extensive white area toward the base",
+          "next": "q_fallax_otsukai"
+        },
+        {
+          "label": "No \u2014 forewing is plain or only narrowly marked",
+          "next": "q_blue_sheen"
+        }
       ]
     },
     "q_fallax_otsukai": {
@@ -388,15 +526,24 @@
       "question": "On the forewing upperside, does the white area extend all the way to the wing base (near the body), or is it separated from the base by a brown border?",
       "hint": "A. otsukai's forewing is sullied white right to the base, with only the costa and outer margin dark brown. A. fallax's white area is framed by a broad brown border and does not reach the base.",
       "choices": [
-        { "label": "White reaches the wing base", "next": "r_otsukai" },
-        { "label": "White area is bordered by brown, does not reach the base", "next": "r_fallax" },
-        { "label": "Cannot determine — feature not visible", "next": "g_fallax_otsukai" }
+        {
+          "label": "White reaches the wing base",
+          "next": "r_otsukai"
+        },
+        {
+          "label": "White area is bordered by brown, does not reach the base",
+          "next": "r_fallax"
+        },
+        {
+          "label": "Cannot determine \u2014 feature not visible",
+          "next": "g_fallax_otsukai"
+        }
       ]
     },
     "r_otsukai": {
       "type": "result",
       "id": "r_otsukai",
-      "taxon_id": null,
+      "taxon_id": 1226333,
       "name": "Allotinus otsukai",
       "common_name": "Bornean White-wing",
       "note": "Tailless hindwing with regular margins, nominate subgenus Allotinus. Forewing upperside sullied white right to the wing base, with dark brown costal and distal margins; hindwing plain dark brown with no white or blue areas. Underside greyish-white with dense dark dots and striae in an obscure pattern. A Bornean endemic from the Gunung Kinabalu area and Mamut."
@@ -404,37 +551,46 @@
     "r_fallax": {
       "type": "result",
       "id": "r_fallax",
-      "taxon_id": null,
+      "taxon_id": 525421,
       "name": "Allotinus fallax apus",
-      "common_name": "Common Darkwing",
-      "note": "Tailless hindwing with smooth margins, nominate subgenus Allotinus. Forewing upperside white with a broad brown border that does not reach the wing base; hindwing plain brown. Vein 4 is not or only slightly swollen and veins 6/7 are separate. Underside white/greyish with dense dark dots and striae — less white and less blotchy than A. albifasciatus. An uncommon species of lowland forest."
+      "common_name": "White Darkwing",
+      "note": "Tailless hindwing with smooth margins, nominate subgenus Allotinus. Forewing upperside white with a broad brown border that does not reach the wing base; hindwing plain brown. Vein 4 is not or only slightly swollen and veins 6/7 are separate. Underside white/greyish with dense dark dots and striae \u2014 less white and less blotchy than A. albifasciatus. An uncommon species of lowland forest."
     },
     "g_fallax_otsukai": {
       "type": "group",
       "id": "g_fallax_otsukai",
       "group_name": "Allotinus fallax / A. otsukai",
-      "member_results": ["r_fallax", "r_otsukai"],
+      "member_results": [
+        "r_fallax",
+        "r_otsukai"
+      ],
       "description": "Both have a white-marked forewing upperside with a plain brown hindwing and a similar greyish-white underside. They are best told apart by how far the white extends toward the forewing base.",
       "key_features": [
         "A. otsukai: forewing white reaches the wing base (Bornean endemic, Kinabalu area).",
         "A. fallax: forewing white is bordered by brown and does not reach the base (Malay Peninsula lowland forest)."
       ],
-      "no_next_note": "Check locality — A. otsukai is a Bornean endemic, while A. fallax occurs on the Malay Peninsula."
+      "no_next_note": "Check locality \u2014 A. otsukai is a Bornean endemic, while A. fallax occurs on the Malay Peninsula."
     },
     "q_blue_sheen": {
       "type": "question",
       "id": "q_blue_sheen",
       "question": "On the forewing upperside, is there a bluish or violet sheen with a broad dark brown border?",
-      "hint": "A. subviolaceus is recognised by a greyish-blue sheen across the forewing upperside in both sexes, bordered by a broad dark brown margin. A. agnolia is dark brown with veins 6/7 stalked near the forewing apex; A. corbeti is uniformly reddish-brown with a rounded forewing apex — neither shows a blue or violet sheen.",
+      "hint": "A. subviolaceus is recognised by a greyish-blue sheen across the forewing upperside in both sexes, bordered by a broad dark brown margin. A. agnolia is dark brown with veins 6/7 stalked near the forewing apex; A. corbeti is uniformly reddish-brown with a rounded forewing apex \u2014 neither shows a blue or violet sheen.",
       "choices": [
-        { "label": "Yes — bluish/violet sheen with a broad dark brown border", "next": "r_subviolaceus" },
-        { "label": "No — no blue/violet sheen", "next": "q_corbeti_agnolia" }
+        {
+          "label": "Yes \u2014 bluish/violet sheen with a broad dark brown border",
+          "next": "r_subviolaceus"
+        },
+        {
+          "label": "No \u2014 no blue/violet sheen",
+          "next": "q_corbeti_agnolia"
+        }
       ]
     },
     "r_subviolaceus": {
       "type": "result",
       "id": "r_subviolaceus",
-      "taxon_id": null,
+      "taxon_id": 1340101,
       "name": "Allotinus subviolaceus subviolaceus",
       "common_name": "Blue Darkwing",
       "note": "Tailless hindwing with regular (non-dentate) margins. The most frequently encountered nominate-subgenus Allotinus: forewing upperside has a greyish-blue sheen (in both sexes) with a broad dark brown border, vein 4 is not or only weakly swollen, and veins 6 and 7 are separate (not stalked). Underside greyish-white with dense brown streaks and spots in an obscure Lycaenid pattern."
@@ -443,17 +599,26 @@
       "type": "question",
       "id": "q_corbeti_agnolia",
       "question": "Is the upperside uniformly reddish-brown, or dark/blackish brown?",
-      "hint": "A. corbeti is a very small species (forewing length 10-12mm) with a uniform reddish-brown upperside and rounded forewing apex. A. agnolia is darker, with veins 6 and 7 stalked near the forewing apex (an unusual venation feature) — primarily a Sumatran species occasionally noted in regional keys.",
+      "hint": "A. corbeti is a very small species (forewing length 10-12mm) with a uniform reddish-brown upperside and rounded forewing apex. A. agnolia is darker, with veins 6 and 7 stalked near the forewing apex (an unusual venation feature) \u2014 primarily a Sumatran species occasionally noted in regional keys.",
       "choices": [
-        { "label": "Uniformly reddish-brown", "next": "r_corbeti" },
-        { "label": "Dark or blackish brown", "next": "r_agnolia" },
-        { "label": "Cannot determine — feature not visible", "next": "g_corbeti_agnolia" }
+        {
+          "label": "Uniformly reddish-brown",
+          "next": "r_corbeti"
+        },
+        {
+          "label": "Dark or blackish brown",
+          "next": "r_agnolia"
+        },
+        {
+          "label": "Cannot determine \u2014 feature not visible",
+          "next": "g_corbeti_agnolia"
+        }
       ]
     },
     "r_corbeti": {
       "type": "result",
       "id": "r_corbeti",
-      "taxon_id": null,
+      "taxon_id": 1215629,
       "name": "Allotinus corbeti",
       "common_name": "Corbet's Darkwing",
       "note": "Tailless hindwing, subgenus Paragerydus. A very small species (forewing length 10-12mm) with a uniformly reddish-brown upperside in both sexes, a rounded forewing apex, vein 4 swollen only about a third of its length, and no visual brand. Underside pattern resembles a miniature A. leogoron."
@@ -470,11 +635,14 @@
       "type": "group",
       "id": "g_corbeti_agnolia",
       "group_name": "Allotinus corbeti / A. agnolia",
-      "member_results": ["r_corbeti", "r_agnolia"],
+      "member_results": [
+        "r_corbeti",
+        "r_agnolia"
+      ],
       "description": "Both lack a hindwing visual brand and a forewing costal fleck, but differ in overall colour and size.",
       "key_features": [
         "A. corbeti: very small (FW 10-12mm), uniformly reddish-brown, rounded forewing apex.",
-        "A. agnolia: darker brown, veins 6/7 stalked near the forewing apex — primarily Sumatran."
+        "A. agnolia: darker brown, veins 6/7 stalked near the forewing apex \u2014 primarily Sumatran."
       ],
       "no_next_note": "Check forewing size and overall tone, and look closely at vein 6/7 near the forewing apex if a clear dorsal photo is available."
     }
