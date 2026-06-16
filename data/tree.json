@@ -154,15 +154,15 @@
     "q_fabitaras_quartet": {
       "type": "question",
       "id": "q_fabitaras_quartet",
-      "question": "On the hindwing underside postdiscal spot row, is the spot in space 6 displaced toward space 7 \u2014 sitting roughly midway between spots 5 and 7 and breaking the row's smooth curve?",
-      "hint": "The postdiscal row runs between the middle of the wing and the outer margin. In most species spots 2-6 follow a smooth curve; in A. strigatus, spot 6 is offset toward spot 7.",
+      "question": "On the hindwing underside, does the postdiscal spot in space 6 sit clearly closer to the outer wing margin than the spot in space 7, creating a visible step or jog between them?",
+      "hint": "Follow the postdiscal row from space 5 toward the costa. In A. strigatus the spot in space 6 protrudes outward (toward the outer margin) so that the spot in space 7 ends up noticeably further inside (toward the wing base) \u2014 a distinctly uneven step at the 6/7 boundary. In A. sarrastes, A. bidiensis, and A. portunus the row curves more smoothly with no prominent outward jog at space 6.",
       "choices": [
         {
-          "label": "Yes \u2014 spot 6 is offset toward spot 7, breaking the curve",
+          "label": "Yes \u2014 spot 6 protrudes toward the outer margin; spot 7 sits noticeably further inside",
           "next": "r_strigatus"
         },
         {
-          "label": "No \u2014 spot 6 follows the same smooth curve as spots 2-5",
+          "label": "No \u2014 the postdiscal row curves smoothly with no obvious step between spaces 6 and 7",
           "next": "q_postdiscal_dislocation"
         }
       ]
@@ -173,7 +173,7 @@
       "taxon_id": 802914,
       "name": "Allotinus strigatus malayanus",
       "common_name": "Small Malayan Darkwing",
-      "note": "Tailless hindwing with a rounded margin, subgenus Fabitaras. Plain dark brown upperside with vein 4 swollen along about half its length and a visual brand around 2mm wide. Underside pale buff; the hindwing postdiscal spot in space 6 sits roughly midway between spots 5 and 7, breaking the row's smooth curve (unique among its relatives), and the black submarginal spots are white-edged on both wings. A common forest species at low to moderate elevations.",
+      "note": "Tailless hindwing with a rounded margin, subgenus Fabitaras. Plain dark brown upperside with vein 4 swollen along about half its length and a visual brand around 2mm wide. Underside pale buff; the postdiscal spot in hindwing space 6 protrudes toward the outer wing margin so that the spot in space 7 sits noticeably further inside (toward the wing base), creating a visible step or jog between them — unique among its Fabitaras relatives. The black submarginal spots are white-edged on both wings. A common forest species at low to moderate elevations.",
       "inat_url": "https://www.inaturalist.org/observations?verifiable=true&taxon_id=802914&preferred_place_id=7155"
     },
     "q_postdiscal_dislocation": {
