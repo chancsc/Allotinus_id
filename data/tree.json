@@ -154,16 +154,16 @@
     "q_fabitaras_quartet": {
       "type": "question",
       "id": "q_fabitaras_quartet",
-      "question": "On the hindwing underside, does the postdiscal spot in space 6 sit clearly closer to the outer wing margin than the spot in space 7, creating a visible step or jog between them?",
-      "hint": "Follow the postdiscal row from space 5 toward the costa. In A. strigatus the spot in space 6 protrudes outward (toward the outer margin) so that the spot in space 7 ends up noticeably further inside (toward the wing base) \u2014 a distinctly uneven step at the 6/7 boundary. In A. sarrastes, A. bidiensis, and A. portunus the row curves more smoothly with no prominent outward jog at space 6.",
+      "question": "On the underside of both wings, do the black submarginal spots have a conspicuous white edging on their outer side?",
+      "hint": "Look at the row of small black spots running just inside the outer wing margin. In A. strigatus and A. sarrastes these spots are prominently edged with white on their outer (marginal) side. In A. portunus (males) the spots are not white-edged, and in A. bidiensis the spots similarly lack obvious white edging.",
       "choices": [
         {
-          "label": "Yes \u2014 spot 6 protrudes toward the outer margin; spot 7 sits noticeably further inside",
-          "next": "r_strigatus"
+          "label": "Yes \u2014 submarginal spots clearly white-edged on their outer side",
+          "next": "q_postdiscal_dislocation"
         },
         {
-          "label": "No \u2014 the postdiscal row curves smoothly with no obvious step between spaces 6 and 7",
-          "next": "q_postdiscal_dislocation"
+          "label": "No \u2014 submarginal spots not white-edged, or edging absent or very weak",
+          "next": "q_bidiensis_portunus"
         }
       ]
     },
@@ -173,22 +173,22 @@
       "taxon_id": 802914,
       "name": "Allotinus strigatus malayanus",
       "common_name": "Small Malayan Darkwing",
-      "note": "Tailless hindwing with a rounded margin, subgenus Fabitaras. Plain dark brown upperside with vein 4 swollen along about half its length and a visual brand around 2mm wide. Underside pale buff; the postdiscal spot in hindwing space 6 protrudes toward the outer wing margin so that the spot in space 7 sits noticeably further inside (toward the wing base), creating a visible step or jog between them — unique among its Fabitaras relatives. The black submarginal spots are white-edged on both wings. A common forest species at low to moderate elevations.",
+      "note": "Tailless hindwing with a rounded margin, subgenus Fabitaras. Plain dark brown upperside with vein 4 swollen along about half its length and a visual brand around 2mm wide. Underside pale buff; the black submarginal spots are prominently edged with white on both wings — the most conspicuous underside feature shared with A. sarrastes. Distinguished from A. sarrastes by the forewing postdiscal row, which runs uniformly without a kink at vein 4. A common forest species at low to moderate elevations.",
       "inat_url": "https://www.inaturalist.org/observations?verifiable=true&taxon_id=802914&preferred_place_id=7155"
     },
     "q_postdiscal_dislocation": {
       "type": "question",
       "id": "q_postdiscal_dislocation",
-      "question": "On the hindwing underside, does the postdiscal spot row appear interrupted or offset (dislocated) at vein 4, rather than running in one smooth curve?",
-      "hint": "Follow the postdiscal spot row across vein 4 (between hindwing spaces 3/4) and check whether the spots on either side line up smoothly or are offset toward the margin/base relative to each other.",
+      "question": "On the forewing underside, does the postdiscal spot row show a noticeable kink or dislocation at vein 4 \u2014 with spots toward the dorsal margin sitting closer to the outer wing margin than spots toward the costa?",
+      "hint": "On the forewing underside, trace the postdiscal row from the costa toward the dorsal margin. In A. sarrastes the spots on the dorsal side of vein 4 are displaced toward the outer wing margin relative to those on the costal side, creating a visible kink in the row at vein 4. In A. strigatus the row runs more uniformly without this displacement.",
       "choices": [
         {
-          "label": "Yes \u2014 row is dislocated/offset at vein 4",
+          "label": "Yes \u2014 postdiscal row kinked at vein 4; dorsal spots displaced toward outer margin",
           "next": "r_sarrastes"
         },
         {
-          "label": "No \u2014 row runs in one smooth curve, parallel to the margin",
-          "next": "q_bidiensis_portunus"
+          "label": "No \u2014 row runs without obvious dislocation at vein 4",
+          "next": "r_strigatus"
         }
       ]
     },
