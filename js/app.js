@@ -88,6 +88,7 @@ function buildSpeciesIndex(treeData, speciesData) {
       note: node.note || '',
       taxon_photos: (spData && spData.taxon_photos) || [],
       inat_url: (spData && spData.inat_url)
+        || node.inat_url
         || `https://www.inaturalist.org/search?q=${encodeURIComponent(sp2)}`,
       paths,
       resultFeatures: node.features || {}
