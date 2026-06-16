@@ -215,6 +215,7 @@ function renderResult(node) {
     || (species && species.name) || node.name || 'Unknown Species';
   const sciName = (species && species.name) || node.name || '';
   const inatUrl = (species && species.inat_url)
+    || node.inat_url
     || (node.taxon_id ? `https://www.inaturalist.org/taxa/${node.taxon_id}` : null)
     || `https://www.inaturalist.org/search?q=${encodeURIComponent(sciName || 'Allotinus')}`;
 

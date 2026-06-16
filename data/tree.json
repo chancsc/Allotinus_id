@@ -43,7 +43,8 @@
       "taxon_id": 1642844,
       "name": "Allotinus borneensis",
       "common_name": "Bornean Darkwing",
-      "note": "Tailed hindwing (short tail projecting at vein 4), with vein 4 strongly swollen and bearing a visual brand on both wing surfaces. Underside buff-coloured with redder striations than A. fabius, and the forewing apex is shaded reddish-brown. Found in lowland and montane forest of the Malay Peninsula."
+      "note": "Tailed hindwing (short tail projecting at vein 4), with vein 4 strongly swollen and bearing a visual brand on both wing surfaces. Underside buff-coloured with redder striations than A. fabius, and the forewing apex is shaded reddish-brown. Found in lowland and montane forest of the Malay Peninsula.",
+      "inat_url": "https://www.inaturalist.org/taxa/1642844"
     },
     "r_fabius": {
       "type": "result",
@@ -51,7 +52,8 @@
       "taxon_id": 888207,
       "name": "Allotinus fabius arrius",
       "common_name": "Angled Darkwing",
-      "note": "Tailed hindwing (short tail projecting at vein 4 in males), with vein 4 strongly swollen. Underside greyish-white with dense striations; the postdiscal spots above forewing space 4 and hindwing space 6 are enlarged and blotchy, and the black submarginal spots are edged with white on their outer side."
+      "note": "Tailed hindwing (short tail projecting at vein 4 in males), with vein 4 strongly swollen. Underside greyish-white with dense striations; the postdiscal spots above forewing space 4 and hindwing space 6 are enlarged and blotchy, and the black submarginal spots are edged with white on their outer side.",
+      "inat_url": "https://www.inaturalist.org/taxa/888207"
     },
     "g_tailed_pair": {
       "type": "group",
@@ -146,7 +148,8 @@
       "taxon_id": 1427192,
       "name": "Allotinus apries apries",
       "common_name": "",
-      "note": "Tailless hindwing with smooth (non-dentate) margins, subgenus Paragerydus \u2014 unlike the dentate-margined A. unicolor and A. leogoron. Male upperside dark brown with a broad oval pale visual brand covering more than half of vein 4, the base of which is swollen; female dark brown with a pale area beyond the end of the cell. Underside pattern poorly documented; forewing postdiscal spots run roughly parallel to the outer margin. Larger than A. corbeti (which has no visual brand)."
+      "note": "Tailless hindwing with smooth (non-dentate) margins, subgenus Paragerydus \u2014 unlike the dentate-margined A. unicolor and A. leogoron. Male upperside dark brown with a broad oval pale visual brand covering more than half of vein 4, the base of which is swollen; female dark brown with a pale area beyond the end of the cell. Underside pattern poorly documented; forewing postdiscal spots run roughly parallel to the outer margin. Larger than A. corbeti (which has no visual brand).",
+      "inat_url": "https://www.inaturalist.org/taxa/1427192"
     },
     "q_fabitaras_quartet": {
       "type": "question",
@@ -170,7 +173,8 @@
       "taxon_id": 802914,
       "name": "Allotinus strigatus malayanus",
       "common_name": "Small Malayan Darkwing",
-      "note": "Tailless hindwing with a rounded margin, subgenus Fabitaras. Plain dark brown upperside with vein 4 swollen along about half its length and a visual brand around 2mm wide. Underside pale buff; the hindwing postdiscal spot in space 6 sits roughly midway between spots 5 and 7, breaking the row's smooth curve (unique among its relatives), and the black submarginal spots are white-edged on both wings. A common forest species at low to moderate elevations."
+      "note": "Tailless hindwing with a rounded margin, subgenus Fabitaras. Plain dark brown upperside with vein 4 swollen along about half its length and a visual brand around 2mm wide. Underside pale buff; the hindwing postdiscal spot in space 6 sits roughly midway between spots 5 and 7, breaking the row's smooth curve (unique among its relatives), and the black submarginal spots are white-edged on both wings. A common forest species at low to moderate elevations.",
+      "inat_url": "https://www.inaturalist.org/taxa/802914"
     },
     "q_postdiscal_dislocation": {
       "type": "question",
@@ -194,7 +198,8 @@
       "taxon_id": 803334,
       "name": "Allotinus sarrastes",
       "common_name": "Peninsular Darkwing",
-      "note": "Tailless hindwing with a rounded margin, subgenus Fabitaras. Plain dark brown upperside with vein 4 strongly swollen along more than half its length. Underside pale buff; the postdiscal spot row is dislocated at vein 4, running closer to the margin at the dorsum than at the costa, and the black submarginal spots are white-edged. One of the more common Fabitaras species, found at low to moderate elevations in the Malay Peninsula."
+      "note": "Tailless hindwing with a rounded margin, subgenus Fabitaras. Plain dark brown upperside with vein 4 strongly swollen along more than half its length. Underside pale buff; the postdiscal spot row is dislocated at vein 4, running closer to the margin at the dorsum than at the costa, and the black submarginal spots are white-edged. One of the more common Fabitaras species, found at low to moderate elevations in the Malay Peninsula.",
+      "inat_url": "https://www.inaturalist.org/taxa/803334"
     },
     "q_bidiensis_portunus": {
       "type": "question",
@@ -222,7 +227,8 @@
       "taxon_id": 1226339,
       "name": "Allotinus portunus maitus",
       "common_name": "",
-      "note": "Tailless hindwing with a rounded/regular margin, subgenus Fabitaras. Male upperside brown with vein 4 strongly swollen for more than half its length and a visual brand on both wing surfaces; female plain brown. Underside whitish to pale buff; the postdiscal spot series runs parallel to the outer margin, with spot 6 in an even arc with spots 2-5 and the outer part of spot 7 well inside spot 6. One of the more frequently encountered Fabitaras species, typically at 600m and above in the Malay Peninsula."
+      "note": "Tailless hindwing with a rounded/regular margin, subgenus Fabitaras. Male upperside brown with vein 4 strongly swollen for more than half its length and a visual brand on both wing surfaces; female plain brown. Underside whitish to pale buff; the postdiscal spot series runs parallel to the outer margin, with spot 6 in an even arc with spots 2-5 and the outer part of spot 7 well inside spot 6. One of the more frequently encountered Fabitaras species, typically at 600m and above in the Malay Peninsula.",
+      "inat_url": "https://www.inaturalist.org/taxa/1226339"
     },
     "r_bidiensis": {
       "type": "result",
@@ -230,7 +236,8 @@
       "taxon_id": 1226341,
       "name": "Allotinus bidiensis",
       "common_name": "",
-      "note": "Tailless hindwing with a rounded margin, subgenus Fabitaras. Plain dark brown upperside on both wings, with only a small and inconspicuous visual brand (under 1mm) on vein 4. Underside whitish with dense dark scales and striae; the hindwing postdiscal stria in space 6 sits well toward the margin relative to space 7. A Bornean species recorded from Gunung Kinabalu, Keningau, and Sarawak."
+      "note": "Tailless hindwing with a rounded margin, subgenus Fabitaras. Plain dark brown upperside on both wings, with only a small and inconspicuous visual brand (under 1mm) on vein 4. Underside whitish with dense dark scales and striae; the hindwing postdiscal stria in space 6 sits well toward the margin relative to space 7. A Bornean species recorded from Gunung Kinabalu, Keningau, and Sarawak.",
+      "inat_url": "https://www.inaturalist.org/taxa/1226341"
     },
     "g_bidiensis_portunus": {
       "type": "group",
@@ -289,7 +296,8 @@
       "taxon_id": 470734,
       "name": "Allotinus horsfieldi permagnus",
       "common_name": "Common Darkwing",
-      "note": "Tailless hindwing, weakly dentate in males and more strongly dentate in females, subgenus Paragerydus. Forewing somewhat produced; male upperside reddish-brown with a narrow visual brand extending more than half of vein 4 and touching vein 3 only near its base. Underside pale buff, more densely striate than its relatives, with the postdiscal fascia dislocated at veins 4 and 2. A common species of lowland jungle, often found alongside A. unicolor (which is smaller)."
+      "note": "Tailless hindwing, weakly dentate in males and more strongly dentate in females, subgenus Paragerydus. Forewing somewhat produced; male upperside reddish-brown with a narrow visual brand extending more than half of vein 4 and touching vein 3 only near its base. Underside pale buff, more densely striate than its relatives, with the postdiscal fascia dislocated at veins 4 and 2. A common species of lowland jungle, often found alongside A. unicolor (which is smaller).",
+      "inat_url": "https://www.inaturalist.org/taxa/470734"
     },
     "r_melos": {
       "type": "result",
@@ -297,7 +305,8 @@
       "taxon_id": 1338808,
       "name": "Allotinus melos",
       "common_name": "",
-      "note": "Tailless hindwing (subgenus Paragerydus traits: hindwing may be dentate/sinuate, especially in females). Vein 4 base is swollen with a visual brand on both sides. Underside white to pale buff. Very poorly documented \u2014 known only from a systematic checklist record at Poring Hot Springs, Kinabalu Park, Sabah; identification should be treated as provisional pending better reference photos."
+      "note": "Tailless hindwing (subgenus Paragerydus traits: hindwing may be dentate/sinuate, especially in females). Vein 4 base is swollen with a visual brand on both sides. Underside white to pale buff. Very poorly documented \u2014 known only from a systematic checklist record at Poring Hot Springs, Kinabalu Park, Sabah; identification should be treated as provisional pending better reference photos.",
+      "inat_url": "https://www.inaturalist.org/taxa/1338808"
     },
     "g_horsfieldi_melos": {
       "type": "group",
@@ -340,7 +349,8 @@
       "taxon_id": 196804,
       "name": "Allotinus leogoron leogoron",
       "common_name": "Broad-banded Darkwing",
-      "note": "Tailless hindwing with narrow dentations, subgenus Paragerydus. Brown upperside with a broad oval visual brand on vein 4 extending well along vein 3. Underside clean greyish-white (whiter than A. horsfieldi's buff), with darker and better-defined striations and the postdiscal fascia dislocated at veins 4 and 2. A rare species of lowland forest, closely related to and found in similar habitats to A. horsfieldi."
+      "note": "Tailless hindwing with narrow dentations, subgenus Paragerydus. Brown upperside with a broad oval visual brand on vein 4 extending well along vein 3. Underside clean greyish-white (whiter than A. horsfieldi's buff), with darker and better-defined striations and the postdiscal fascia dislocated at veins 4 and 2. A rare species of lowland forest, closely related to and found in similar habitats to A. horsfieldi.",
+      "inat_url": "https://www.inaturalist.org/taxa/196804"
     },
     "r_unicolor": {
       "type": "result",
@@ -348,7 +358,8 @@
       "taxon_id": 470739,
       "name": "Allotinus unicolor unicolor",
       "common_name": "Unicolored Darkwing",
-      "note": "Tailless hindwing (females dentately sinuate), subgenus Paragerydus. Male upperside dark brown with a narrow visual brand astride the swollen vein 4, covering only about half its length; female reddish-brown with a less-pointed forewing. Underside greyish-white (sometimes darker grey) with dense, well-defined dots and striae; hindwing postdiscal spot 6 sits well inside the outer part of spot 7. A common species of lowland jungle, smaller than A. horsfieldi."
+      "note": "Tailless hindwing (females dentately sinuate), subgenus Paragerydus. Male upperside dark brown with a narrow visual brand astride the swollen vein 4, covering only about half its length; female reddish-brown with a less-pointed forewing. Underside greyish-white (sometimes darker grey) with dense, well-defined dots and striae; hindwing postdiscal spot 6 sits well inside the outer part of spot 7. A common species of lowland jungle, smaller than A. horsfieldi.",
+      "inat_url": "https://www.inaturalist.org/taxa/470739"
     },
     "g_leogoron_unicolor": {
       "type": "group",
@@ -387,7 +398,8 @@
       "taxon_id": 1226342,
       "name": "Allotinus brooksi",
       "common_name": "White-tornal Darkwing",
-      "note": "Tailless hindwing, subgenus Fabitaras. Plain dark brown upperside on both wings. Underside whitish with a distinct dark central spot mid-wing and a white patch in the hindwing tornal (inner corner) area \u2014 its key diagnostic feature. A Bornean endemic recorded from Bau, Sarawak."
+      "note": "Tailless hindwing, subgenus Fabitaras. Plain dark brown upperside on both wings. Underside whitish with a distinct dark central spot mid-wing and a white patch in the hindwing tornal (inner corner) area \u2014 its key diagnostic feature. A Bornean endemic recorded from Bau, Sarawak.",
+      "inat_url": "https://www.inaturalist.org/taxa/1226342"
     },
     "q_no_brand_color": {
       "type": "question",
@@ -431,7 +443,8 @@
       "taxon_id": 951049,
       "name": "Allotinus davidis",
       "common_name": "Black-spotted Darkwing",
-      "note": "Tailless hindwing, subgenus Paragerydus. A small species (forewing length 9-14mm) with brown upperside, a small white costal fleck near the forewing apex, and no visual brand in the male. Underside pale buff with dense, well-defined dots and striae; the hindwing central spot in space 7 and the postdiscal spot on its inner edge are both blackened \u2014 the key feature distinguishing it from A. nivalis and A. substrigosus."
+      "note": "Tailless hindwing, subgenus Paragerydus. A small species (forewing length 9-14mm) with brown upperside, a small white costal fleck near the forewing apex, and no visual brand in the male. Underside pale buff with dense, well-defined dots and striae; the hindwing central spot in space 7 and the postdiscal spot on its inner edge are both blackened \u2014 the key feature distinguishing it from A. nivalis and A. substrigosus.",
+      "inat_url": "https://www.inaturalist.org/taxa/951049"
     },
     "r_nivalis": {
       "type": "result",
@@ -439,7 +452,8 @@
       "taxon_id": 1226335,
       "name": "Allotinus nivalis",
       "common_name": "",
-      "note": "Tailless hindwing, subgenus Paragerydus. Brown upperside with a small white costal fleck near the forewing apex, and no visual brand in the male. Underside pale buff with dense dots and striae; unlike A. davidis, the hindwing central spot in space 7 is not blackened. A Bornean species, larger than its close relatives (forewing length 12.5-15.5mm)."
+      "note": "Tailless hindwing, subgenus Paragerydus. Brown upperside with a small white costal fleck near the forewing apex, and no visual brand in the male. Underside pale buff with dense dots and striae; unlike A. davidis, the hindwing central spot in space 7 is not blackened. A Bornean species, larger than its close relatives (forewing length 12.5-15.5mm).",
+      "inat_url": "https://www.inaturalist.org/taxa/1226335"
     },
     "g_davidis_nivalis": {
       "type": "group",
@@ -478,7 +492,8 @@
       "taxon_id": 773572,
       "name": "Allotinus substrigosus substrigosus",
       "common_name": "Lesser Darkwing",
-      "note": "Tailless hindwing, subgenus Paragerydus. A very small species (forewing length 9-14mm) with brown upperside, a small white costal fleck near the forewing apex, and no visual brand. Underside whitish with dense, obscure dark dots and striae; most easily recognised by a prominent blackish spot below the centre of the hindwing costa, and the hindwing postdiscal spot in space 7 is not blackened (cf. A. davidis). Found in lowland jungle."
+      "note": "Tailless hindwing, subgenus Paragerydus. A very small species (forewing length 9-14mm) with brown upperside, a small white costal fleck near the forewing apex, and no visual brand. Underside whitish with dense, obscure dark dots and striae; most easily recognised by a prominent blackish spot below the centre of the hindwing costa, and the hindwing postdiscal spot in space 7 is not blackened (cf. A. davidis). Found in lowland jungle.",
+      "inat_url": "https://www.inaturalist.org/taxa/773572"
     },
     "q_white_band": {
       "type": "question",
@@ -546,7 +561,8 @@
       "taxon_id": 1226333,
       "name": "Allotinus otsukai",
       "common_name": "Bornean White-wing",
-      "note": "Tailless hindwing with regular margins, nominate subgenus Allotinus. Forewing upperside sullied white right to the wing base, with dark brown costal and distal margins; hindwing plain dark brown with no white or blue areas. Underside greyish-white with dense dark dots and striae in an obscure pattern. A Bornean endemic from the Gunung Kinabalu area and Mamut."
+      "note": "Tailless hindwing with regular margins, nominate subgenus Allotinus. Forewing upperside sullied white right to the wing base, with dark brown costal and distal margins; hindwing plain dark brown with no white or blue areas. Underside greyish-white with dense dark dots and striae in an obscure pattern. A Bornean endemic from the Gunung Kinabalu area and Mamut.",
+      "inat_url": "https://www.inaturalist.org/taxa/1226333"
     },
     "r_fallax": {
       "type": "result",
@@ -554,7 +570,8 @@
       "taxon_id": 525421,
       "name": "Allotinus fallax apus",
       "common_name": "White Darkwing",
-      "note": "Tailless hindwing with smooth margins, nominate subgenus Allotinus. Forewing upperside white with a broad brown border that does not reach the wing base; hindwing plain brown. Vein 4 is not or only slightly swollen and veins 6/7 are separate. Underside white/greyish with dense dark dots and striae \u2014 less white and less blotchy than A. albifasciatus. An uncommon species of lowland forest."
+      "note": "Tailless hindwing with smooth margins, nominate subgenus Allotinus. Forewing upperside white with a broad brown border that does not reach the wing base; hindwing plain brown. Vein 4 is not or only slightly swollen and veins 6/7 are separate. Underside white/greyish with dense dark dots and striae \u2014 less white and less blotchy than A. albifasciatus. An uncommon species of lowland forest.",
+      "inat_url": "https://www.inaturalist.org/taxa/525421"
     },
     "g_fallax_otsukai": {
       "type": "group",
@@ -593,7 +610,8 @@
       "taxon_id": 1340101,
       "name": "Allotinus subviolaceus subviolaceus",
       "common_name": "Blue Darkwing",
-      "note": "Tailless hindwing with regular (non-dentate) margins. The most frequently encountered nominate-subgenus Allotinus: forewing upperside has a greyish-blue sheen (in both sexes) with a broad dark brown border, vein 4 is not or only weakly swollen, and veins 6 and 7 are separate (not stalked). Underside greyish-white with dense brown streaks and spots in an obscure Lycaenid pattern."
+      "note": "Tailless hindwing with regular (non-dentate) margins. The most frequently encountered nominate-subgenus Allotinus: forewing upperside has a greyish-blue sheen (in both sexes) with a broad dark brown border, vein 4 is not or only weakly swollen, and veins 6 and 7 are separate (not stalked). Underside greyish-white with dense brown streaks and spots in an obscure Lycaenid pattern.",
+      "inat_url": "https://www.inaturalist.org/taxa/1340101"
     },
     "q_corbeti_agnolia": {
       "type": "question",
@@ -621,7 +639,8 @@
       "taxon_id": 1215629,
       "name": "Allotinus corbeti",
       "common_name": "Corbet's Darkwing",
-      "note": "Tailless hindwing, subgenus Paragerydus. A very small species (forewing length 10-12mm) with a uniformly reddish-brown upperside in both sexes, a rounded forewing apex, vein 4 swollen only about a third of its length, and no visual brand. Underside pattern resembles a miniature A. leogoron."
+      "note": "Tailless hindwing, subgenus Paragerydus. A very small species (forewing length 10-12mm) with a uniformly reddish-brown upperside in both sexes, a rounded forewing apex, vein 4 swollen only about a third of its length, and no visual brand. Underside pattern resembles a miniature A. leogoron.",
+      "inat_url": "https://www.inaturalist.org/taxa/1215629"
     },
     "r_agnolia": {
       "type": "result",
