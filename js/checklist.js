@@ -191,6 +191,8 @@ function renderHint(str) {
 // written for Allotinus — each entry maps a substring of a question's text
 // to a guide.html anchor.
 const GUIDE_LINKS = new Map([
+  ['vein 4', 'guide.html#wing-venation'],
+  ['space 7', 'guide.html#wing-venation'],
 ]);
 
 function linkifyQ(text) {

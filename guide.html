@@ -141,35 +141,46 @@
   <div class="guide-content">
 
     <p class="guide-intro">
-      This page will hold wing diagrams and terminology used throughout the <em>Allotinus</em>
-      identification key and Feature Scoring questions. Add one
-      <code>&lt;section class="guide-section" id="..."&gt;</code> block per diagnostic character,
-      following the pattern below — then link to each section from the relevant question in
-      <code>data/tree.json</code> via <code>question_link</code> / <code>guide_link</code>, and add
-      a matching entry to the <code>GUIDE_LINKS</code> map in <code>js/checklist.js</code>.
+      Wing diagrams and terminology used throughout the <em>Allotinus</em> identification key and
+      Feature Scoring questions.
     </p>
 
-    <!-- Example section — copy this block for each diagnostic character.
-    <section class="guide-section" id="example-character">
-      <h2 class="guide-section-title">Example character name</h2>
+    <section class="guide-section" id="wing-venation">
+      <h2 class="guide-section-title">Wing venation &amp; space numbering</h2>
       <p class="guide-section-desc">
-        Short explanation of what this character is and why it matters for identification.
+        Identification keys and questions refer to numbered "spaces" (the cells between veins)
+        rather than the veins themselves — e.g. "hindwing space 6" or "forewing vein 4". This
+        diagram shows the numbering convention used throughout this app.
       </p>
       <div class="guide-img-card">
         <div class="guide-img-wrap">
-          <img src="img/example.jpg" alt="Describe the diagram" loading="lazy">
+          <img src="img/wing-venation.png" alt="Diagram of Allotinus wing venation showing numbered spaces: forewing spaces 1b through 12, hindwing spaces 1a, 1b, and 2 through 8" loading="lazy">
         </div>
         <div class="guide-img-caption">
-          <strong>Caption / image credit</strong>
-          <p>Longer description of the diagram.</p>
+          <strong>Forewing (top) and hindwing (bottom) venation</strong>
+          <p>
+            Spaces are numbered outward from the wing base, starting at the dorsum (inner margin)
+            and running around to the costa (leading edge). Forewing spaces run 1b–12; hindwing
+            spaces run 1a, 1b, then 2–8. A vein is numbered the same as the space immediately
+            above it (e.g. "vein 4" runs along the upper edge of space 4).
+          </p>
           <div class="guide-terms" role="table" aria-label="Terminology">
-            <span class="guide-term-key">Term</span>
-            <span class="guide-term-val">Definition</span>
+            <span class="guide-term-key">Space</span>
+            <span class="guide-term-val">The cell of wing membrane bounded by two adjacent veins.</span>
+            <span class="guide-term-key">Vein</span>
+            <span class="guide-term-val">The rigid supporting structure separating two spaces; named after the space below it.</span>
+            <span class="guide-term-key">Costa</span>
+            <span class="guide-term-val">The leading (front) edge of the wing, from the wing base to the apex.</span>
+            <span class="guide-term-key">Dorsum</span>
+            <span class="guide-term-val">The inner (trailing) margin of the wing, closest to the body/abdomen.</span>
+            <span class="guide-term-key">Termen</span>
+            <span class="guide-term-val">The outer margin of the wing, between the apex and the tornus.</span>
+            <span class="guide-term-key">Postdiscal</span>
+            <span class="guide-term-val">Refers to a spot or band positioned outward (toward the termen) of the discal cell.</span>
           </div>
         </div>
       </div>
     </section>
-    -->
 
   </div>
 

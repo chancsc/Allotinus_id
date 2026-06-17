@@ -6,6 +6,7 @@
       "id": "q_tail",
       "question": "Does the hindwing have a short tail (a narrow finger-like projection) at the end of vein 4?",
       "hint": "Look at the hindwing outer margin between the tornus (inner corner) and the apex. Vein 4 ends roughly in the middle of this margin. Only two Malaysian Allotinus \u2014 A. borneensis and A. fabius \u2014 have a projecting tail here; every other species has a smooth, rounded, or finely toothed margin with no tail.",
+      "guide_link": "guide.html#wing-venation",
       "choices": [
         {
           "label": "Yes \u2014 hindwing is tailed",
@@ -75,6 +76,7 @@
       "id": "q_brand_presence",
       "question": "On the underside, is there a visual brand \u2014 a patch of specialised pale or dark scales \u2014 on the swollen base of hindwing vein 4?",
       "hint": "Look for a noticeably swollen base of vein 4 on the hindwing, often with a patch of differently-coloured or differently-textured scales (the 'visual brand', a male secondary sexual character).",
+      "guide_link": "guide.html#wing-venation",
       "choices": [
         {
           "label": "Yes \u2014 vein 4 base is swollen with a visible brand",
@@ -131,6 +133,7 @@
       "id": "q_smooth_margin_5",
       "question": "On the underside, is the visual brand on hindwing vein 4 a broad oval patch, or a narrow patch running along the vein?",
       "hint": "Compare the shape of the pale/dark scale patch on the swollen base of vein 4.",
+      "guide_link": "guide.html#wing-venation",
       "choices": [
         {
           "label": "Broad oval patch",
@@ -173,7 +176,7 @@
       "taxon_id": 802914,
       "name": "Allotinus strigatus malayanus",
       "common_name": "Small Malayan Darkwing",
-      "note": "Tailless hindwing with a rounded margin, subgenus Fabitaras. Plain dark brown upperside with vein 4 swollen along about half its length and a visual brand around 2mm wide. Underside pale buff; the black submarginal spots are prominently edged with white on both wings — the most conspicuous underside feature shared with A. sarrastes. Distinguished from A. sarrastes by the forewing postdiscal row, which runs uniformly without a kink at vein 4. A common forest species at low to moderate elevations.",
+      "note": "Tailless hindwing with a rounded margin, subgenus Fabitaras. Plain dark brown upperside with vein 4 swollen along about half its length and a visual brand around 2mm wide. Underside pale buff; the black submarginal spots are prominently edged with white on both wings \u2014 the most conspicuous underside feature shared with A. sarrastes. Distinguished from A. sarrastes by the forewing postdiscal row, which runs uniformly without a kink at vein 4. A common forest species at low to moderate elevations.",
       "inat_url": "https://www.inaturalist.org/observations?verifiable=true&taxon_id=802914&preferred_place_id=7155"
     },
     "q_postdiscal_dislocation": {
@@ -181,6 +184,7 @@
       "id": "q_postdiscal_dislocation",
       "question": "On the forewing underside, does the postdiscal spot row show a noticeable kink or dislocation at vein 4 \u2014 with spots toward the dorsal margin sitting closer to the outer wing margin than spots toward the costa?",
       "hint": "On the forewing underside, trace the postdiscal row from the costa toward the dorsal margin. In A. sarrastes the spots on the dorsal side of vein 4 are displaced toward the outer wing margin relative to those on the costal side, creating a visible kink in the row at vein 4. In A. strigatus the row runs more uniformly without this displacement.",
+      "guide_link": "guide.html#wing-venation",
       "choices": [
         {
           "label": "Yes \u2014 postdiscal row kinked at vein 4; dorsal spots displaced toward outer margin",
@@ -206,6 +210,7 @@
       "id": "q_bidiensis_portunus",
       "question": "On the hindwing underside, is the visual brand on the swollen base of vein 4 large and obvious, covering more than about half the vein's length?",
       "hint": "A. portunus has a strongly developed brand on both wing surfaces. A. bidiensis has a much smaller, inconspicuous brand (under ~1mm).",
+      "guide_link": "guide.html#wing-venation",
       "choices": [
         {
           "label": "Yes \u2014 large, obvious brand covering most of vein 4",
@@ -275,6 +280,7 @@
       "id": "q_horsfieldi_melos",
       "question": "On the hindwing underside, does the visual brand on vein 4 form a narrow patch that touches vein 3 only briefly near its base, or a broader patch covering both sides of the swollen vein-4 base?",
       "hint": "A. horsfieldi has a narrow brand reaching vein 3 only at its base; A. melos (very locally known, from Kinabalu Park) has a broader brand on both sides of vein 4's base.",
+      "guide_link": "guide.html#wing-venation",
       "choices": [
         {
           "label": "Narrow brand, touching vein 3 only near its base",
@@ -328,6 +334,7 @@
       "id": "q_leogoron_unicolor",
       "question": "On the hindwing underside, is the visual brand on vein 4 a broad oval patch extending well along vein 3 for most of its length?",
       "hint": "A. leogoron has a broad oval brand reaching well along vein 3. A. unicolor's brand is narrower, covering roughly half the length of vein 4 only.",
+      "guide_link": "guide.html#wing-venation",
       "choices": [
         {
           "label": "Yes \u2014 broad oval brand extending well along vein 3",
@@ -422,6 +429,7 @@
       "id": "q_davidis_nivalis",
       "question": "On the hindwing underside, is the central spot in space 7 (near the costa, mid-wing) noticeably blackened compared to the surrounding spots?",
       "hint": "Space 7 lies along the hindwing costa. A. davidis shows a blackened central spot here (and a blackened postdiscal spot on its inner edge); A. nivalis does not.",
+      "guide_link": "guide.html#wing-venation",
       "choices": [
         {
           "label": "Yes \u2014 central spot in space 7 is blackened",
