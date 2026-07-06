@@ -2,7 +2,7 @@
 """
 Query the Butterflies of Peninsular Malaysia notebook for Allotinus species.
 Saves each response to allotinus_data/{species_name}.txt
-Respects the 200 queries/day limit — skips species already queried.
+Respects the 40 queries/day limit — skips species already queried.
 """
 
 import json
