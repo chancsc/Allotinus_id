@@ -87,8 +87,7 @@ def query_species(species: str, prompt_override: str | None = None) -> str | Non
         return None
 
     question = prompt_override or (
-        f"{species} - share the underside ID keys, including wing length/size, "
-        "tail info, upperside id keys"
+        f"{species} - share the underside Diagnostic Key Path (with Key Numbers)"
     )
 
     print(f"[QUERY] {species} ...", flush=True)
