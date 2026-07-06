@@ -1,0 +1,43 @@
+Query: share all the diagnostic key of Allotinus in full text, exclude plate info and visual reference
+
+Key to the Species of Allotinus
+1 (10): Upperside forewing vein 4 not or only very slightly swollen in ♂; veins 6 and 7 separate (except in A. agnolia). Subgenus Allotinus.
+2 (9): Upperside with pale blue or white areas.
+3 (4): Upperside with pale blue areas. ... Allotinus subviolaceus
+4: Upperside with white areas.
+5 (6): Upperside hindwing with broad white band. ... Allotinus albifasciatus
+6: Upperside hindwing brown.
+7 (8): Forewing veins 6 and 7 separate; vein 4 not swollen in ♂. ... Allotinus fallax
+8: Forewing veins 6 and 7 stalked; vein 4 weakly swollen in ♂. Sumatra. ... Allotinus agnolia
+9: Upperside brown. ♂ forewing vein 4 weakly swollen for one-quarter its length. Underside generally resembling a species of Fabitaras. Sumatra and Borneo. ... Allotinus nicholsi
+10: ♂ forewing vein 4 swollen; veins 6 and 7 connate or stalked (except sometimes in nivalis group of Paragerydus).
+11 (24): Hindwing weak precostal vein normally present (absence is individual variation). ♂ valva with apical process; abdominal hair tufts inconspicuous. Subgenus Fabitaras.
+12 (15): Underside hindwing postdiscal series with spot in space 6 placed below or just inside the spot in space 7. ♂ hindwing caudate at vein 4.
+13 (14): Underside postdiscal spots enlarged and blotchy above vein 4 on forewing and vein 6 on hindwing; other striations less dense on a greyish white ground. ... Allotinus fabius
+14: Underside postdiscal series rather inconspicuous; forewing apex shaded with reddish brown, other striations dense on a buff ground. ... Allotinus borneensis
+15: Underside hindwing postdiscal stria in space 6 placed well outside the stria in space 7. ♂ hindwing rounded.
+16 (23): Upperside hindwing brown.
+17 (20): Underside hindwing postdiscal stria in space 6 placed on a more or less even arc with the striae in spaces 2-5. ♂ forewing vein 4 swollen for well over half its length.
+18 (19): Underside forewing postdiscal series dislocated at vein 4 and closer to the termen at the dorsum than at the costa; submarginal blackish spots outwardly edged with white. ... Allotinus sarrastes
+19: Underside forewing postdiscal series parallel to termen; submarginal spots not white edged in ♂, but weakly so in ♀. ... Allotinus portunus
+20: Underside hindwing postdiscal stria in space 6 placed mid-way between the striae in spaces 5 and 7. ♂ forewing vein 4 swollen for half its length or less.
+21 (22): Underside pale buff. ♂ forewing vein 4 swollen for half its length; visual brand 2.0 mm wide. ... Allotinus strigatus
+22: Underside white. ♂ forewing vein 4 swollen for one third its length; visual brand inconspicuous and less than 1.0 mm wide. Borneo. ... Allotinus bidiensis
+23: Upperside hindwing tornal quarter white. Borneo. ... Allotinus brooksi
+24: Hindwing without precostal vein. ♂ valva with costa abruptly truncate but ending in a ventral, more or less pointed process; abdominal hair tufts prominent and permanently extruded. Subgenus Paragerydus.
+25 (40): Upperside brown.
+26 (31): Forewing with a white costal fleck at the end of vein 7. ♂ forewing without a visual brand.
+27 (30): Underside hindwing central spot in space 7 blackened. Smaller, fwl 9.0-14.0 mm.
+28 (29): Underside greyish white; hindwing postdiscal spot in space 7 not blackened. ... Allotinus substrigosus
+29: Underside pale buff; hindwing postdiscal spot in space 7 blackened on its inner edge. ... Allotinus davidis
+30: Underside hindwing central spot in space 7 not blackened. Larger, fwl 12.5-15.5 mm. Borneo. ... Allotinus nivalis
+31: Forewing without a white costal fleck at the end of vein 7. ♂ forewing with a visual brand (except in A. corbeti).
+32 (33): Small, fwl 10.0-12.0 mm. ♂ forewing apex rounded, vein 4 swollen for one third its length, no visual brand. ♂♀ upperside uniform reddish brown; underside marked like A. leogoron. ... Allotinus corbeti
+33: Larger. ♂ forewing more or less produced; vein 4 swollen for at least half its length, visual brand present.
+34 (35): Underside forewing postdiscal series parallel to termen and usually rather obscure. Hindwing not dentate. ♂ upperside forewing brand oval, broad, extending more than half length of vein 4. ♀ upperside forewing with a paler area beyond end cell. ... Allotinus apries
+35: Underside forewing postdiscal series nearer termen at dorsum than at costa. Hindwing dentate, weakly so in ♂, more strongly in ♀.
+36 (39): Underside forewing postdiscal series dislocated at veins 4 and 2; hindwing with postdiscal spot in space 6 placed below or just inside the outer spot in space 7. ♂ upperside forewing brand more than half length of vein 4.
+37 (38): ♂ upperside forewing brand comparatively narrow, touching vein 3 only at its base. Uncus tip rostriform. Underside ground colour pale buff. ... Allotinus horsfieldi
+38: ♂ upperside forewing brand broad, touching vein 3 almost throughout its length. Uncus tip blunt. Underside ground colour greyish white, striae darker brown. ♀ hindwing dentations narrower than in A. horsfieldi. ... Allotinus leogoron
+39: [Note: Leads to the identification of Allotinus unicolor, described as the most common and widespread species of the genus, characterized by dark brown wings and a lack of visual brand on the male forewing].
+40: Underside greyish white or white. ♂ upperside with broad brown borders; hindwing with a pale shining blue patch. ♀ upperside forewing with a white discal patch and blue scaling at the base. Sumatra, Borneo, Palawan, Philippines. ... Allotinus melos
