@@ -1,18 +1,20 @@
 // Allotinus C&P Key — sequential dichotomous key navigation and scoring
-// Adapted from the Corbet & Pendlebury serial-lead key format.
+// Presentation model: single statement per couplet, answered Yes / No.
+// See notebook_data/id_keys_technical_design.txt for full spec.
 
 const GENUS_MARKER = 'Allotinus';
 const ANSWERS_KEY  = 'allotinus-ks-answers-v1';
 
 const ks = {
   couplets:   [],          // array from JSON
-  leads:      {},          // {leadNum: speciesName} for terminal leads
+  leads:      {},          // {leadNum_str: leadText} — terminal leads only
+  species_paths: {},       // {speciesName: [leadNums]} — for species detail page
   cpByNum:    new Map(),   // num_a (int) → couplet
   cpById:     new Map(),   // id → couplet
   speciesInfo: new Map(),  // "Allotinus foo" → {common_name, inat_url}
   answers:    [],          // [{coupletId, choice: 'A'|'B'|'skip'}]
   current:    null,        // current couplet object
-  result:     null,        // species name string when identified
+  result:     null,        // {leadNum, text, speciesName} when identified
   scores:     [],          // computed rankings
 };
 
@@ -24,21 +26,26 @@ function esc(s) {
     .replace(/"/g,'&quot;').replace(/'/g,'&#39;');
 }
 
+// Terminal if the lead text contains the genus name.
 function ksIsTerminal(n) {
-  return ks.leads[n] !== undefined;
+  return (ks.leads[String(n)] || '').includes(GENUS_MARKER);
 }
 
-// Walk forward from lead number t until we hit a couplet node or a terminal lead.
-// cpByNum is checked BEFORE leads: a lead number may appear in both when a couplet's
-// YES branch is itself a couplet entry (the terminal is only reached after that couplet).
+// Extract "Allotinus X" from a terminal lead text.
+function ksExtractSpecies(text) {
+  const m = text.match(/→\s*(Allotinus\s+\w+)/);
+  return m ? m[1] : (text.match(/\bAllotinus\s+\w+/)?.[0] || '');
+}
+
+// Walk forward from lead t: couplet-node beats terminal (cpByNum checked first).
 function ksResolve(t) {
   let steps = 0;
   while (steps++ < 500) {
-    // Couplet node?
     if (ks.cpByNum.has(t)) return { couplet: ks.cpByNum.get(t) };
-    // Terminal lead?
-    const sp = ks.leads[t];
-    if (sp) return { result: sp };
+    if (ksIsTerminal(t)) {
+      const text = ks.leads[String(t)];
+      return { result: { leadNum: t, text, speciesName: ksExtractSpecies(text) } };
+    }
     t++;
   }
   return { dead: true };
@@ -46,21 +53,20 @@ function ksResolve(t) {
 
 function ksChoose(cp, choice) {
   if (choice === 'A') {
-    if (ksIsTerminal(cp.num_a)) return { result: ks.leads[cp.num_a] };
+    if (ksIsTerminal(cp.num_a)) {
+      const text = ks.leads[String(cp.num_a)];
+      return { result: { leadNum: cp.num_a, text, speciesName: ksExtractSpecies(text) } };
+    }
     return ksResolve(cp.num_a + 1);
   }
-  if (choice === 'B') {
-    return ksResolve(cp.num_b);
-  }
-  // skip = treat as B (go to alternate branch)
+  // choice 'B' or 'skip'
   return ksResolve(cp.num_b);
 }
 
 // ===== Scoring =====
 
 function ksScoreAll() {
-  // Collect all species from couplet lists
-  const names = new Set(Object.values(ks.leads));
+  const names = new Set();
   for (const cp of ks.couplets) {
     cp.species_a.forEach(s => names.add(s));
     cp.species_b.forEach(s => names.add(s));
@@ -142,7 +148,6 @@ function ksOnAnswer(choice) {
 }
 
 function ksBack(index) {
-  // Truncate answers to `index` entries and replay
   ks.answers = ks.answers.slice(0, index);
   ksSave();
   ksReplay();
@@ -170,13 +175,12 @@ function ksLinkify(text, phrase, link) {
     esc(text.slice(idx + phrase.length));
 }
 
-function ksSpeciesDisplayName(name) {
-  // Abbreviate genus: "Allotinus strigatus" → "A. strigatus"
-  return name.replace(/^Allotinus /, 'A. ');
-}
-
 function ksSpeciesEpithet(name) {
   return name.replace(/^Allotinus /, '');
+}
+
+function ksSpeciesDisplayName(name) {
+  return name.replace(/^Allotinus /, 'A. ');
 }
 
 // ===== Render functions =====
@@ -185,9 +189,9 @@ function ksRenderBreadcrumb() {
   if (!ks.answers.length) return '';
   const crumbs = ks.answers.map((a, i) => {
     const cp = ks.cpById.get(a.coupletId);
-    const label = cp ? cp.label : a.coupletId;
+    const keyLabel = cp ? ('Key ' + cp.num_a) : a.coupletId;
     const choiceLabel = a.choice === 'A' ? 'Yes' : a.choice === 'B' ? 'No' : 'Skip';
-    return `<button class="ks-crumb" data-idx="${i}" title="Back to ${label}">${esc(label)} ${esc(choiceLabel)}</button>`;
+    return `<button class="ks-crumb" data-idx="${i}" title="Back to ${keyLabel}">${esc(keyLabel)}: ${esc(choiceLabel)}</button>`;
   });
   return `<div class="ks-breadcrumb-wrap">
     <div class="ks-breadcrumb">
@@ -197,36 +201,35 @@ function ksRenderBreadcrumb() {
   </div>`;
 }
 
+// Single-statement Yes/No card — spec §PRESENTATION MODEL.
+// b_text is the alternate lead's own statement; it is NOT shown here.
 function ksRenderCouplet(cp) {
   const canSkip = cp.upperside;
-  const hintHtml = cp.hint
-    ? `<p class="ks-hint">${esc(cp.hint)}</p>` : '';
+  const stmtHtml = ksLinkify(cp.a_text, cp.guide_phrase, cp.guide_link);
   const guideHtml = (cp.guide_phrase && cp.guide_link)
     ? `<a href="${esc(cp.guide_link)}" class="question-guide-link" target="_blank" rel="noopener">📷 Visual guide →</a>` : '';
-
-  const stmtHtml = ksLinkify(cp.a_text, cp.guide_phrase, cp.guide_link);
-  const altHtml  = esc(cp.b_text);
+  const hintHtml = cp.hint
+    ? `<p class="ks-hint">${esc(cp.hint)}</p>` : '';
 
   return `
     <div class="card ks-card" id="ks-couplet-card">
       <div class="ks-label-row">
-        <span class="ks-label">${esc(cp.label)}</span>
+        <span class="ks-label">Key ${cp.num_a}</span>
         ${cp.upperside ? '<span class="ks-us-badge">Upperside</span>' : ''}
       </div>
       <p class="ks-stmt">${stmtHtml}</p>
       ${hintHtml}
       ${guideHtml}
-      <p class="ks-alt-label">If not — the alternative is:</p>
-      <p class="ks-alt">${altHtml}</p>
       <div class="ks-btn-row">
-        <button class="ks-btn ks-btn--yes" id="ks-btn-a">Yes — this applies</button>
-        <button class="ks-btn ks-btn--no"  id="ks-btn-b">No — go to alternative</button>
+        <button class="ks-btn ks-btn--yes" id="ks-btn-a">Yes</button>
+        <button class="ks-btn ks-btn--no"  id="ks-btn-b">No</button>
         ${canSkip ? '<button class="ks-btn ks-btn--skip" id="ks-btn-skip">Skip (upperside not visible)</button>' : ''}
       </div>
     </div>`;
 }
 
-function ksRenderResult(speciesName) {
+function ksRenderResult(result) {
+  const { speciesName, text } = result;
   const info  = ks.speciesInfo.get(speciesName);
   const epithet = ksSpeciesEpithet(speciesName);
   const common = (info && info.common_name) || '';
@@ -236,7 +239,6 @@ function ksRenderResult(speciesName) {
     ? `<a href="${esc(inatUrl)}" class="btn-inat" target="_blank" rel="noopener">View on iNaturalist →</a>`
     : '';
 
-  // Score for this species
   const sc = ks.scores.find(s => s.name === speciesName);
   const scoreHtml = sc && sc.max > 0
     ? `<p class="ks-score-note">${sc.score}/${sc.max} couplets consistent</p>` : '';
@@ -256,14 +258,11 @@ function ksRenderResult(speciesName) {
 
 function ksRenderCandidates() {
   if (!ks.scores.length) return '';
-  const top = ks.scores[0];
   const items = ks.scores.slice(0, 21).map((s, i) => {
     const info = ks.speciesInfo.get(s.name);
     const common = info && info.common_name ? `<span class="ks-cand-common">${esc(info.common_name)}</span>` : '';
-    const pct = s.max > 0 ? Math.max(0, Math.round((s.score / s.max) * 100)) : 0;
-    const isTop = i === 0;
     const barW = s.max > 0 ? Math.max(0, ((s.score + s.max) / (2 * s.max)) * 100) : 50;
-    return `<li class="ks-cand${isTop ? ' ks-cand--top' : ''}">
+    return `<li class="ks-cand${i === 0 ? ' ks-cand--top' : ''}">
       <span class="ks-cand-rank">${i + 1}</span>
       <div class="ks-cand-info">
         <span class="ks-cand-name">${esc(ksSpeciesDisplayName(s.name))}</span>
@@ -304,7 +303,6 @@ function ksRender() {
   html += ksRenderCandidates();
   app.innerHTML = html;
 
-  // Attach event listeners
   const btnA    = document.getElementById('ks-btn-a');
   const btnB    = document.getElementById('ks-btn-b');
   const btnSkip = document.getElementById('ks-btn-skip');
@@ -329,21 +327,21 @@ async function ksInit() {
       fetch('data/species.json').then(r => r.json()).catch(() => ({ species: [] })),
     ]);
 
-    ks.couplets = keyData.couplets;
-    ks.leads    = keyData.leads;
+    ks.couplets      = keyData.couplets;
+    ks.leads         = keyData.leads;
+    ks.species_paths = keyData.species_paths || {};
 
     for (const cp of ks.couplets) {
       ks.cpById.set(cp.id, cp);
       ks.cpByNum.set(cp.num_a, cp);
     }
 
-    // Build species info map from species.json
     const speciesList = speciesData.species || [];
     for (const sp of speciesList) {
       const key2 = sp.name.split(' ').slice(0, 2).join(' ');
-      ks.speciesInfo.set(key2, { common_name: sp.common_name || '', inat_url: sp.inat_url || '' });
-      // Also try full name
-      if (sp.name !== key2) ks.speciesInfo.set(sp.name, { common_name: sp.common_name || '', inat_url: sp.inat_url || '' });
+      const info = { common_name: sp.common_name || '', inat_url: sp.inat_url || '' };
+      ks.speciesInfo.set(key2, info);
+      if (sp.name !== key2) ks.speciesInfo.set(sp.name, info);
     }
 
     ks.current = ks.couplets[0];
