@@ -4,6 +4,7 @@ const state = {
   speciesIndex: [],    // [{name, common_name, note, taxon_photos, inat_url}] sorted A-Z
   questionNumbers: null, // Map<questionText, number> — stable Q-numbers by DFS order
   simCdPaths: null,    // Map<resultName, [{question, choice}]> — pre-computed by Python
+  cpKey: null,         // {couplets, leads, species_paths} from data/id_key.json
   currentNodeId: null,
   history: []          // [{ nodeId, choiceLabel }, ...]
 };
@@ -657,10 +658,11 @@ async function initSpeciesPage() {
   const loadingEl = document.getElementById('loading');
   const appEl = document.getElementById('species-app');
   try {
-    const [treeRes, speciesRes, simCdRes] = await Promise.all([
+    const [treeRes, speciesRes, simCdRes, cpKeyRes] = await Promise.all([
       fetch('data/tree.json', { cache: 'no-cache' }),
       fetch('data/species.json', { cache: 'no-cache' }),
-      fetch('data/sim_cd_paths.json', { cache: 'no-cache' })
+      fetch('data/sim_cd_paths.json', { cache: 'no-cache' }),
+      fetch('data/id_key.json', { cache: 'no-cache' })
     ]);
     if (!treeRes.ok || !speciesRes.ok) throw new Error('Failed to load data');
     const [treeData, speciesData] = await Promise.all([treeRes.json(), speciesRes.json()]);
@@ -668,6 +670,7 @@ async function initSpeciesPage() {
     state.speciesIndex = buildSpeciesIndex(treeData, speciesData);
     state.questionNumbers = buildQuestionNumbers(treeData);
     state.simCdPaths = simCdRes.ok ? new Map(Object.entries(await simCdRes.json())) : null;
+    state.cpKey = cpKeyRes.ok ? await cpKeyRes.json() : null;
     loadingEl.style.display = 'none';
     appEl.style.display = '';
 
@@ -730,6 +733,74 @@ async function initSpeciesPage() {
   }
 }
 
+// Build the C&P key path block for a species (spec §4).
+// Walks the couplet chain using species_paths, mirrors id_keys.js navigation.
+function buildCPKeyPath(speciesName) {
+  if (!state.cpKey) return '';
+  const { couplets, leads, species_paths } = state.cpKey;
+
+  const sp2 = speciesName.split(' ').slice(0, 2).join(' ');
+  const path = species_paths[sp2] || species_paths[speciesName];
+  if (!path || !path.length) return '';
+
+  const cpByNum = new Map();
+  for (const cp of couplets) cpByNum.set(cp.num_a, cp);
+
+  function isTerminal(n) { return (leads[String(n)] || '').includes('Allotinus'); }
+
+  function resolve(t) {
+    let steps = 0;
+    while (steps++ < 200) {
+      if (cpByNum.has(t)) return cpByNum.get(t);
+      if (isTerminal(t)) return null;
+      t++;
+    }
+    return null;
+  }
+
+  const steps = [];
+  let cur = couplets[0];
+  for (const leadNum of path) {
+    if (!cur) break;
+    const yes = (leadNum === cur.num_a);
+    steps.push({ keyNum: cur.num_a, a_text: cur.a_text, guide_phrase: cur.guide_phrase || '', guide_link: cur.guide_link || '', yes });
+    if (yes) {
+      if (isTerminal(cur.num_a)) { cur = null; break; }
+      cur = resolve(cur.num_a + 1);
+    } else {
+      if (isTerminal(cur.num_b)) { cur = null; break; }
+      cur = resolve(cur.num_b);
+    }
+  }
+
+  if (!steps.length) return '';
+
+  const stepsHtml = steps.map(s => {
+    let qText = escapeHtml(s.a_text);
+    if (s.guide_phrase && s.guide_link) {
+      const idx = s.a_text.indexOf(s.guide_phrase);
+      if (idx >= 0) {
+        qText = escapeHtml(s.a_text.slice(0, idx))
+          + `<a href="${escapeAttr(s.guide_link)}" class="path-guide-link" target="_blank" rel="noopener">${escapeHtml(s.guide_phrase)}</a>`
+          + escapeHtml(s.a_text.slice(idx + s.guide_phrase.length));
+      }
+    }
+    return `
+      <li class="path-step path-step--cp">
+        <span class="path-q"><span class="path-cpnum">Key ${s.keyNum}</span>${qText}</span>
+        <span class="path-a">↳ ${s.yes ? 'Yes' : 'No'}</span>
+      </li>`;
+  }).join('');
+
+  return `
+    <details class="path-details path-details--cp">
+      <summary class="path-summary">C&amp;P key path — ${steps.length} step${steps.length !== 1 ? 's' : ''}</summary>
+      <div class="path-content">
+        <ol class="path-steps">${stepsHtml}</ol>
+      </div>
+    </details>`;
+}
+
 function showSpeciesDetailInline(sp) {
   const appEl = document.getElementById('species-app');
   if (appEl) appEl.classList.add('species-view');
@@ -745,6 +816,7 @@ function showSpeciesDetailInline(sp) {
     ${sp.common_name ? `<p class="species-name">${escapeHtml(sp.name)}</p>` : ''}
     ${noteHTML}
     ${buildPathDisplay(sp.paths, sp.note, sp.resultFeatures, sp.name)}
+    ${buildCPKeyPath(sp.name)}
     ${buildPhotoGallery(sp)}
     <a class="btn-inat" href="${escapeAttr(sp.inat_url)}" target="_blank" rel="noopener noreferrer">
       ${iconExternal()} View on iNaturalist

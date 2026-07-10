@@ -977,6 +977,42 @@ details[open] .path-summary::before { content: '▼ '; }
   font-style: italic;
 }
 
+/* C&P key path */
+.path-details--cp .path-summary {
+  background: #ede8df;
+  color: #5c4418;
+}
+
+.path-step--cp {
+  padding-left: 0;
+}
+
+.path-step--cp::before {
+  display: none;
+}
+
+.path-cpnum {
+  display: inline-block;
+  font-size: 0.62rem;
+  font-weight: 700;
+  color: var(--primary);
+  background: var(--border);
+  border-radius: 3px;
+  padding: 0.05em 0.3em;
+  margin-right: 0.3em;
+  vertical-align: 0.05em;
+  letter-spacing: 0;
+  white-space: nowrap;
+}
+
+.path-guide-link {
+  color: var(--primary);
+  text-decoration: underline;
+  text-decoration-style: dotted;
+  text-underline-offset: 2px;
+}
+.path-guide-link:hover { text-decoration-style: solid; }
+
 /* ===== App topbar (ID Key + Species Search pages) ===== */
 .app-topbar {
   position: sticky;
