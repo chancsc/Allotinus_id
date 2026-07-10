@@ -8,37 +8,49 @@
   <title>Allotinus ID — C&amp;P Key</title>
   <link rel="stylesheet" href="css/style.css">
   <style>
-    /* Topbar */
+    /* Topbar — fixed on this page */
     .app-topbar {
       position: fixed; top: 0; left: 0; right: 0; z-index: 100;
       display: flex; align-items: center; gap: 0.6rem;
       background: var(--primary); color: #fff;
-      padding: 0.65rem 1rem; min-height: 52px;
+      padding: 0.55rem 1rem; min-height: 52px;
     }
-    .app-topbar-menu-btn { color: #fff; font-size: 1.3rem; }
-    .app-topbar-title { font-size: 1rem; font-weight: 700; letter-spacing: 0.02em; }
+    .app-topbar-menu-btn { color: rgba(255,255,255,0.88); font-size: 1.2rem; flex-shrink: 0; }
+    .app-topbar-menu-btn:hover { background: rgba(255,255,255,0.15) !important; color: #fff; }
+    .app-topbar-title { font-size: 0.92rem; font-weight: 600; flex: 1; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+    .ks-answered-badge { font-size: 0.75rem; color: rgba(255,255,255,0.75); flex-shrink: 0; }
+    .ks-reset-btn {
+      background: none; border: 1px solid rgba(255,255,255,0.45); color: #fff;
+      border-radius: 5px; padding: 0.22rem 0.55rem; font-size: 0.78rem;
+      cursor: pointer; flex-shrink: 0;
+    }
+    .ks-reset-btn:hover { background: rgba(255,255,255,0.15); }
 
     /* Main wrapper */
-    #ks-app { max-width: 640px; margin: 0 auto; padding: 72px 0 3rem; }
+    #ks-app { max-width: 640px; margin: 0 auto; padding: 64px 0 3rem; }
 
-    /* ks-card spacing */
-    .ks-card { margin-bottom: 1rem; }
+    /* Intro */
+    .ks-intro { font-size: 0.82rem; color: var(--text-muted); margin: 0.9rem 0 0.5rem; line-height: 1.5; }
 
-    /* Breadcrumb */
-    .ks-breadcrumb-wrap { overflow-x: auto; white-space: nowrap; padding: 0.5rem 0; margin-bottom: 0.25rem; }
-    .ks-breadcrumb { display: inline-flex; align-items: center; gap: 0.2rem; font-size: 0.72rem; }
-    .ks-crumb-start { font-weight: 700; color: var(--primary); }
-    .ks-sep { color: var(--border); }
-    .ks-crumb {
+    /* History strip */
+    #ks-history { overflow-x: auto; white-space: nowrap; padding: 0.4rem 0 0.2rem; }
+    .ks-hist { display: inline-flex; align-items: center; gap: 0.2rem; font-size: 0.72rem; }
+    .ks-hist-sep { color: var(--border); user-select: none; padding: 0 0.1rem; }
+    .ks-hist-item {
       background: none; border: 1.5px solid var(--border); border-radius: 20px;
       padding: 0.15rem 0.55rem; font-size: 0.72rem; color: var(--text-muted);
       cursor: pointer; transition: border-color var(--transition), color var(--transition);
     }
-    .ks-crumb:hover { border-color: var(--primary); color: var(--primary); }
+    .ks-hist-item:hover { border-color: var(--primary); color: var(--primary); }
 
-    /* Label row */
-    .ks-label-row { display: flex; align-items: center; gap: 0.5rem; margin-bottom: 0.75rem; }
-    .ks-label {
+    /* Question card */
+    .ks-cp {
+      background: var(--card); border-radius: var(--radius); box-shadow: var(--shadow);
+      padding: 1.25rem 1.25rem 1rem; margin-bottom: 1rem;
+      animation: slideIn 0.2s ease-out;
+    }
+    .ks-cp-label { display: flex; align-items: center; gap: 0.45rem; margin-bottom: 0.65rem; }
+    .ks-label-tag {
       display: inline-block; background: var(--primary); color: #fff;
       font-size: 0.72rem; font-weight: 700; letter-spacing: 0.06em;
       padding: 0.18rem 0.55rem; border-radius: 4px;
@@ -48,75 +60,94 @@
       border: 1.5px solid #e0a040; font-size: 0.68rem; font-weight: 600;
       padding: 0.15rem 0.5rem; border-radius: 20px; letter-spacing: 0.04em;
     }
-
-    /* Statement */
-    .ks-stmt {
-      font-size: 1rem; font-weight: 600; line-height: 1.45;
-      margin-bottom: 0.6rem; color: var(--text);
+    .ks-cp-statement { font-size: 1rem; font-weight: 600; line-height: 1.45; color: var(--text); margin-bottom: 0.6rem; }
+    .ks-guide-link { color: var(--primary); text-decoration-style: dotted; text-underline-offset: 2px; }
+    .ks-guide-link:hover { text-decoration-style: solid; }
+    .ks-hint { font-size: 0.8rem; color: var(--text-muted); margin-bottom: 0.6rem; }
+    .ks-hint summary {
+      cursor: pointer; font-style: italic; list-style: none;
+      padding: 0.15rem 0 0.15rem 0.75rem; border-left: 3px solid var(--border);
     }
-
-    /* Hint */
-    .ks-hint {
-      font-size: 0.8rem; color: var(--text-muted); font-style: italic;
-      line-height: 1.5; margin-bottom: 0.6rem;
-      padding-left: 0.75rem; border-left: 3px solid var(--border);
-    }
+    .ks-hint summary::-webkit-details-marker { display: none; }
+    .ks-hint p { padding: 0.4rem 0 0 0.75rem; border-left: 3px solid var(--border); line-height: 1.5; }
 
     /* Buttons */
-    .ks-btn-row { display: flex; flex-direction: column; gap: 0.55rem; margin-top: 0.5rem; }
+    .ks-btn-row { display: flex; flex-direction: column; gap: 0.5rem; margin-top: 0.5rem; }
+    .ks-btn-row--yesno { flex-direction: row; }
     .ks-btn {
-      display: block; width: 100%; min-height: 48px; padding: 0.65rem 1rem;
-      border-radius: 8px; font-size: 0.92rem; font-weight: 600; text-align: left;
-      cursor: pointer; transition: background var(--transition), color var(--transition), border-color var(--transition);
+      flex: 1; min-height: 48px; padding: 0.65rem 1rem; border-radius: 8px;
+      font-size: 0.92rem; font-weight: 600; text-align: center; cursor: pointer;
+      transition: background var(--transition), color var(--transition), border-color var(--transition);
       border: 2px solid transparent;
     }
-    .ks-btn--yes { background: var(--primary); color: #fff; }
-    .ks-btn--yes:hover { background: var(--primary-light); }
-    .ks-btn--no { background: transparent; border-color: var(--primary); color: var(--primary); }
-    .ks-btn--no:hover { background: var(--primary); color: #fff; }
-    .ks-btn--skip { background: transparent; border-color: var(--border); color: var(--text-muted); font-size: 0.83rem; min-height: 40px; }
-    .ks-btn--skip:hover { border-color: var(--accent); color: var(--accent); }
-
-    /* Score note */
-    .ks-score-note { font-size: 0.8rem; color: var(--text-muted); margin: 0.3rem 0 1rem; }
-
-    /* Inline link */
-    .ks-inline-link { background: none; border: none; color: var(--primary); text-decoration: underline; cursor: pointer; font-size: inherit; }
-
-    /* Candidates */
-    .ks-candidates { margin-top: 0.5rem; }
-    .ks-cand-header {
-      font-size: 0.72rem; font-weight: 700; color: var(--text-muted);
-      text-transform: uppercase; letter-spacing: 0.05em;
-      margin-bottom: 0.4rem; display: flex; align-items: center; gap: 0.5rem;
+    .ks-btn-yes { background: var(--primary); color: #fff; }
+    .ks-btn-yes:hover { background: var(--primary-light); }
+    .ks-btn-no { background: transparent; border-color: var(--primary); color: var(--primary); }
+    .ks-btn-no:hover { background: var(--primary); color: #fff; }
+    .ks-btn-skip {
+      background: transparent; border-color: var(--border);
+      color: var(--text-muted); font-size: 0.83rem; min-height: 40px;
     }
-    .ks-cand-count { font-weight: 400; text-transform: none; letter-spacing: 0; }
-    .ks-cand-list { list-style: none; display: flex; flex-direction: column; gap: 0.3rem; }
-    .ks-cand {
+    .ks-btn-skip:hover { border-color: var(--accent); color: var(--accent); }
+
+    /* Result card */
+    .ks-result-card {
+      background: var(--card); border-radius: var(--radius); box-shadow: var(--shadow);
+      padding: 1.25rem; margin-bottom: 1rem; animation: slideIn 0.2s ease-out;
+    }
+    .ks-result-label {
+      font-size: 0.72rem; font-weight: 700; text-transform: uppercase;
+      letter-spacing: 0.06em; color: var(--primary); margin-bottom: 0.5rem;
+    }
+    .ks-result-species { font-size: 1.15rem; font-weight: 700; color: var(--text); margin-bottom: 0.2rem; }
+    .ks-result-common { font-size: 0.88rem; color: var(--text-muted); margin-bottom: 0.5rem; }
+    .ks-result-text {
+      font-size: 0.85rem; color: var(--text); line-height: 1.5; margin-bottom: 0.75rem;
+      background: #f0f5ef; border-left: 4px solid var(--primary);
+      padding: 0.5rem 0.75rem; border-radius: 0 6px 6px 0;
+    }
+    .ks-inat-link { font-size: 0.88rem; color: var(--primary); text-decoration: none; font-weight: 500; }
+    .ks-inat-link:hover { text-decoration: underline; }
+
+    /* Empty state */
+    .ks-empty { padding: 1.25rem 0; font-size: 0.85rem; color: var(--text-muted); text-align: center; }
+    .ks-btn-restart { background: none; border: none; color: var(--primary); text-decoration: underline; cursor: pointer; font-size: inherit; }
+
+    /* Candidates panel */
+    #ks-candidates {
+      background: var(--card); border-radius: var(--radius);
+      box-shadow: var(--shadow); overflow: hidden; margin-top: 1rem;
+    }
+    .ks-cand { border-bottom: 1px solid #f0ece4; }
+    .ks-cand:last-child { border-bottom: none; }
+    .ks-cand.expanded { background: #faf7f2; }
+    .ks-cand-row {
       display: flex; align-items: center; gap: 0.5rem;
-      background: var(--card); border-radius: 8px;
-      padding: 0.45rem 0.75rem; box-shadow: 0 1px 4px rgba(0,0,0,.07);
+      padding: 0.5rem 0.85rem; cursor: pointer;
+      transition: background var(--transition);
     }
-    .ks-cand--top {
-      border: 2px solid var(--primary);
+    .ks-cand-row:hover { background: #f5f1ea; }
+    .ks-cand.expanded .ks-cand-row { background: #f0ece4; }
+    .ks-rank { font-size: 0.9rem; width: 1.8rem; flex-shrink: 0; text-align: center; }
+    .ks-cname { flex: 1; min-width: 0; display: flex; flex-direction: column; }
+    .ks-sci { font-style: italic; font-size: 0.87rem; color: var(--text); }
+    .ks-common { font-size: 0.72rem; color: var(--text-muted); }
+    .ks-bar-wrap { display: flex; align-items: center; gap: 0.35rem; flex-shrink: 0; }
+    .ks-bar-bg { width: 60px; height: 6px; background: #e8e0d0; border-radius: 3px; overflow: hidden; }
+    .ks-bar { height: 6px; border-radius: 3px; background: var(--primary); transition: width 0.3s ease; min-width: 0; }
+    .ks-bar.neg { background: #c0392b; }
+    .ks-score-num { font-size: 0.72rem; font-weight: 600; color: var(--text-muted); width: 2.4rem; text-align: right; }
+    .ks-score-num.neg { color: #c0392b; }
+    .ks-inat-icon {
+      flex-shrink: 0; font-size: 0.9rem; text-decoration: none;
+      opacity: 0.5; padding: 0.1rem; border-radius: 3px; transition: opacity 0.15s;
     }
-    .ks-cand-rank { font-size: 0.72rem; font-weight: 700; color: var(--text-muted); min-width: 1.2rem; text-align: right; }
-    .ks-cand--top .ks-cand-rank { color: var(--primary); }
-    .ks-cand-info { flex: 1; min-width: 0; }
-    .ks-cand-name { font-size: 0.83rem; font-style: italic; color: var(--text); display: block; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
-    .ks-cand--top .ks-cand-name { font-weight: 700; color: var(--primary); }
-    .ks-cand-common { font-size: 0.72rem; color: var(--text-muted); font-style: normal; display: block; }
-    .ks-cand-bar-wrap { width: 48px; height: 5px; background: var(--border); border-radius: 3px; overflow: hidden; flex-shrink: 0; }
-    .ks-cand-bar { height: 100%; background: var(--primary); border-radius: 3px; transition: width 0.3s ease; }
-    .ks-cand--top .ks-cand-bar { background: var(--primary); }
-    .ks-cand-score { font-size: 0.72rem; font-weight: 700; color: var(--text-muted); min-width: 2rem; text-align: right; }
-    .ks-cand--top .ks-cand-score { color: var(--primary); }
+    .ks-inat-icon:hover { opacity: 1; }
+    .ks-cand-detail { padding: 0.5rem 0.85rem 0.75rem 3.15rem; border-top: 1px solid #e8e0d0; }
+    .ks-cand-score-detail { font-size: 0.78rem; color: var(--text-muted); margin-bottom: 0.3rem; }
 
     @media (min-width: 640px) {
-      #ks-app { padding: 72px 1rem 3rem; }
-      .ks-btn-row { flex-direction: row; flex-wrap: wrap; }
-      .ks-btn--yes, .ks-btn--no { flex: 1; }
-      .ks-btn--skip { width: 100%; }
+      #ks-app { padding: 64px 1rem 3rem; }
     }
   </style>
 </head>
@@ -130,6 +161,8 @@
   <div id="app-topbar" class="app-topbar" style="display:none">
     <button class="menu-btn app-topbar-menu-btn" id="menu-btn" aria-label="Open menu">&#9776;</button>
     <span class="app-topbar-title">C&amp;P Key</span>
+    <span id="ks-answered-count" class="ks-answered-badge"></span>
+    <button id="ks-reset" class="ks-reset-btn">Reset</button>
   </div>
 
   <!-- Persistent menu overlay — lives outside #ks-app so render() never wipes it -->
@@ -171,7 +204,12 @@
     </div>
   </div>
 
-  <div id="ks-app" style="display:none" role="main"></div>
+  <div id="ks-app" style="display:none" role="main">
+    <p class="ks-intro">Work through the C&amp;P dichotomous key one couplet at a time. Answer <strong>Yes</strong> (statement matches) or <strong>No</strong> (doesn't match) to advance. Candidates are ranked as you go.</p>
+    <div id="ks-history"></div>
+    <div id="ks-couplets"></div>
+    <div id="ks-candidates"></div>
+  </div>
 
   <noscript>
     <div style="padding:2rem;text-align:center;font-family:sans-serif;">
