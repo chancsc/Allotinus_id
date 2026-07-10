@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Corbet &amp; Pendlebury sequential dichotomous identification key for Malaysian Allotinus butterflies.">
+  <meta name="theme-color" content="#2d5a27">
+  <title>Allotinus ID — C&amp;P Key</title>
+  <link rel="stylesheet" href="css/style.css">
+  <style>
+    /* Topbar */
+    .app-topbar {
+      position: fixed; top: 0; left: 0; right: 0; z-index: 100;
+      display: flex; align-items: center; gap: 0.6rem;
+      background: var(--primary); color: #fff;
+      padding: 0.65rem 1rem; min-height: 52px;
+    }
+    .app-topbar-menu-btn { color: #fff; font-size: 1.3rem; }
+    .app-topbar-title { font-size: 1rem; font-weight: 700; letter-spacing: 0.02em; }
+
+    /* Main wrapper */
+    #ks-app { max-width: 640px; margin: 0 auto; padding: 72px 0 3rem; }
+
+    /* ks-card spacing */
+    .ks-card { margin-bottom: 1rem; }
+
+    /* Breadcrumb */
+    .ks-breadcrumb-wrap { overflow-x: auto; white-space: nowrap; padding: 0.5rem 0; margin-bottom: 0.25rem; }
+    .ks-breadcrumb { display: inline-flex; align-items: center; gap: 0.2rem; font-size: 0.72rem; }
+    .ks-crumb-start { font-weight: 700; color: var(--primary); }
+    .ks-sep { color: var(--border); }
+    .ks-crumb {
+      background: none; border: 1.5px solid var(--border); border-radius: 20px;
+      padding: 0.15rem 0.55rem; font-size: 0.72rem; color: var(--text-muted);
+      cursor: pointer; transition: border-color var(--transition), color var(--transition);
+    }
+    .ks-crumb:hover { border-color: var(--primary); color: var(--primary); }
+
+    /* Label row */
+    .ks-label-row { display: flex; align-items: center; gap: 0.5rem; margin-bottom: 0.75rem; }
+    .ks-label {
+      display: inline-block; background: var(--primary); color: #fff;
+      font-size: 0.72rem; font-weight: 700; letter-spacing: 0.06em;
+      padding: 0.18rem 0.55rem; border-radius: 4px;
+    }
+    .ks-us-badge {
+      display: inline-block; background: #fff3e0; color: #a05000;
+      border: 1.5px solid #e0a040; font-size: 0.68rem; font-weight: 600;
+      padding: 0.15rem 0.5rem; border-radius: 20px; letter-spacing: 0.04em;
+    }
+
+    /* Statement */
+    .ks-stmt {
+      font-size: 1rem; font-weight: 600; line-height: 1.45;
+      margin-bottom: 0.6rem; color: var(--text);
+    }
+
+    /* Hint */
+    .ks-hint {
+      font-size: 0.8rem; color: var(--text-muted); font-style: italic;
+      line-height: 1.5; margin-bottom: 0.6rem;
+      padding-left: 0.75rem; border-left: 3px solid var(--border);
+    }
+
+    /* Alt text */
+    .ks-alt-label { font-size: 0.72rem; font-weight: 700; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.05em; margin: 0.9rem 0 0.3rem; }
+    .ks-alt { font-size: 0.85rem; color: var(--text-muted); line-height: 1.5; margin-bottom: 1rem; }
+
+    /* Buttons */
+    .ks-btn-row { display: flex; flex-direction: column; gap: 0.55rem; margin-top: 0.5rem; }
+    .ks-btn {
+      display: block; width: 100%; min-height: 48px; padding: 0.65rem 1rem;
+      border-radius: 8px; font-size: 0.92rem; font-weight: 600; text-align: left;
+      cursor: pointer; transition: background var(--transition), color var(--transition), border-color var(--transition);
+      border: 2px solid transparent;
+    }
+    .ks-btn--yes { background: var(--primary); color: #fff; }
+    .ks-btn--yes:hover { background: var(--primary-light); }
+    .ks-btn--no { background: transparent; border-color: var(--primary); color: var(--primary); }
+    .ks-btn--no:hover { background: var(--primary); color: #fff; }
+    .ks-btn--skip { background: transparent; border-color: var(--border); color: var(--text-muted); font-size: 0.83rem; min-height: 40px; }
+    .ks-btn--skip:hover { border-color: var(--accent); color: var(--accent); }
+
+    /* Score note */
+    .ks-score-note { font-size: 0.8rem; color: var(--text-muted); margin: 0.3rem 0 1rem; }
+
+    /* Inline link */
+    .ks-inline-link { background: none; border: none; color: var(--primary); text-decoration: underline; cursor: pointer; font-size: inherit; }
+
+    /* Candidates */
+    .ks-candidates { margin-top: 0.5rem; }
+    .ks-cand-header {
+      font-size: 0.72rem; font-weight: 700; color: var(--text-muted);
+      text-transform: uppercase; letter-spacing: 0.05em;
+      margin-bottom: 0.4rem; display: flex; align-items: center; gap: 0.5rem;
+    }
+    .ks-cand-count { font-weight: 400; text-transform: none; letter-spacing: 0; }
+    .ks-cand-list { list-style: none; display: flex; flex-direction: column; gap: 0.3rem; }
+    .ks-cand {
+      display: flex; align-items: center; gap: 0.5rem;
+      background: var(--card); border-radius: 8px;
+      padding: 0.45rem 0.75rem; box-shadow: 0 1px 4px rgba(0,0,0,.07);
+    }
+    .ks-cand--top {
+      border: 2px solid var(--primary);
+    }
+    .ks-cand-rank { font-size: 0.72rem; font-weight: 700; color: var(--text-muted); min-width: 1.2rem; text-align: right; }
+    .ks-cand--top .ks-cand-rank { color: var(--primary); }
+    .ks-cand-info { flex: 1; min-width: 0; }
+    .ks-cand-name { font-size: 0.83rem; font-style: italic; color: var(--text); display: block; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+    .ks-cand--top .ks-cand-name { font-weight: 700; color: var(--primary); }
+    .ks-cand-common { font-size: 0.72rem; color: var(--text-muted); font-style: normal; display: block; }
+    .ks-cand-bar-wrap { width: 48px; height: 5px; background: var(--border); border-radius: 3px; overflow: hidden; flex-shrink: 0; }
+    .ks-cand-bar { height: 100%; background: var(--primary); border-radius: 3px; transition: width 0.3s ease; }
+    .ks-cand--top .ks-cand-bar { background: var(--primary); }
+    .ks-cand-score { font-size: 0.72rem; font-weight: 700; color: var(--text-muted); min-width: 2rem; text-align: right; }
+    .ks-cand--top .ks-cand-score { color: var(--primary); }
+
+    @media (min-width: 640px) {
+      #ks-app { padding: 72px 1rem 3rem; }
+      .ks-btn-row { flex-direction: row; flex-wrap: wrap; }
+      .ks-btn--yes, .ks-btn--no { flex: 1; }
+      .ks-btn--skip { width: 100%; }
+    }
+  </style>
+</head>
+<body>
+
+  <div id="loading" role="status" aria-live="polite">
+    <div class="spinner" aria-hidden="true"></div>
+    <span>Loading C&amp;P key…</span>
+  </div>
+
+  <div id="app-topbar" class="app-topbar" style="display:none">
+    <button class="menu-btn app-topbar-menu-btn" id="menu-btn" aria-label="Open menu">&#9776;</button>
+    <span class="app-topbar-title">C&amp;P Key</span>
+  </div>
+
+  <!-- Persistent menu overlay — lives outside #ks-app so render() never wipes it -->
+  <div id="menu-overlay" class="menu-overlay" role="dialog" aria-modal="true" aria-label="Menu">
+    <div class="menu-panel">
+
+      <div class="menu-header">
+        <h2 class="menu-title">Allotinus ID</h2>
+        <button id="menu-close" class="menu-close" aria-label="Close menu">✕</button>
+      </div>
+
+      <nav class="menu-nav" aria-label="Navigation">
+        <a href="index.html" class="menu-nav-item" id="nav-home" aria-label="Home — where to start">
+          <span class="menu-nav-item-label">Home</span>
+          <span class="menu-nav-item-desc">Where to start</span>
+        </a>
+        <a href="checklist.html" class="menu-nav-item" id="nav-scoring" aria-label="Feature Scoring — score multiple features at once">
+          <span class="menu-nav-item-label">Feature Scoring</span>
+          <span class="menu-nav-item-desc">Score multiple features at once</span>
+        </a>
+        <a href="species.html" class="menu-nav-item" id="nav-species" aria-label="Species Search — browse all covered taxa">
+          <span class="menu-nav-item-label">Species Search</span>
+          <span class="menu-nav-item-desc">Browse all covered taxa</span>
+        </a>
+        <a href="guide.html" class="menu-nav-item" id="nav-guide" aria-label="Visual Guide — wing diagrams and terminology">
+          <span class="menu-nav-item-label">Visual Guide</span>
+          <span class="menu-nav-item-desc">Wing diagrams &amp; terminology</span>
+        </a>
+        <a href="key.html" class="menu-nav-item" id="nav-idkey" aria-label="ID Key — step-by-step identification">
+          <span class="menu-nav-item-label">ID Key</span>
+          <span class="menu-nav-item-desc">Step-by-step identification</span>
+        </a>
+        <button class="menu-nav-item active" id="nav-cpkey" aria-label="C&amp;P Key — Corbet &amp; Pendlebury serial-lead key">
+          <span class="menu-nav-item-label">C&amp;P Key</span>
+          <span class="menu-nav-item-desc">Corbet &amp; Pendlebury serial-lead key</span>
+        </button>
+        <a href="about.html" class="menu-nav-item" id="nav-about" aria-label="About — how to use this app">
+          <span class="menu-nav-item-label">About</span>
+          <span class="menu-nav-item-desc">How to use this app</span>
+        </a>
+      </nav>
+
+    </div>
+  </div>
+
+  <div id="ks-app" style="display:none" role="main"></div>
+
+  <noscript>
+    <div style="padding:2rem;text-align:center;font-family:sans-serif;">
+      <p>This identification tool requires JavaScript to run.<br>
+      Please enable JavaScript in your browser and reload the page.</p>
+    </div>
+  </noscript>
+
+  <script>
+    // Menu open/close
+    (function () {
+      const overlay = document.getElementById('menu-overlay');
+      const btnOpen = document.getElementById('menu-btn');
+      const btnClose = document.getElementById('menu-close');
+
+      function openMenu() {
+        overlay.classList.add('open');
+        btnClose.focus();
+      }
+      function closeMenu() {
+        overlay.classList.remove('open');
+        btnOpen.focus();
+      }
+
+      if (btnOpen)  btnOpen.addEventListener('click', openMenu);
+      if (btnClose) btnClose.addEventListener('click', closeMenu);
+
+      overlay.addEventListener('click', function (e) {
+        if (e.target === overlay) closeMenu();
+      });
+
+      document.addEventListener('keydown', function (e) {
+        if (e.key === 'Escape' && overlay.classList.contains('open')) closeMenu();
+      });
+    })();
+  </script>
+
+  <script src="js/id_keys.js"></script>
+</body>
+</html>

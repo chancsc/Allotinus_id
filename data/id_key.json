@@ -1,0 +1,476 @@
+{
+  "couplets": [
+    {
+      "id": "cp_1_10",
+      "num_a": 1,
+      "num_b": 10,
+      "label": "K1",
+      "question": "Upperside forewing vein 4 not or only very slightly swollen in \u2642; veins 6 and 7 separate (except in A. agnolia). Subgenus Allotinus.",
+      "a_text": "Upperside forewing vein 4 not or only very slightly swollen in \u2642; veins 6 and 7 separate (except in A. agnolia). \u2192 Subgenus Allotinus",
+      "b_text": "\u2642 forewing vein 4 swollen; veins 6 and 7 connate or stalked (except sometimes in the nivalis group of Paragerydus). \u2192 Subgenus Fabitaras or Paragerydus",
+      "upperside": true,
+      "hint": "Look at the \u2642 forewing: in Subgenus Allotinus, vein 4 is slender and veins 6 and 7 arise separately from the discal cell. In Fabitaras/Paragerydus, vein 4 is conspicuously thickened at the base.",
+      "guide_phrase": "vein 4",
+      "guide_link": "guide.html#wing-venation",
+      "species_a": [
+        "Allotinus subviolaceus",
+        "Allotinus albifasciatus",
+        "Allotinus fallax",
+        "Allotinus agnolia",
+        "Allotinus nicholsi"
+      ],
+      "species_b": [
+        "Allotinus fabius",
+        "Allotinus borneensis",
+        "Allotinus sarrastes",
+        "Allotinus portunus",
+        "Allotinus strigatus",
+        "Allotinus bidiensis",
+        "Allotinus brooksi",
+        "Allotinus substrigosus",
+        "Allotinus davidis",
+        "Allotinus nivalis",
+        "Allotinus corbeti",
+        "Allotinus apries",
+        "Allotinus horsfieldi",
+        "Allotinus leogoron",
+        "Allotinus unicolor",
+        "Allotinus melos"
+      ]
+    },
+    {
+      "id": "cp_2_9",
+      "num_a": 2,
+      "num_b": 9,
+      "label": "K2",
+      "question": "Upperside with pale blue or white areas.",
+      "a_text": "Upperside with pale blue or white areas.",
+      "b_text": "Upperside brown. \u2642 forewing vein 4 weakly swollen for one-quarter its length. Sumatra and Borneo. \u2192 Allotinus nicholsi",
+      "upperside": true,
+      "hint": "Within Subgenus Allotinus four species show pale blue or white on the upperside; only A. nicholsi is entirely brown above.",
+      "guide_phrase": "",
+      "guide_link": "",
+      "species_a": [
+        "Allotinus subviolaceus",
+        "Allotinus albifasciatus",
+        "Allotinus fallax",
+        "Allotinus agnolia"
+      ],
+      "species_b": [
+        "Allotinus nicholsi"
+      ]
+    },
+    {
+      "id": "cp_3_4",
+      "num_a": 3,
+      "num_b": 4,
+      "label": "K3",
+      "question": "Upperside with pale blue areas.",
+      "a_text": "Upperside with pale blue areas. \u2192 Allotinus subviolaceus",
+      "b_text": "Upperside with white areas.",
+      "upperside": true,
+      "hint": "A. subviolaceus is the only Allotinus with a blue-sheen upperside. All remaining species here show white rather than blue.",
+      "guide_phrase": "",
+      "guide_link": "",
+      "species_a": [
+        "Allotinus subviolaceus"
+      ],
+      "species_b": [
+        "Allotinus albifasciatus",
+        "Allotinus fallax",
+        "Allotinus agnolia"
+      ]
+    },
+    {
+      "id": "cp_5_6",
+      "num_a": 5,
+      "num_b": 6,
+      "label": "K4",
+      "question": "Upperside hindwing with a broad white band.",
+      "a_text": "Upperside hindwing with a broad white band. \u2192 Allotinus albifasciatus",
+      "b_text": "Upperside hindwing brown.",
+      "upperside": true,
+      "hint": "A. albifasciatus has a distinctive broad white band across the hindwing upperside, absent in A. fallax and A. agnolia.",
+      "guide_phrase": "",
+      "guide_link": "",
+      "species_a": [
+        "Allotinus albifasciatus"
+      ],
+      "species_b": [
+        "Allotinus fallax",
+        "Allotinus agnolia"
+      ]
+    },
+    {
+      "id": "cp_7_8",
+      "num_a": 7,
+      "num_b": 8,
+      "label": "K5",
+      "question": "Forewing veins 6 and 7 separate; vein 4 not swollen in \u2642.",
+      "a_text": "Forewing veins 6 and 7 separate; vein 4 not swollen in \u2642. \u2192 Allotinus fallax",
+      "b_text": "Forewing veins 6 and 7 stalked; vein 4 weakly swollen in \u2642. Sumatra. \u2192 Allotinus agnolia",
+      "upperside": true,
+      "hint": "Both species have a white forewing with a brown margin. Separate by examining the fusion state of forewing veins 6 and 7.",
+      "guide_phrase": "veins 6 and 7",
+      "guide_link": "guide.html#wing-venation",
+      "species_a": [
+        "Allotinus fallax"
+      ],
+      "species_b": [
+        "Allotinus agnolia"
+      ]
+    },
+    {
+      "id": "cp_11_24",
+      "num_a": 11,
+      "num_b": 24,
+      "label": "K6",
+      "question": "Hindwing weak precostal vein normally present; \u2642 abdominal hair tufts inconspicuous. Subgenus Fabitaras.",
+      "a_text": "Hindwing weak precostal vein normally present. \u2642 valva with apical process; abdominal hair tufts inconspicuous. \u2192 Subgenus Fabitaras",
+      "b_text": "Hindwing without precostal vein. \u2642 valva with costa abruptly truncate ending in a ventral pointed process; abdominal hair tufts prominent and permanently extruded. \u2192 Subgenus Paragerydus",
+      "upperside": false,
+      "hint": "This distinction requires close examination. In the field, Fabitaras species tend to be smaller with a rounded hindwing (except the two tailed species); Paragerydus species are more variable in size and pattern.",
+      "guide_phrase": "",
+      "guide_link": "",
+      "species_a": [
+        "Allotinus fabius",
+        "Allotinus borneensis",
+        "Allotinus sarrastes",
+        "Allotinus portunus",
+        "Allotinus strigatus",
+        "Allotinus bidiensis",
+        "Allotinus brooksi"
+      ],
+      "species_b": [
+        "Allotinus substrigosus",
+        "Allotinus davidis",
+        "Allotinus nivalis",
+        "Allotinus corbeti",
+        "Allotinus apries",
+        "Allotinus horsfieldi",
+        "Allotinus leogoron",
+        "Allotinus unicolor",
+        "Allotinus melos"
+      ]
+    },
+    {
+      "id": "cp_12_15",
+      "num_a": 12,
+      "num_b": 15,
+      "label": "K7",
+      "question": "Underside hindwing postdiscal series with spot in space 6 placed below or just inside spot in space 7; \u2642 hindwing caudate (tailed) at vein 4.",
+      "a_text": "Underside hindwing postdiscal series with spot in space 6 placed below or just inside the spot in space 7. \u2642 hindwing caudate at vein 4 (tailed).",
+      "b_text": "Underside hindwing postdiscal stria in space 6 placed well outside the stria in space 7. \u2642 hindwing rounded (tailless).",
+      "upperside": false,
+      "hint": "Check for a short tail (finger-like projection) at the hindwing vein 4 tip. The position of the postdiscal spot in space 6 relative to space 7 provides a corroborating underside character.",
+      "guide_phrase": "space 6",
+      "guide_link": "guide.html#wing-venation",
+      "species_a": [
+        "Allotinus fabius",
+        "Allotinus borneensis"
+      ],
+      "species_b": [
+        "Allotinus sarrastes",
+        "Allotinus portunus",
+        "Allotinus strigatus",
+        "Allotinus bidiensis",
+        "Allotinus brooksi"
+      ]
+    },
+    {
+      "id": "cp_13_14",
+      "num_a": 13,
+      "num_b": 14,
+      "label": "K8",
+      "question": "Underside postdiscal spots enlarged and blotchy above vein 4 on forewing and vein 6 on hindwing; striations less dense on a greyish white ground.",
+      "a_text": "Underside postdiscal spots enlarged and blotchy above vein 4 on forewing and vein 6 on hindwing; other striations less dense on a greyish white ground. \u2192 Allotinus fabius",
+      "b_text": "Underside postdiscal series rather inconspicuous; forewing apex shaded with reddish brown, other striations dense on a buff ground. \u2192 Allotinus borneensis",
+      "upperside": false,
+      "hint": "Both species are tailed. A. fabius has distinctive enlarged blotchy postdiscal spots on a grey-white ground. A. borneensis has a reddish-brown forewing apex and denser striations on a buff ground.",
+      "guide_phrase": "vein 4",
+      "guide_link": "guide.html#wing-venation",
+      "species_a": [
+        "Allotinus fabius"
+      ],
+      "species_b": [
+        "Allotinus borneensis"
+      ]
+    },
+    {
+      "id": "cp_16_23",
+      "num_a": 16,
+      "num_b": 23,
+      "label": "K9",
+      "question": "Upperside hindwing entirely brown (not white in tornal quarter).",
+      "a_text": "Upperside hindwing brown.",
+      "b_text": "Upperside hindwing tornal quarter white. Borneo. \u2192 Allotinus brooksi",
+      "upperside": true,
+      "hint": "A. brooksi (Borneo) is the only tailless Fabitaras with a white tornal patch on the hindwing upperside. All other tailless Fabitaras have a uniformly brown hindwing.",
+      "guide_phrase": "",
+      "guide_link": "",
+      "species_a": [
+        "Allotinus sarrastes",
+        "Allotinus portunus",
+        "Allotinus strigatus",
+        "Allotinus bidiensis"
+      ],
+      "species_b": [
+        "Allotinus brooksi"
+      ]
+    },
+    {
+      "id": "cp_17_20",
+      "num_a": 17,
+      "num_b": 20,
+      "label": "K10",
+      "question": "Underside hindwing postdiscal stria in space 6 on a more or less even arc with the striae in spaces 2\u20135; \u2642 forewing vein 4 swollen for well over half its length.",
+      "a_text": "Underside hindwing postdiscal stria in space 6 placed on a more or less even arc with the striae in spaces 2\u20135. \u2642 forewing vein 4 swollen for well over half its length.",
+      "b_text": "Underside hindwing postdiscal stria in space 6 placed mid-way between the striae in spaces 5 and 7. \u2642 forewing vein 4 swollen for half its length or less.",
+      "upperside": false,
+      "hint": "In A. sarrastes and A. portunus, the hindwing postdiscal spot in space 6 lines up in a smooth arc with spaces 2\u20135. In A. strigatus and A. bidiensis it sits mid-way between spaces 5 and 7.",
+      "guide_phrase": "space 6",
+      "guide_link": "guide.html#wing-venation",
+      "species_a": [
+        "Allotinus sarrastes",
+        "Allotinus portunus"
+      ],
+      "species_b": [
+        "Allotinus strigatus",
+        "Allotinus bidiensis"
+      ]
+    },
+    {
+      "id": "cp_18_19",
+      "num_a": 18,
+      "num_b": 19,
+      "label": "K11",
+      "question": "Underside forewing postdiscal series dislocated at vein 4 and closer to the termen at the dorsum than at the costa; submarginal blackish spots outwardly edged with white.",
+      "a_text": "Underside forewing postdiscal series dislocated at vein 4 and closer to the termen at the dorsum than at the costa; submarginal blackish spots outwardly edged with white. \u2192 Allotinus sarrastes",
+      "b_text": "Underside forewing postdiscal series parallel to termen; submarginal spots not white edged in \u2642, but weakly so in \u2640. \u2192 Allotinus portunus",
+      "upperside": false,
+      "hint": "Examine the forewing postdiscal row at vein 4: in A. sarrastes the spots on the dorsal side are displaced toward the wing margin (dislocation). Also check for white edging on the submarginal spots.",
+      "guide_phrase": "vein 4",
+      "guide_link": "guide.html#wing-venation",
+      "species_a": [
+        "Allotinus sarrastes"
+      ],
+      "species_b": [
+        "Allotinus portunus"
+      ]
+    },
+    {
+      "id": "cp_21_22",
+      "num_a": 21,
+      "num_b": 22,
+      "label": "K12",
+      "question": "Underside pale buff; \u2642 forewing vein 4 swollen for half its length; visual brand about 2.0 mm wide.",
+      "a_text": "Underside pale buff. \u2642 forewing vein 4 swollen for half its length; visual brand 2.0 mm wide. \u2192 Allotinus strigatus",
+      "b_text": "Underside white. \u2642 forewing vein 4 swollen for one third its length; visual brand inconspicuous and less than 1.0 mm wide. Borneo. \u2192 Allotinus bidiensis",
+      "upperside": false,
+      "hint": "Compare the underside ground colour (pale buff vs white) and the size of the \u2642 visual brand on vein 4 (2.0 mm vs less than 1.0 mm).",
+      "guide_phrase": "vein 4",
+      "guide_link": "guide.html#wing-venation",
+      "species_a": [
+        "Allotinus strigatus"
+      ],
+      "species_b": [
+        "Allotinus bidiensis"
+      ]
+    },
+    {
+      "id": "cp_25_40",
+      "num_a": 25,
+      "num_b": 40,
+      "label": "K13",
+      "question": "Upperside brown (without pale blue patch on hindwing in \u2642).",
+      "a_text": "Upperside brown.",
+      "b_text": "Underside greyish white or white. \u2642 upperside with broad brown borders; hindwing with a pale shining blue patch. \u2640 upperside forewing with a white discal patch and blue scaling at the base. Sumatra, Borneo, Palawan, Philippines. \u2192 Allotinus melos",
+      "upperside": true,
+      "hint": "A. melos stands out by the male's conspicuous blue patch on the hindwing upperside. All remaining Paragerydus species are uniformly brown above.",
+      "guide_phrase": "",
+      "guide_link": "",
+      "species_a": [
+        "Allotinus substrigosus",
+        "Allotinus davidis",
+        "Allotinus nivalis",
+        "Allotinus corbeti",
+        "Allotinus apries",
+        "Allotinus horsfieldi",
+        "Allotinus leogoron",
+        "Allotinus unicolor"
+      ],
+      "species_b": [
+        "Allotinus melos"
+      ]
+    },
+    {
+      "id": "cp_26_31",
+      "num_a": 26,
+      "num_b": 31,
+      "label": "K14",
+      "question": "Forewing with a white costal fleck at the end of vein 7; \u2642 forewing without a visual brand.",
+      "a_text": "Forewing with a white costal fleck at the end of vein 7. \u2642 forewing without a visual brand.",
+      "b_text": "Forewing without a white costal fleck at the end of vein 7. \u2642 forewing with a visual brand (except in A. corbeti).",
+      "upperside": true,
+      "hint": "Look for a small pale or white spot on the forewing costa near the apex (end of vein 7). This feature splits the brown Paragerydus into two groups.",
+      "guide_phrase": "vein 7",
+      "guide_link": "guide.html#wing-venation",
+      "species_a": [
+        "Allotinus substrigosus",
+        "Allotinus davidis",
+        "Allotinus nivalis"
+      ],
+      "species_b": [
+        "Allotinus corbeti",
+        "Allotinus apries",
+        "Allotinus horsfieldi",
+        "Allotinus leogoron",
+        "Allotinus unicolor"
+      ]
+    },
+    {
+      "id": "cp_27_30",
+      "num_a": 27,
+      "num_b": 30,
+      "label": "K15",
+      "question": "Underside hindwing central spot in space 7 blackened; smaller (forewing length 9.0\u201314.0 mm).",
+      "a_text": "Underside hindwing central spot in space 7 blackened. Smaller, forewing length 9.0\u201314.0 mm.",
+      "b_text": "Underside hindwing central spot in space 7 not blackened. Larger, forewing length 12.5\u201315.5 mm. Borneo. \u2192 Allotinus nivalis",
+      "upperside": false,
+      "hint": "Look for the central postdiscal spot in hindwing space 7. In A. substrigosus and A. davidis this spot is darkened; in the larger A. nivalis (Borneo) it is not.",
+      "guide_phrase": "space 7",
+      "guide_link": "guide.html#wing-venation",
+      "species_a": [
+        "Allotinus substrigosus",
+        "Allotinus davidis"
+      ],
+      "species_b": [
+        "Allotinus nivalis"
+      ]
+    },
+    {
+      "id": "cp_28_29",
+      "num_a": 28,
+      "num_b": 29,
+      "label": "K16",
+      "question": "Underside greyish white; hindwing postdiscal spot in space 7 not blackened on its inner edge.",
+      "a_text": "Underside greyish white; hindwing postdiscal spot in space 7 not blackened on its inner edge. \u2192 Allotinus substrigosus",
+      "b_text": "Underside pale buff; hindwing postdiscal spot in space 7 blackened on its inner edge. \u2192 Allotinus davidis",
+      "upperside": false,
+      "hint": "Compare the underside ground colour (grey-white vs pale buff) and whether the inner edge of the space 7 postdiscal spot is darkened.",
+      "guide_phrase": "space 7",
+      "guide_link": "guide.html#wing-venation",
+      "species_a": [
+        "Allotinus substrigosus"
+      ],
+      "species_b": [
+        "Allotinus davidis"
+      ]
+    },
+    {
+      "id": "cp_32_33",
+      "num_a": 32,
+      "num_b": 33,
+      "label": "K17",
+      "question": "Small (forewing length 10.0\u201312.0 mm); \u2642 forewing vein 4 swollen for only one third its length; no visual brand; upperside uniform reddish brown.",
+      "a_text": "Small, forewing length 10.0\u201312.0 mm. \u2642 forewing apex rounded, vein 4 swollen for one third its length, no visual brand. \u2642\u2640 upperside uniform reddish brown; underside marked like A. leogoron. \u2192 Allotinus corbeti",
+      "b_text": "Larger. \u2642 forewing more or less produced; vein 4 swollen for at least half its length, visual brand present.",
+      "upperside": true,
+      "hint": "A. corbeti is the smallest Paragerydus without a visual brand. Its uniform reddish-brown upperside and small size are distinctive.",
+      "guide_phrase": "vein 4",
+      "guide_link": "guide.html#wing-venation",
+      "species_a": [
+        "Allotinus corbeti"
+      ],
+      "species_b": [
+        "Allotinus apries",
+        "Allotinus horsfieldi",
+        "Allotinus leogoron",
+        "Allotinus unicolor"
+      ]
+    },
+    {
+      "id": "cp_34_35",
+      "num_a": 34,
+      "num_b": 35,
+      "label": "K18",
+      "question": "Underside forewing postdiscal series parallel to termen and usually rather obscure; hindwing not dentate; \u2642 forewing brand oval and broad, extending more than half length of vein 4.",
+      "a_text": "Underside forewing postdiscal series parallel to termen and usually rather obscure. Hindwing not dentate. \u2642 upperside forewing brand oval, broad, extending more than half length of vein 4. \u2640 upperside forewing with a paler area beyond end cell. \u2192 Allotinus apries",
+      "b_text": "Underside forewing postdiscal series nearer termen at dorsum than at costa. Hindwing dentate, weakly so in \u2642, more strongly in \u2640.",
+      "upperside": true,
+      "hint": "A. apries has a broad oval brand and a smooth (non-dentate) hindwing margin. The remaining species have a kinked postdiscal row and a dentate hindwing outer margin.",
+      "guide_phrase": "vein 4",
+      "guide_link": "guide.html#wing-venation",
+      "species_a": [
+        "Allotinus apries"
+      ],
+      "species_b": [
+        "Allotinus horsfieldi",
+        "Allotinus leogoron",
+        "Allotinus unicolor"
+      ]
+    },
+    {
+      "id": "cp_36_39",
+      "num_a": 36,
+      "num_b": 39,
+      "label": "K19",
+      "question": "Underside forewing postdiscal series dislocated at veins 4 and 2; hindwing postdiscal spot in space 6 placed below or just inside spot in space 7; \u2642 forewing brand more than half length of vein 4.",
+      "a_text": "Underside forewing postdiscal series dislocated at veins 4 and 2; hindwing with postdiscal spot in space 6 placed below or just inside the outer spot in space 7. \u2642 upperside forewing brand more than half length of vein 4.",
+      "b_text": "Underside postdiscal series not conspicuously dislocated; \u2642 forewing without a visual brand. The most common and widespread species of the genus. \u2192 Allotinus unicolor",
+      "upperside": false,
+      "hint": "A. unicolor is the most common Malaysian Allotinus, recognised by its plain dark brown wings and absence of a visual brand in the male. A. horsfieldi and A. leogoron both have prominent brands and dislocated postdiscal rows.",
+      "guide_phrase": "space 6",
+      "guide_link": "guide.html#wing-venation",
+      "species_a": [
+        "Allotinus horsfieldi",
+        "Allotinus leogoron"
+      ],
+      "species_b": [
+        "Allotinus unicolor"
+      ]
+    },
+    {
+      "id": "cp_37_38",
+      "num_a": 37,
+      "num_b": 38,
+      "label": "K20",
+      "question": "\u2642 forewing brand comparatively narrow, touching vein 3 only at its base; uncus tip rostriform; underside ground colour pale buff.",
+      "a_text": "\u2642 upperside forewing brand comparatively narrow, touching vein 3 only at its base. Uncus tip rostriform. Underside ground colour pale buff. \u2192 Allotinus horsfieldi",
+      "b_text": "\u2642 upperside forewing brand broad, touching vein 3 almost throughout its length. Uncus tip blunt. Underside ground colour greyish white, striations darker brown. \u2640 hindwing dentations narrower than in A. horsfieldi. \u2192 Allotinus leogoron",
+      "upperside": true,
+      "hint": "These two similar species are best separated by brand width (narrow vs broad), uncus shape, and underside colour (buff vs grey-white).",
+      "guide_phrase": "vein 3",
+      "guide_link": "guide.html#wing-venation",
+      "species_a": [
+        "Allotinus horsfieldi"
+      ],
+      "species_b": [
+        "Allotinus leogoron"
+      ]
+    }
+  ],
+  "leads": {
+    "3": "Allotinus subviolaceus",
+    "5": "Allotinus albifasciatus",
+    "7": "Allotinus fallax",
+    "8": "Allotinus agnolia",
+    "9": "Allotinus nicholsi",
+    "13": "Allotinus fabius",
+    "14": "Allotinus borneensis",
+    "18": "Allotinus sarrastes",
+    "19": "Allotinus portunus",
+    "21": "Allotinus strigatus",
+    "22": "Allotinus bidiensis",
+    "23": "Allotinus brooksi",
+    "28": "Allotinus substrigosus",
+    "29": "Allotinus davidis",
+    "30": "Allotinus nivalis",
+    "32": "Allotinus corbeti",
+    "34": "Allotinus apries",
+    "37": "Allotinus horsfieldi",
+    "38": "Allotinus leogoron",
+    "39": "Allotinus unicolor",
+    "40": "Allotinus melos"
+  }
+}
