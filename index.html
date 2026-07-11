@@ -190,6 +190,17 @@
       margin: 0 0 0.35rem;
     }
     .landing-intro-feature-desc:last-child { margin-bottom: 0; }
+    .landing-intro-sub-list {
+      margin: 0.1rem 0 0;
+      padding-left: 1rem;
+      list-style: none;
+      font-size: 0.75rem;
+      color: var(--text-muted);
+      line-height: 1.5;
+    }
+    .landing-intro-sub-list li { margin-bottom: 0.25rem; }
+    .landing-intro-sub-list li:last-child { margin-bottom: 0; }
+    .landing-intro-sub-list li::before { content: "– "; color: var(--primary); }
 
     /* ── Quick links ── */
     .landing-links {
@@ -293,20 +304,11 @@
             identification characters, reference photos, and the route the key takes to reach it —
             displayed as three paths:
           </p>
-          <p class=”landing-intro-feature-desc”>
-            <strong>Direct path</strong> — the exact sequence of questions and answers the ID key
-            follows, step by step, to arrive at this species.
-          </p>
-          <p class=”landing-intro-feature-desc”>
-            <strong>Underside-only path</strong> — an alternative route showing how the key still
-            reaches the same species when the hardest-to-see characters (often hidden in resting
-            photos) are all answered “Cannot determine”.
-          </p>
-          <p class=”landing-intro-feature-desc”>
-            <strong>C&amp;P key path</strong> — the couplet-by-couplet route through the Corbet &amp;
-            Pendlebury dichotomous key that leads to this species, showing which lead number and
-            statement applies at each step.
-          </p>
+          <ul class=”landing-intro-sub-list”>
+            <li><strong>Direct path</strong> — step-by-step questions and answers the ID key follows to arrive at this species.</li>
+            <li><strong>Underside-only path</strong> — same route with hardest-to-see characters answered “Cannot determine”.</li>
+            <li><strong>C&amp;P key path</strong> — couplet-by-couplet route through the Corbet &amp; Pendlebury dichotomous key.</li>
+          </ul>
         </div>
 
         <div class="landing-intro-feature">
