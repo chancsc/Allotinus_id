@@ -979,8 +979,8 @@ details[open] .path-summary::before { content: '▼ '; }
 
 /* C&P key path */
 .path-details--cp .path-summary {
-  background: #ede8df;
-  color: #5c4418;
+  background: #f0f6ee;
+  color: var(--primary);
 }
 
 .path-step--cp {
